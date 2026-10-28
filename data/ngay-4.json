@@ -1,0 +1,985 @@
+{
+  "day": 4,
+  "grammarTopic": "V-ing / to V + so sánh",
+  "vocabTopic": "Phrasal verb nhóm 2 + giới từ",
+  "speakingTopic": "Công việc",
+  "examFile": "de-thi-1.json",
+  "plan": [
+    {
+      "time": "0:00 – 0:15",
+      "step": "Bài học ngữ pháp",
+      "content": "V-ing / to V / V nguyên mẫu, so sánh hơn – nhất – bằng – kép, viết lại câu so sánh"
+    },
+    {
+      "time": "0:15 – 0:35",
+      "step": "Bài tập ngữ pháp",
+      "content": "10 câu Sentence completion + 5 câu viết lại"
+    },
+    {
+      "time": "0:35 – 0:50",
+      "step": "Luyện thêm",
+      "content": "10 câu + 2 câu viết lại: thì, where/which, câu điều kiện"
+    },
+    {
+      "time": "0:50 – 1:00",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:00 – 2:30",
+      "step": "Thi thử 1: Paper 1 + 2",
+      "content": "50 câu trong 90 phút, không xem tài liệu"
+    },
+    {
+      "time": "2:30 – 2:50",
+      "step": "Thi thử 1: Paper 3",
+      "content": "Nghe 20 câu, mỗi đoạn phát 2 lần"
+    },
+    {
+      "time": "2:50 – 3:00",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "3:00 – 3:20",
+      "step": "Chữa đề",
+      "content": "Đọc giải thích từng câu sai, gửi điểm từng Paper cho Claude"
+    },
+    {
+      "time": "3:20 – 3:40",
+      "step": "Từ vựng",
+      "content": "10 phrasal verb + 10 cụm giới từ + 10 câu"
+    },
+    {
+      "time": "3:40 – 4:00",
+      "step": "Luyện nói",
+      "content": "Chủ đề Công việc: 5 câu (hoặc 4 câu Paper 4 trong đề)"
+    },
+    {
+      "time": "4:00 – 4:10",
+      "step": "Tổng kết",
+      "content": "Xem lỗi sai theo chủ điểm + quiz 10 câu"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Sau động từ này dùng gì?",
+        "headers": [
+          "Theo sau là",
+          "Động từ / cụm hay gặp",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "V-ing",
+            "enjoy, mind, avoid, finish, suggest, keep, practise, consider, spend time, look forward to, be used to; SAU GIỚI TỪ (interested in, good at, before, after, without, instead of)",
+            "I enjoy reading. / She's good at cooking."
+          ],
+          [
+            "to V",
+            "want, decide, hope, plan, agree, refuse, promise, manage, afford, learn, would like; It's + adj + to V; too / enough + to V",
+            "She decided to leave. / It's hard to learn a language."
+          ],
+          [
+            "V nguyên mẫu",
+            "can, must, should, will…; had better; would rather; let / make + người + V",
+            "You'd better go. / My mum made me clean my room."
+          ],
+          [
+            "Cả hai, KHÁC nghĩa",
+            "stop, remember, forget, try",
+            "stop smoking = bỏ hút; stop to smoke = dừng lại để hút. remember to lock = nhớ phải khóa; remember locking = nhớ là đã khóa."
+          ]
+        ]
+      },
+      {
+        "title": "So sánh",
+        "headers": [
+          "Loại",
+          "Tính từ ngắn (1 âm tiết, hoặc 2 âm tiết tận cùng -y)",
+          "Tính từ dài",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Hơn",
+            "adj-er + than",
+            "more + adj + than",
+            "Hanoi is bigger than Hue. / This book is more interesting than that one."
+          ],
+          [
+            "Nhất",
+            "the + adj-est",
+            "the most + adj",
+            "the tallest building / the most beautiful city"
+          ],
+          [
+            "Bằng",
+            "as + adj + as",
+            "as + adj + as",
+            "My sister is not as tall as me."
+          ],
+          [
+            "Kép (càng… càng…)",
+            "The + adj-er, the + adj-er",
+            "The more + adj, the more + adj",
+            "The older he gets, the wiser he becomes."
+          ],
+          [
+            "Bất quy tắc",
+            "good – better – best; bad – worse – worst; far – further – furthest",
+            "many/much – more – most; little – less – least",
+            "Her English is better than mine."
+          ]
+        ]
+      },
+      {
+        "title": "Viết lại câu so sánh, too / enough, so / such",
+        "headers": [
+          "Câu gốc",
+          "Viết lại",
+          "Mẹo"
+        ],
+        "rows": [
+          [
+            "My house is smaller than yours.",
+            "Your house is bigger than mine.",
+            "Đổi chủ ngữ → dùng tính từ trái nghĩa."
+          ],
+          [
+            "No one in my class is taller than Nam.",
+            "Nam is the tallest student in my class.",
+            "No one … -er than → the -est."
+          ],
+          [
+            "He is too young to drive.",
+            "He isn't old enough to drive.",
+            "too + adj ↔ not + adj TRÁI NGHĨA + enough."
+          ],
+          [
+            "The film was so boring that we left.",
+            "It was such a boring film that we left.",
+            "so + adj ↔ such + a/an + adj + danh từ."
+          ],
+          [
+            "It takes me an hour to cook.",
+            "I spend an hour cooking.",
+            "spend + thời gian + V-ing (KHÔNG phải to V). Bạn đã sai mẫu này ở ngày 3."
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Sau giới từ luôn là V-ing, kể cả chữ \"to\" trong look forward to, be used to, get used to: I look forward to seeing you.",
+      "Nhấn mạnh so sánh hơn: much / far / a lot + adj-er. Không dùng very: much bigger, không nói very bigger.",
+      "Tính từ 2 âm tiết tận cùng -y: happy → happier → the happiest; busy → busier.",
+      "Không dùng cả more và -er cùng lúc: wider, không phải more wider."
+    ],
+    "traps": [
+      {
+        "title": "look forward to + V nguyên mẫu",
+        "wrong": "I look forward to see you.",
+        "right": "I look forward to seeing you.",
+        "why": "\"to\" ở đây là giới từ → sau nó là V-ing."
+      },
+      {
+        "title": "Dùng cả more và -er",
+        "wrong": "This road is more wider than that one.",
+        "right": "This road is wider than that one.",
+        "why": "Tính từ ngắn chỉ thêm -er; tính từ dài mới dùng more."
+      },
+      {
+        "title": "spend + to V",
+        "wrong": "I spend 30 minutes to get to work.",
+        "right": "I spend 30 minutes getting to work.",
+        "why": "spend + thời gian + V-ing. Câu có to V là It takes me 30 minutes to get to work."
+      }
+    ]
+  },
+  "grammarMcq": [
+    {
+      "q": "I'm thinking about ___ a new car.",
+      "options": [
+        "buy",
+        "to buy",
+        "buying",
+        "bought"
+      ],
+      "answer": "C",
+      "tag": "V-ing / to V",
+      "explain": "Sau giới từ (about) → V-ing."
+    },
+    {
+      "q": "They agreed ___ the meeting until Friday.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "answer": "B",
+      "tag": "V-ing / to V",
+      "explain": "agree + to V."
+    },
+    {
+      "q": "Please remember ___ the lights before you leave.",
+      "options": [
+        "turning off",
+        "turn off",
+        "turned off",
+        "to turn off"
+      ],
+      "answer": "D",
+      "tag": "V-ing / to V",
+      "explain": "remember to V = nhớ PHẢI làm (việc chưa làm). remember V-ing = nhớ là ĐÃ làm."
+    },
+    {
+      "q": "He stopped ___ because it was bad for his health.",
+      "options": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "smoked"
+      ],
+      "answer": "A",
+      "tag": "V-ing / to V",
+      "explain": "stop + V-ing = bỏ hẳn việc đó. stop to smoke = dừng lại để hút, sai nghĩa."
+    },
+    {
+      "q": "Hue is ___ than Ho Chi Minh City.",
+      "options": [
+        "quiet",
+        "quieter",
+        "more quieter",
+        "quietest"
+      ],
+      "answer": "B",
+      "tag": "So sánh",
+      "explain": "Có than → so sánh hơn. quiet là tính từ ngắn → quieter. Không dùng cả more và -er."
+    },
+    {
+      "q": "Of all my friends, Mai is the ___ at maths.",
+      "options": [
+        "good",
+        "better",
+        "best",
+        "well"
+      ],
+      "answer": "C",
+      "tag": "So sánh",
+      "explain": "Of all + the → so sánh nhất. good – better – best."
+    },
+    {
+      "q": "My new phone is ___ more expensive than my old one.",
+      "options": [
+        "very",
+        "much",
+        "too",
+        "so"
+      ],
+      "answer": "B",
+      "tag": "So sánh",
+      "explain": "Nhấn mạnh so sánh hơn: much / far / a lot. Không dùng very."
+    },
+    {
+      "q": "The older my grandfather gets, the ___ he becomes.",
+      "options": [
+        "more forgetful",
+        "most forgetful",
+        "forgetful",
+        "forgetfuler"
+      ],
+      "answer": "A",
+      "tag": "So sánh",
+      "explain": "So sánh kép: The + so sánh hơn, the + so sánh hơn. forgetful dài → more forgetful."
+    },
+    {
+      "q": "It's not easy ___ a new language.",
+      "options": [
+        "learning",
+        "learn",
+        "learned",
+        "to learn"
+      ],
+      "answer": "D",
+      "tag": "V-ing / to V",
+      "explain": "It's + adj + to V."
+    },
+    {
+      "q": "She is interested ___ photography.",
+      "options": [
+        "in taking",
+        "to take",
+        "on taking",
+        "at taking"
+      ],
+      "answer": "A",
+      "tag": "V-ing / to V",
+      "explain": "interested in + V-ing (giới từ in, sau giới từ là V-ing)."
+    }
+  ],
+  "transform": [
+    {
+      "source": "It takes me an hour to cook dinner.",
+      "start": "I spend",
+      "answers": [
+        "I spend an hour cooking dinner.",
+        "I spend one hour cooking dinner."
+      ],
+      "tag": "It takes / spend",
+      "explain": "spend + thời gian + V-ing. Không viết to cook (bạn sai mẫu này ở ngày 3)."
+    },
+    {
+      "source": "No one in my family is taller than my father.",
+      "start": "My father is",
+      "answers": [
+        "My father is the tallest in my family.",
+        "My father is the tallest person in my family.",
+        "My father is the tallest member of my family.",
+        "My father is the tallest in the family."
+      ],
+      "tag": "So sánh",
+      "explain": "No one … taller than → the tallest."
+    },
+    {
+      "source": "He is too young to get a driving licence.",
+      "start": "He isn't",
+      "answers": [
+        "He isn't old enough to get a driving licence.",
+        "He isn't old enough to get a driving license."
+      ],
+      "tag": "Too / enough",
+      "explain": "too young ↔ not old enough. enough đứng SAU tính từ."
+    },
+    {
+      "source": "I don't have enough money, so I can't buy this laptop.",
+      "start": "If I",
+      "answers": [
+        "If I had enough money, I could buy this laptop.",
+        "If I had enough money, I would buy this laptop.",
+        "If I had enough money, I would be able to buy this laptop."
+      ],
+      "tag": "Câu điều kiện",
+      "explain": "Hiện tại → loại 2: don't have → had; can't → could. Vế chính PHẢI có could/would (ngày 3 bạn viết thiếu: I drove)."
+    },
+    {
+      "source": "It was such a hot day that we stayed at home.",
+      "start": "The day was so",
+      "answers": [
+        "The day was so hot that we stayed at home."
+      ],
+      "tag": "So / such",
+      "explain": "such + a + adj + N ↔ so + adj."
+    }
+  ],
+  "extra": {
+    "title": "Luyện thêm: thì, where / which, câu điều kiện",
+    "note": "Ngày 3 bạn vẫn chọn have/has khi có mốc quá khứ (last year, when she was a student, khi về nhà), chọn where chỉ vì thấy tên địa danh, và viết sai dạng động từ khi viết lại câu điều kiện. Câu 6 và 7 là một cặp: cùng \"the hotel\" nhưng một câu where, một câu which. Hãy nhìn PHÍA SAU chỗ trống.",
+    "sets": [
+      {
+        "key": "mix4",
+        "title": "Thì + mệnh đề quan hệ + điều kiện",
+        "items": [
+          {
+            "q": "I ___ to Hue last summer.",
+            "options": [
+              "have travelled",
+              "travelled",
+              "had travelled",
+              "have been travelled"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ đơn",
+            "explain": "last summer → quá khứ đơn."
+          },
+          {
+            "q": "She ___ in Can Tho when she was a child.",
+            "options": [
+              "has lived",
+              "had been lived",
+              "lived",
+              "has been living"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ đơn",
+            "explain": "when she was a child → giai đoạn đã qua → quá khứ đơn."
+          },
+          {
+            "q": "We ___ this house since 2018.",
+            "options": [
+              "have owned",
+              "owned",
+              "have been owned",
+              "own"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "since 2018 → have + V3. Người sở hữu nhà (chủ động) → không có been."
+          },
+          {
+            "q": "When we reached the cinema, the film ___.",
+            "options": [
+              "has started",
+              "started",
+              "starts",
+              "had started"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Mốc: lúc tới rạp (quá khứ). Phim bắt đầu trước đó → had + V3."
+          },
+          {
+            "q": "Phu Quoc, ___ has beautiful beaches, is popular with tourists.",
+            "options": [
+              "which",
+              "where",
+              "that",
+              "what"
+            ],
+            "answer": "A",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Ngay sau là ĐỘNG TỪ (has) → which làm chủ ngữ. Phu Quoc là địa danh nhưng vẫn dùng which."
+          },
+          {
+            "q": "The hotel ___ we stayed last summer was very clean.",
+            "options": [
+              "which",
+              "who",
+              "where",
+              "whose"
+            ],
+            "answer": "C",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "we stayed (ở lại) đã đủ nghĩa, không thiếu tân ngữ → where (= at which)."
+          },
+          {
+            "q": "The hotel ___ we booked online was very clean.",
+            "options": [
+              "where",
+              "which",
+              "when",
+              "whose"
+            ],
+            "answer": "B",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "we booked (đặt cái gì?) THIẾU tân ngữ → which. So với câu trên: stayed → where, booked → which."
+          },
+          {
+            "q": "If I ___ you, I would talk to her.",
+            "options": [
+              "am",
+              "had been",
+              "will be",
+              "were"
+            ],
+            "answer": "D",
+            "tag": "Câu điều kiện",
+            "explain": "would + V → loại 2 → If I were. had been là loại 3 (ngày 3 bạn chọn nhầm cái này)."
+          },
+          {
+            "q": "If he had studied harder, he ___ the exam.",
+            "options": [
+              "would pass",
+              "passed",
+              "had passed",
+              "would have passed"
+            ],
+            "answer": "D",
+            "tag": "Câu điều kiện",
+            "explain": "had + V3 → loại 3 → would have + V3."
+          },
+          {
+            "q": "If I had a car, I ___ you to the airport.",
+            "options": [
+              "drove",
+              "will drive",
+              "could drive",
+              "can drive"
+            ],
+            "answer": "C",
+            "tag": "Câu điều kiện",
+            "explain": "Vế if có had (V2) → loại 2 → vế chính PHẢI có could/would + V. drove thiếu would/could."
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "He didn't leave early, so he missed the train.",
+        "start": "If he",
+        "answers": [
+          "If he had left early, he wouldn't have missed the train.",
+          "If he had left early, he would not have missed the train.",
+          "If he had left earlier, he wouldn't have missed the train.",
+          "If he had left earlier, he would not have missed the train."
+        ],
+        "tag": "Câu điều kiện",
+        "explain": "Quá khứ → loại 3. Vế if: had + V3 (had left). Vế chính: wouldn't have + V3 (missed → wouldn't have missed vì đổi sang phủ định)."
+      },
+      {
+        "source": "We moved to this flat in 2021.",
+        "start": "We have",
+        "answers": [
+          "We have lived in this flat since 2021.",
+          "We have been living in this flat since 2021."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "moved … in 2021 → have lived … since 2021. Không có been + V3."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "phrase": "take off",
+      "pos": "phr. v.",
+      "ipa": "/teɪk ɒf/",
+      "meaning": "(máy bay) cất cánh; cởi (quần áo)",
+      "colloc": "the plane takes off / take off your shoes",
+      "example": "The plane will take off in ten minutes."
+    },
+    {
+      "phrase": "bring up",
+      "pos": "phr. v.",
+      "ipa": "/brɪŋ ʌp/",
+      "meaning": "nuôi dạy",
+      "colloc": "be brought up by / in",
+      "example": "She was brought up by her grandparents."
+    },
+    {
+      "phrase": "put up with",
+      "pos": "phr. v.",
+      "ipa": "/pʊt ʌp wɪð/",
+      "meaning": "chịu đựng",
+      "colloc": "put up with the noise / sb's behaviour",
+      "example": "I can't put up with the noise any longer."
+    },
+    {
+      "phrase": "make up",
+      "pos": "phr. v.",
+      "ipa": "/meɪk ʌp/",
+      "meaning": "bịa ra; làm lành",
+      "colloc": "make up a story / an excuse",
+      "example": "He made up an excuse for being late."
+    },
+    {
+      "phrase": "work out",
+      "pos": "phr. v.",
+      "ipa": "/wɜːk aʊt/",
+      "meaning": "tìm ra cách giải; tập thể dục",
+      "colloc": "work out the answer / work out at the gym",
+      "example": "I can't work out how to use this app."
+    },
+    {
+      "phrase": "try on",
+      "pos": "phr. v.",
+      "ipa": "/traɪ ɒn/",
+      "meaning": "mặc thử",
+      "colloc": "try on a dress / shoes",
+      "example": "Can I try on these jeans?"
+    },
+    {
+      "phrase": "hold on",
+      "pos": "phr. v.",
+      "ipa": "/həʊld ɒn/",
+      "meaning": "chờ máy, đợi một chút",
+      "colloc": "Hold on a minute.",
+      "example": "Hold on, I'll get a pen."
+    },
+    {
+      "phrase": "go on",
+      "pos": "phr. v.",
+      "ipa": "/ɡəʊ ɒn/",
+      "meaning": "tiếp tục; xảy ra",
+      "colloc": "go on + V-ing / What's going on?",
+      "example": "What's going on in the street?"
+    },
+    {
+      "phrase": "break down",
+      "pos": "phr. v.",
+      "ipa": "/breɪk daʊn/",
+      "meaning": "(xe, máy) hỏng",
+      "colloc": "the car / the computer broke down",
+      "example": "Our car broke down on the way to Vung Tau."
+    },
+    {
+      "phrase": "put on",
+      "pos": "phr. v.",
+      "ipa": "/pʊt ɒn/",
+      "meaning": "mặc vào; tăng (cân)",
+      "colloc": "put on a coat / put on weight",
+      "example": "Put on your jacket. It's cold."
+    },
+    {
+      "phrase": "interested in",
+      "pos": "adj. + prep.",
+      "ipa": "/ˈɪntrəstɪd ɪn/",
+      "meaning": "quan tâm, thích",
+      "colloc": "interested in + N / V-ing",
+      "example": "I'm interested in learning Japanese."
+    },
+    {
+      "phrase": "good at",
+      "pos": "adj. + prep.",
+      "ipa": "/ɡʊd æt/",
+      "meaning": "giỏi về",
+      "colloc": "good at maths / at + V-ing",
+      "example": "My brother is good at fixing computers."
+    },
+    {
+      "phrase": "afraid of",
+      "pos": "adj. + prep.",
+      "ipa": "/əˈfreɪd əv/",
+      "meaning": "sợ",
+      "colloc": "afraid of dogs / of + V-ing",
+      "example": "Are you afraid of flying?"
+    },
+    {
+      "phrase": "responsible for",
+      "pos": "adj. + prep.",
+      "ipa": "/rɪˈspɒnsəbl fə(r)/",
+      "meaning": "chịu trách nhiệm về",
+      "colloc": "responsible for training staff",
+      "example": "The manager is responsible for training new staff."
+    },
+    {
+      "phrase": "depend on",
+      "pos": "v. + prep.",
+      "ipa": "/dɪˈpend ɒn/",
+      "meaning": "phụ thuộc vào",
+      "colloc": "It depends on the weather.",
+      "example": "Our plan depends on the weather."
+    },
+    {
+      "phrase": "apologise for",
+      "pos": "v. + prep.",
+      "ipa": "/əˈpɒlədʒaɪz fə(r)/",
+      "meaning": "xin lỗi về",
+      "colloc": "apologise (to sb) for + N / V-ing",
+      "example": "He apologised for being late."
+    },
+    {
+      "phrase": "different from",
+      "pos": "adj. + prep.",
+      "ipa": "/ˈdɪfrənt frəm/",
+      "meaning": "khác với",
+      "colloc": "different from my sister",
+      "example": "My job is very different from my father's."
+    },
+    {
+      "phrase": "famous for",
+      "pos": "adj. + prep.",
+      "ipa": "/ˈfeɪməs fə(r)/",
+      "meaning": "nổi tiếng về",
+      "colloc": "famous for its food / beaches",
+      "example": "Hoi An is famous for its old town."
+    },
+    {
+      "phrase": "proud of",
+      "pos": "adj. + prep.",
+      "ipa": "/praʊd əv/",
+      "meaning": "tự hào về",
+      "colloc": "proud of my parents / of + V-ing",
+      "example": "My parents are proud of me."
+    },
+    {
+      "phrase": "succeed in",
+      "pos": "v. + prep.",
+      "ipa": "/səkˈsiːd ɪn/",
+      "meaning": "thành công trong việc",
+      "colloc": "succeed in + V-ing",
+      "example": "She succeeded in passing the exam."
+    }
+  ],
+  "vocabMcq": [
+    {
+      "q": "The plane will ___ in ten minutes. Please fasten your seat belts.",
+      "options": [
+        "take off",
+        "take up",
+        "take after",
+        "take over"
+      ],
+      "answer": "A",
+      "tag": "Phrasal verb",
+      "explain": "take off = cất cánh. take after = giống; take up = bắt đầu (sở thích)."
+    },
+    {
+      "q": "Excuse me, can I ___ these jeans?",
+      "options": [
+        "try out",
+        "try on",
+        "put off",
+        "take on"
+      ],
+      "answer": "B",
+      "tag": "Phrasal verb",
+      "explain": "try on = mặc thử (quần áo). try out = thử (máy móc, phương pháp)."
+    },
+    {
+      "q": "I can't ___ the noise from my neighbours any longer.",
+      "options": [
+        "put up",
+        "put on",
+        "put up with",
+        "put away"
+      ],
+      "answer": "C",
+      "tag": "Phrasal verb",
+      "explain": "put up with = chịu đựng. put on = mặc vào; put away = cất đi."
+    },
+    {
+      "q": "Hanoi is famous ___ its street food.",
+      "options": [
+        "of",
+        "in",
+        "with",
+        "for"
+      ],
+      "answer": "D",
+      "tag": "Giới từ",
+      "explain": "famous for = nổi tiếng về."
+    },
+    {
+      "q": "She was brought ___ by her grandparents in the countryside.",
+      "options": [
+        "up",
+        "out",
+        "on",
+        "in"
+      ],
+      "answer": "A",
+      "tag": "Phrasal verb",
+      "explain": "bring up = nuôi dạy (bị động: was brought up)."
+    },
+    {
+      "q": "Are you afraid ___ dogs?",
+      "options": [
+        "at",
+        "of",
+        "from",
+        "with"
+      ],
+      "answer": "B",
+      "tag": "Giới từ",
+      "explain": "afraid of = sợ."
+    },
+    {
+      "q": "Whether we go or not depends ___ the weather.",
+      "options": [
+        "in",
+        "of",
+        "on",
+        "at"
+      ],
+      "answer": "C",
+      "tag": "Giới từ",
+      "explain": "depend on = phụ thuộc vào."
+    },
+    {
+      "q": "He ___ an excuse for being late, but nobody believed him.",
+      "options": [
+        "made up",
+        "took up",
+        "brought up",
+        "worked out"
+      ],
+      "answer": "A",
+      "tag": "Phrasal verb",
+      "explain": "make up an excuse = bịa ra lý do."
+    },
+    {
+      "q": "My brother is very good ___ fixing computers.",
+      "options": [
+        "in",
+        "on",
+        "with",
+        "at"
+      ],
+      "answer": "D",
+      "tag": "Giới từ",
+      "explain": "good at + V-ing."
+    },
+    {
+      "q": "The manager is responsible ___ training new staff.",
+      "options": [
+        "of",
+        "for",
+        "to",
+        "with"
+      ],
+      "answer": "B",
+      "tag": "Giới từ",
+      "explain": "responsible for + V-ing = chịu trách nhiệm."
+    }
+  ],
+  "speaking": {
+    "introTitle": "Bài mẫu: Your job (khoảng 1 phút, điền chỗ trống)",
+    "intro": [
+      "I work as a/an ___ at ___. I have worked there for ___ years.",
+      "My main duties are ___ and ___.",
+      "What I enjoy most is ___ (V-ing) because ___.",
+      "However, the most difficult part is ___ (V-ing).",
+      "Compared to my first job, this job is ___-er / more ___.",
+      "In the future, I hope to ___ after I finish my master's degree."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…)",
+    "rescue": [
+      "That's an interesting question. Let me think…",
+      "Could you repeat the question, please?",
+      "I'm not sure, but I think…",
+      "What I mean is…"
+    ],
+    "questions": [
+      {
+        "q": "What do you do?",
+        "hint": "I work as a… at… I have worked there for… (chủ động → không có been). Nếu đang đi học: I'm a student at…"
+      },
+      {
+        "q": "What do you like most about your job?",
+        "hint": "What I like most is + V-ing / N. → because… → For example…"
+      },
+      {
+        "q": "What is the most difficult part of your job?",
+        "hint": "The most difficult thing is + V-ing… Dùng so sánh nhất."
+      },
+      {
+        "q": "Is your job more interesting than your studies at university? Why?",
+        "hint": "So sánh hơn: It's more interesting / busier / less stressful than… Có lý do + ví dụ."
+      },
+      {
+        "q": "Would you like to change your job in the future?",
+        "hint": "I'd like to… / I'm planning to… / If I had the chance, I would… (loại 2: had → would)."
+      }
+    ],
+    "rubric": [
+      "Trôi chảy (ít ngập ngừng, nói đủ ý)",
+      "Ngữ pháp (thì đúng, V-ing / to V, so sánh)",
+      "Từ vựng (đúng chủ đề công việc, có cụm giới từ)",
+      "Phát âm (âm cuối -s, -ed, trọng âm)",
+      "Nội dung (trả lời đúng câu hỏi, có lý do và ví dụ)"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "I avoid ___ coffee in the evening.",
+      "options": [
+        "drink",
+        "to drink",
+        "drinking",
+        "drank"
+      ],
+      "answer": "C",
+      "tag": "V-ing / to V",
+      "explain": "avoid + V-ing."
+    },
+    {
+      "q": "This exercise is ___ than the last one.",
+      "options": [
+        "easy",
+        "easier",
+        "easiest",
+        "more easy"
+      ],
+      "answer": "B",
+      "tag": "So sánh",
+      "explain": "easy tận cùng -y → easier."
+    },
+    {
+      "q": "If it ___ sunny tomorrow, we will go hiking.",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "would be"
+      ],
+      "answer": "A",
+      "tag": "Câu điều kiện",
+      "explain": "will → loại 1 → vế if: hiện tại đơn."
+    },
+    {
+      "q": "The village ___ my mother was born is very small.",
+      "options": [
+        "which",
+        "where",
+        "who",
+        "whose"
+      ],
+      "answer": "B",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "my mother was born đã đủ nghĩa → where."
+    },
+    {
+      "q": "I wish I ___ to your party last week.",
+      "options": [
+        "came",
+        "had come",
+        "come",
+        "would come"
+      ],
+      "answer": "B",
+      "tag": "Câu ước",
+      "explain": "last week → tiếc về quá khứ → wish + had + V3."
+    },
+    {
+      "q": "He ___ in the army for two years when he was young.",
+      "options": [
+        "served",
+        "has served",
+        "has been served",
+        "serves"
+      ],
+      "answer": "A",
+      "tag": "Quá khứ đơn",
+      "explain": "when he was young → quá khứ đơn."
+    },
+    {
+      "q": "She spent the whole weekend ___ for the exam.",
+      "options": [
+        "study",
+        "to study",
+        "studied",
+        "studying"
+      ],
+      "answer": "D",
+      "tag": "It takes / spend",
+      "explain": "spend + thời gian + V-ing."
+    },
+    {
+      "q": "We have run out ___ sugar.",
+      "options": [
+        "from",
+        "with",
+        "of",
+        "on"
+      ],
+      "answer": "C",
+      "tag": "Phrasal verb",
+      "explain": "run out of = hết."
+    },
+    {
+      "q": "___ the bad weather, the plane landed safely.",
+      "options": [
+        "Although",
+        "Because",
+        "However",
+        "Despite"
+      ],
+      "answer": "D",
+      "tag": "Liên từ",
+      "explain": "Sau là danh từ, nghĩa tương phản → Despite."
+    },
+    {
+      "q": "My phone ___ yet.",
+      "options": [
+        "hasn't been repaired",
+        "hasn't repaired",
+        "didn't repair",
+        "wasn't repairing"
+      ],
+      "answer": "A",
+      "tag": "Bị động",
+      "explain": "Vật + yet → bị động hiện tại hoàn thành."
+    }
+  ]
+}

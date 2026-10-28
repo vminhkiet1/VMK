@@ -1,0 +1,1432 @@
+{
+  "day": 1,
+  "grammarTopic": "Thì động từ + Bị động",
+  "vocabTopic": "Collocation make / do / take / have",
+  "speakingTopic": "Giới thiệu bản thân",
+  "plan": [
+    {
+      "time": "0:00 – 0:15",
+      "step": "Bài học ngữ pháp",
+      "content": "Thì động từ + bị động: công thức, dấu hiệu, 3 bẫy"
+    },
+    {
+      "time": "0:15 – 0:45",
+      "step": "Bài tập ngữ pháp",
+      "content": "10 câu Sentence completion + 3 câu Sentence transformation"
+    },
+    {
+      "time": "0:45 – 0:55",
+      "step": "Chấm + sửa lỗi",
+      "content": "Đọc giải thích từng câu sai, ghi vào sổ lỗi"
+    },
+    {
+      "time": "0:55 – 1:05",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:05 – 1:35",
+      "step": "Từ vựng",
+      "content": "20 collocation make/do/take/have, chép tay, đọc to"
+    },
+    {
+      "time": "1:35 – 1:50",
+      "step": "Bài tập từ vựng",
+      "content": "10 câu dạng Paper 1 Part A"
+    },
+    {
+      "time": "1:50 – 2:00",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "2:00 – 2:30",
+      "step": "Luyện đọc",
+      "content": "1 bài ~250 từ + 5 câu, bấm giờ 12 phút, học 8 từ mới"
+    },
+    {
+      "time": "2:30 – 3:20",
+      "step": "Luyện nói",
+      "content": "Viết + học thuộc bài giới thiệu bản thân, trả lời 5 câu hỏi"
+    },
+    {
+      "time": "3:20 – 3:30",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "3:30 – 4:00",
+      "step": "Tổng kết",
+      "content": "Xem lại lỗi sai theo chủ điểm + quiz 10 câu"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Chọn thì nhanh: 3 bước (làm theo thứ tự, dừng khi đã chắc)",
+        "headers": [
+          "Bước",
+          "Làm gì",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "1. Gạch dấu hiệu",
+            "Tìm từ chỉ thời gian trong câu (ago, since, now, while, by the time, so far…) rồi tra cột \"Dấu hiệu\" ở bảng dưới. Khoảng 7/10 câu xong ngay ở bước này.",
+            "I met him two days ___ → thấy \"ago\" → quá khứ đơn."
+          ],
+          [
+            "2. Không có dấu hiệu → xác định mốc",
+            "Nhìn động từ ở vế còn lại hoặc ngữ cảnh: chuyện xảy ra ở quá khứ, hiện tại hay tương lai?",
+            "When he called, I ___ → \"called\" là quá khứ → chọn một thì quá khứ."
+          ],
+          [
+            "3. Cùng mốc → hỏi thêm 1 câu",
+            "Đang diễn ra dở? → tiếp diễn. Xảy ra TRƯỚC một việc khác, hoặc tính đến một thời điểm? → hoàn thành. Chỉ là sự việc, thói quen? → đơn.",
+            "When he called, I ___ (cook): lúc đó đang nấu dở → was cooking."
+          ]
+        ]
+      },
+      {
+        "title": "5 cặp hay nhầm: hỏi đúng 1 câu là tách được",
+        "headers": [
+          "Cặp",
+          "Tự hỏi",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Hiện tại hoàn thành / Quá khứ đơn",
+            "Có mốc thời gian đã kết thúc không (yesterday, ago, last…, in 2010)? Có → quá khứ đơn. Không có, hoặc tính đến bây giờ (so far, since, for, … times) → hiện tại hoàn thành.",
+            "I went to Da Lat last year. / I have been to Da Lat three times."
+          ],
+          [
+            "Quá khứ đơn / Quá khứ tiếp diễn",
+            "Việc ngắn chen vào hay việc dài đang dở? Việc dài đang dở (thường đi với while) → was/were + V-ing. Việc ngắn → V2.",
+            "I was cooking when he called."
+          ],
+          [
+            "Quá khứ đơn / Quá khứ hoàn thành",
+            "Có 2 việc trong quá khứ không? Việc xảy ra TRƯỚC → had + V3.",
+            "When I arrived, she had left."
+          ],
+          [
+            "Will / Be going to",
+            "Quyết định ngay lúc nói → will. Đã có kế hoạch, hoặc nhìn thấy dấu hiệu trước mắt → be going to.",
+            "The phone's ringing. I'll answer it. / Look at those clouds! It's going to rain."
+          ],
+          [
+            "Hiện tại đơn / Hiện tại tiếp diễn",
+            "Thói quen hoặc sự thật → đơn. Đang xảy ra lúc nói (now, Look!, Listen!) → tiếp diễn. Động từ trạng thái (know, like, want, believe, taste) không dùng -ing.",
+            "Water boils at 100°C. / Listen! Someone is knocking."
+          ]
+        ]
+      },
+      {
+        "title": "Các thì hay ra trong đề",
+        "headers": [
+          "Thì",
+          "Công thức (khẳng định)",
+          "Dấu hiệu nhận biết",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Hiện tại đơn",
+            "S + V(s/es)",
+            "always, usually, often, every day, sự thật hiển nhiên",
+            "Water boils at 100°C."
+          ],
+          [
+            "Hiện tại tiếp diễn",
+            "S + am/is/are + V-ing",
+            "now, at the moment, right now, Look!, Listen!",
+            "She is reading now."
+          ],
+          [
+            "Hiện tại hoàn thành",
+            "S + have/has + V3",
+            "since, for, already, yet, so far, ever, never, recently, many times",
+            "I have lived here for five years."
+          ],
+          [
+            "Quá khứ đơn",
+            "S + V2 / V-ed",
+            "yesterday, ago, last week, in 2010",
+            "I met him two days ago."
+          ],
+          [
+            "Quá khứ tiếp diễn",
+            "S + was/were + V-ing",
+            "while, when + QKĐ, at 8 p.m. yesterday",
+            "I was cooking when he called."
+          ],
+          [
+            "Quá khứ hoàn thành",
+            "S + had + V3",
+            "before, after, by the time + QKĐ",
+            "She had left before I arrived."
+          ],
+          [
+            "Tương lai đơn",
+            "S + will + V",
+            "tomorrow, next week, I think, probably, quyết định ngay lúc nói",
+            "I think it will rain."
+          ],
+          [
+            "Be going to",
+            "S + am/is/are going to + V",
+            "kế hoạch có sẵn, dấu hiệu rõ ràng trước mắt",
+            "Look at those clouds! It is going to rain."
+          ],
+          [
+            "Tương lai tiếp diễn",
+            "S + will be + V-ing",
+            "at this time tomorrow, at 8 p.m. tomorrow",
+            "At 8 p.m. tomorrow I will be watching TV."
+          ]
+        ]
+      },
+      {
+        "title": "Câu bị động: đổi theo thì",
+        "headers": [
+          "Thì",
+          "Chủ động",
+          "Bị động (be + V3)"
+        ],
+        "rows": [
+          [
+            "Hiện tại đơn",
+            "They clean the room.",
+            "The room is cleaned."
+          ],
+          [
+            "Hiện tại tiếp diễn",
+            "They are cleaning the room.",
+            "The room is being cleaned."
+          ],
+          [
+            "Hiện tại hoàn thành",
+            "They have cleaned the room.",
+            "The room has been cleaned."
+          ],
+          [
+            "Quá khứ đơn",
+            "They cleaned the room.",
+            "The room was cleaned."
+          ],
+          [
+            "Quá khứ tiếp diễn",
+            "They were cleaning the room.",
+            "The room was being cleaned."
+          ],
+          [
+            "Tương lai / động từ khuyết thiếu",
+            "They will / can clean the room.",
+            "The room will / can be cleaned."
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Cách đổi: tân ngữ lên làm chủ ngữ → giữ nguyên thì, thêm be chia theo thì → động từ chính đổi sang V3 → (by + người làm).",
+      "Bỏ 'by them / by people / by someone' vì không cần thiết.",
+      "Bị động với say/think/believe: People say that he is rich → It is said that he is rich = He is said to be rich.",
+      "Chủ ngữ là VẬT (bridge, letter, house, car…) + động từ cần người làm → nghĩ ngay tới bị động."
+    ],
+    "traps": [
+      {
+        "title": "since vs for",
+        "wrong": "I have lived here since five years.",
+        "right": "I have lived here for five years. / since 2020.",
+        "why": "since + mốc thời gian (2020, Monday, I was a child); for + khoảng thời gian (five years, two weeks)."
+      },
+      {
+        "title": "by the time / before + quá khứ → quá khứ hoàn thành",
+        "wrong": "By the time we arrived, the film started.",
+        "right": "By the time we arrived, the film had started.",
+        "why": "Hành động xảy ra TRƯỚC một hành động khác trong quá khứ dùng had + V3."
+      },
+      {
+        "title": "Bị động thiếu 'being' hoặc dùng sai V3",
+        "wrong": "A new hospital is building now. / The letter was wrote.",
+        "right": "A new hospital is being built now. / The letter was written.",
+        "why": "Bị động tiếp diễn = am/is/are + being + V3. Luôn dùng V3 (cột 3), không dùng V2."
+      }
+    ]
+  },
+  "grammarMcq": [
+    {
+      "q": "She ___ English since she was ten.",
+      "options": [
+        "learns",
+        "has learned",
+        "learned",
+        "is learning"
+      ],
+      "answer": "B",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "'since + mốc thời gian' → hiện tại hoàn thành: has learned."
+    },
+    {
+      "q": "When I arrived at the party, my friends ___.",
+      "options": [
+        "dance",
+        "have danced",
+        "were dancing",
+        "dances"
+      ],
+      "answer": "C",
+      "tag": "Quá khứ tiếp diễn",
+      "explain": "Hành động đang diễn ra (were dancing) thì hành động khác xen vào (arrived, quá khứ đơn)."
+    },
+    {
+      "q": "This bridge ___ in 1995 by a French company.",
+      "options": [
+        "was built",
+        "built",
+        "is built",
+        "has built"
+      ],
+      "answer": "A",
+      "tag": "Bị động",
+      "explain": "Chủ ngữ là vật (bridge) + 'by a company' → bị động; 'in 1995' → quá khứ: was built."
+    },
+    {
+      "q": "By the time we got to the cinema, the film ___.",
+      "options": [
+        "starts",
+        "has started",
+        "was starting",
+        "had started"
+      ],
+      "answer": "D",
+      "tag": "Quá khứ hoàn thành",
+      "explain": "'By the time + quá khứ đơn' → mệnh đề còn lại dùng quá khứ hoàn thành: had started."
+    },
+    {
+      "q": "Look at those dark clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "will",
+        "rains",
+        "is raining"
+      ],
+      "answer": "A",
+      "tag": "Be going to",
+      "explain": "Có dấu hiệu rõ ràng trước mắt (dark clouds) → be going to."
+    },
+    {
+      "q": "A new hospital ___ in our town at the moment.",
+      "options": [
+        "builds",
+        "is building",
+        "is being built",
+        "was built"
+      ],
+      "answer": "C",
+      "tag": "Bị động",
+      "explain": "'at the moment' → tiếp diễn; bệnh viện được xây → bị động tiếp diễn: is being built."
+    },
+    {
+      "q": "I ___ to Da Lat three times so far.",
+      "options": [
+        "go",
+        "went",
+        "am going",
+        "have been"
+      ],
+      "answer": "D",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "'three times', 'so far' → hiện tại hoàn thành: have been."
+    },
+    {
+      "q": "Water ___ at 100 degrees Celsius.",
+      "options": [
+        "boiled",
+        "boils",
+        "is boiling",
+        "has boiled"
+      ],
+      "answer": "B",
+      "tag": "Hiện tại đơn",
+      "explain": "Sự thật hiển nhiên → hiện tại đơn: boils."
+    },
+    {
+      "q": "The letters ___ yesterday morning.",
+      "options": [
+        "were sent",
+        "sent",
+        "are sent",
+        "have sent"
+      ],
+      "answer": "A",
+      "tag": "Bị động",
+      "explain": "Thư không tự gửi → bị động; 'yesterday' → quá khứ: were sent."
+    },
+    {
+      "q": "Don't call me at 8 p.m. tomorrow. I ___ my favourite programme.",
+      "options": [
+        "watch",
+        "have watched",
+        "will be watching",
+        "watched"
+      ],
+      "answer": "C",
+      "tag": "Tương lai tiếp diễn",
+      "explain": "Hành động đang diễn ra tại một thời điểm cụ thể trong tương lai (at 8 p.m. tomorrow) → will be watching."
+    }
+  ],
+  "transform": [
+    {
+      "source": "They will build a new school next year.",
+      "start": "A new school",
+      "answers": [
+        "A new school will be built next year."
+      ],
+      "tag": "Bị động",
+      "explain": "Tương lai đơn bị động: will be + V3. Bỏ 'by them'."
+    },
+    {
+      "source": "I started working here two years ago.",
+      "start": "I have",
+      "answers": [
+        "I have worked here for two years.",
+        "I have been working here for two years."
+      ],
+      "tag": "Hiện tại hoàn thành",
+      "explain": "started … ago → have + V3 … for + khoảng thời gian."
+    },
+    {
+      "source": "People say that he is very rich.",
+      "start": "It",
+      "answers": [
+        "It is said that he is very rich."
+      ],
+      "tag": "Bị động",
+      "explain": "People say that … → It is said that … (bị động với động từ tường thuật)."
+    }
+  ],
+  "vocab": [
+    {
+      "phrase": "make a decision",
+      "pos": "v. phr.",
+      "ipa": "/meɪk ə dɪˈsɪʒn/",
+      "meaning": "đưa ra quyết định",
+      "colloc": "make an important / a final decision",
+      "example": "I need to make a decision about my future."
+    },
+    {
+      "phrase": "make a mistake",
+      "pos": "v. phr.",
+      "ipa": "/meɪk ə mɪˈsteɪk/",
+      "meaning": "mắc lỗi",
+      "colloc": "make a big / careless mistake",
+      "example": "Everyone makes mistakes when learning English."
+    },
+    {
+      "phrase": "make progress",
+      "pos": "v. phr.",
+      "ipa": "/meɪk ˈprəʊɡres/",
+      "meaning": "tiến bộ",
+      "colloc": "make good / rapid progress",
+      "example": "She has made good progress this month."
+    },
+    {
+      "phrase": "make an effort",
+      "pos": "v. phr.",
+      "ipa": "/meɪk ən ˈefət/",
+      "meaning": "nỗ lực",
+      "colloc": "make a great effort to + V",
+      "example": "He made an effort to arrive on time."
+    },
+    {
+      "phrase": "make money",
+      "pos": "v. phr.",
+      "ipa": "/meɪk ˈmʌni/",
+      "meaning": "kiếm tiền",
+      "colloc": "make a lot of money",
+      "example": "They make money by selling cakes online."
+    },
+    {
+      "phrase": "do homework",
+      "pos": "v. phr.",
+      "ipa": "/duː ˈhəʊmwɜːk/",
+      "meaning": "làm bài tập về nhà",
+      "colloc": "do your homework",
+      "example": "I do my homework every evening."
+    },
+    {
+      "phrase": "do research",
+      "pos": "v. phr.",
+      "ipa": "/duː rɪˈsɜːtʃ/",
+      "meaning": "nghiên cứu",
+      "colloc": "do research on / into sth",
+      "example": "She is doing research on climate change."
+    },
+    {
+      "phrase": "do business",
+      "pos": "v. phr.",
+      "ipa": "/duː ˈbɪznəs/",
+      "meaning": "kinh doanh, làm ăn",
+      "colloc": "do business with sb",
+      "example": "Our company does business with Japan."
+    },
+    {
+      "phrase": "do your best",
+      "pos": "v. phr.",
+      "ipa": "/duː jɔː best/",
+      "meaning": "cố gắng hết sức",
+      "colloc": "do one's best to + V",
+      "example": "I will do my best in the exam."
+    },
+    {
+      "phrase": "do the housework",
+      "pos": "v. phr.",
+      "ipa": "/duː ðə ˈhaʊswɜːk/",
+      "meaning": "làm việc nhà",
+      "colloc": "do the washing / cooking / shopping",
+      "example": "My brother does the housework at weekends."
+    },
+    {
+      "phrase": "take a photo",
+      "pos": "v. phr.",
+      "ipa": "/teɪk ə ˈfəʊtəʊ/",
+      "meaning": "chụp ảnh",
+      "colloc": "take a photo of sb/sth",
+      "example": "Could you take a photo of us?"
+    },
+    {
+      "phrase": "take part in",
+      "pos": "v. phr.",
+      "ipa": "/teɪk pɑːt ɪn/",
+      "meaning": "tham gia",
+      "colloc": "take part in a competition / an activity",
+      "example": "Many students took part in the contest."
+    },
+    {
+      "phrase": "take care of",
+      "pos": "v. phr.",
+      "ipa": "/teɪk keər əv/",
+      "meaning": "chăm sóc",
+      "colloc": "take good care of sb",
+      "example": "She takes care of her grandmother."
+    },
+    {
+      "phrase": "take notes",
+      "pos": "v. phr.",
+      "ipa": "/teɪk nəʊts/",
+      "meaning": "ghi chép",
+      "colloc": "take notes during a lecture",
+      "example": "Take notes while the teacher is speaking."
+    },
+    {
+      "phrase": "take an exam",
+      "pos": "v. phr.",
+      "ipa": "/teɪk ən ɪɡˈzæm/",
+      "meaning": "dự thi",
+      "colloc": "take / pass / fail an exam",
+      "example": "I will take the entrance exam next month."
+    },
+    {
+      "phrase": "have a look",
+      "pos": "v. phr.",
+      "ipa": "/hæv ə lʊk/",
+      "meaning": "xem qua",
+      "colloc": "have a look at sth",
+      "example": "Can I have a look at your notes?"
+    },
+    {
+      "phrase": "have a good time",
+      "pos": "v. phr.",
+      "ipa": "/hæv ə ɡʊd taɪm/",
+      "meaning": "có khoảng thời gian vui vẻ",
+      "colloc": "have a great / wonderful time",
+      "example": "We had a good time at the beach."
+    },
+    {
+      "phrase": "have breakfast",
+      "pos": "v. phr.",
+      "ipa": "/hæv ˈbrekfəst/",
+      "meaning": "ăn sáng",
+      "colloc": "have lunch / dinner",
+      "example": "I usually have breakfast at 7 a.m."
+    },
+    {
+      "phrase": "have a rest",
+      "pos": "v. phr.",
+      "ipa": "/hæv ə rest/",
+      "meaning": "nghỉ ngơi",
+      "colloc": "have a short rest",
+      "example": "You look tired. Have a rest."
+    },
+    {
+      "phrase": "have an argument",
+      "pos": "v. phr.",
+      "ipa": "/hæv ən ˈɑːɡjumənt/",
+      "meaning": "cãi nhau",
+      "colloc": "have an argument with sb about sth",
+      "example": "They had an argument about money."
+    }
+  ],
+  "vocabMcq": [
+    {
+      "q": "I need to ___ a decision about my future job.",
+      "options": [
+        "do",
+        "take",
+        "make",
+        "have"
+      ],
+      "answer": "C",
+      "tag": "Collocation make",
+      "explain": "make a decision = đưa ra quyết định."
+    },
+    {
+      "q": "My sister ___ the housework every weekend.",
+      "options": [
+        "does",
+        "makes",
+        "takes",
+        "has"
+      ],
+      "answer": "A",
+      "tag": "Collocation do",
+      "explain": "do the housework = làm việc nhà."
+    },
+    {
+      "q": "Can you ___ care of my dog while I'm away?",
+      "options": [
+        "make",
+        "do",
+        "have",
+        "take"
+      ],
+      "answer": "D",
+      "tag": "Collocation take",
+      "explain": "take care of = chăm sóc."
+    },
+    {
+      "q": "Thousands of people ___ part in the marathon last year.",
+      "options": [
+        "made",
+        "took",
+        "did",
+        "had"
+      ],
+      "answer": "B",
+      "tag": "Collocation take",
+      "explain": "take part in = tham gia; last year → took."
+    },
+    {
+      "q": "He is ___ a lot of research on climate change.",
+      "options": [
+        "making",
+        "doing",
+        "taking",
+        "having"
+      ],
+      "answer": "B",
+      "tag": "Collocation do",
+      "explain": "do research = nghiên cứu."
+    },
+    {
+      "q": "We ___ a great time at the beach last summer.",
+      "options": [
+        "made",
+        "did",
+        "took",
+        "had"
+      ],
+      "answer": "D",
+      "tag": "Collocation have",
+      "explain": "have a great time = có khoảng thời gian vui vẻ."
+    },
+    {
+      "q": "Don't worry if you ___ mistakes. Everyone does.",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "have"
+      ],
+      "answer": "A",
+      "tag": "Collocation make",
+      "explain": "make a mistake = mắc lỗi (KHÔNG nói do a mistake)."
+    },
+    {
+      "q": "Could you ___ a photo of us, please?",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "have"
+      ],
+      "answer": "C",
+      "tag": "Collocation take",
+      "explain": "take a photo = chụp ảnh."
+    },
+    {
+      "q": "My English is getting better. I'm ___ good progress.",
+      "options": [
+        "doing",
+        "taking",
+        "having",
+        "making"
+      ],
+      "answer": "D",
+      "tag": "Collocation make",
+      "explain": "make progress = tiến bộ."
+    },
+    {
+      "q": "I always ___ my best in every exam.",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "have"
+      ],
+      "answer": "A",
+      "tag": "Collocation do",
+      "explain": "do one's best = cố gắng hết sức."
+    }
+  ],
+  "reading": {
+    "title": "Learning Online",
+    "minutes": 12,
+    "paragraphs": [
+      "In the past, students had to go to a classroom to learn. Today, however, more and more people are choosing to study online. Online courses are offered by universities, companies and even individual teachers, and many of them are free.",
+      "There are several reasons why online learning has become so popular. First, it is flexible. Learners can study at any time and in any place, as long as they have a computer or a smartphone and an Internet connection. This is especially useful for people who work full-time. Second, online courses are often cheaper because students do not have to pay for transport or accommodation.",
+      "However, studying online is not easy for everyone. Without a teacher in the room, some students find it hard to stay motivated. They often start a course with great enthusiasm but give up after a few weeks. A recent survey showed that only about 15 percent of people who join a free online course actually finish it.",
+      "To succeed, experts suggest that online learners should make a clear timetable and stick to it. It is also a good idea to join online discussion groups, where students can ask questions and share ideas. Some learners prefer blended learning, which combines online lessons with a few meetings in a real classroom.",
+      "In conclusion, online learning offers many advantages, but it requires a lot of self-discipline. It is not a perfect replacement for traditional education, but it is a useful choice for many people."
+    ],
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "type": "Main idea",
+        "options": [
+          "The advantages and disadvantages of online learning",
+          "How to become an online teacher",
+          "Why traditional classrooms are better",
+          "The history of the Internet"
+        ],
+        "answer": "A",
+        "tag": "Đọc: main idea",
+        "explain": "Đoạn 2 nói ưu điểm, đoạn 3 nói khó khăn, đoạn 5 kết luận cả hai mặt.",
+        "evidence": "In conclusion, online learning offers many advantages, but it requires a lot of self-discipline."
+      },
+      {
+        "q": "According to the passage, online learning is useful for people who work full-time because ___.",
+        "type": "Chi tiết",
+        "options": [
+          "it is always free",
+          "it is taught by famous teachers",
+          "they can study whenever they want",
+          "they can meet classmates face to face"
+        ],
+        "answer": "C",
+        "tag": "Đọc: chi tiết",
+        "explain": "'at any time and in any place' = whenever they want. A sai vì bài nói 'many of them are free', không phải 'always'.",
+        "evidence": "Learners can study at any time and in any place … This is especially useful for people who work full-time."
+      },
+      {
+        "q": "The word 'enthusiasm' in paragraph 3 is closest in meaning to ___.",
+        "type": "Từ đồng nghĩa",
+        "options": [
+          "difficulty",
+          "excitement",
+          "fear",
+          "money"
+        ],
+        "answer": "B",
+        "tag": "Đọc: từ đồng nghĩa",
+        "explain": "Bắt đầu khóa học với sự hào hứng rồi bỏ cuộc → enthusiasm = excitement.",
+        "evidence": "They often start a course with great enthusiasm but give up after a few weeks."
+      },
+      {
+        "q": "The word 'it' in 'stick to it' (paragraph 4) refers to ___.",
+        "type": "Từ quy chiếu",
+        "options": [
+          "a course",
+          "a discussion group",
+          "a classroom",
+          "a timetable"
+        ],
+        "answer": "D",
+        "tag": "Đọc: từ quy chiếu",
+        "explain": "'it' chỉ danh từ số ít gần nhất phía trước: a clear timetable.",
+        "evidence": "experts suggest that online learners should make a clear timetable and stick to it."
+      },
+      {
+        "q": "Which of the following is NOT mentioned as a way to succeed in online learning?",
+        "type": "NOT mentioned",
+        "options": [
+          "Making a timetable",
+          "Hiring a private tutor",
+          "Joining discussion groups",
+          "Taking blended courses"
+        ],
+        "answer": "B",
+        "tag": "Đọc: NOT mentioned",
+        "explain": "Đoạn 4 nhắc timetable, discussion groups, blended learning. Không nhắc thuê gia sư.",
+        "evidence": "make a clear timetable … join online discussion groups … blended learning"
+      }
+    ],
+    "newWords": [
+      {
+        "word": "flexible",
+        "pos": "adj",
+        "ipa": "/ˈfleksəbl/",
+        "meaning": "linh hoạt"
+      },
+      {
+        "word": "accommodation",
+        "pos": "n",
+        "ipa": "/əˌkɒməˈdeɪʃn/",
+        "meaning": "chỗ ở"
+      },
+      {
+        "word": "motivated",
+        "pos": "adj",
+        "ipa": "/ˈməʊtɪveɪtɪd/",
+        "meaning": "có động lực"
+      },
+      {
+        "word": "enthusiasm",
+        "pos": "n",
+        "ipa": "/ɪnˈθjuːziæzəm/",
+        "meaning": "sự hào hứng, nhiệt tình"
+      },
+      {
+        "word": "survey",
+        "pos": "n",
+        "ipa": "/ˈsɜːveɪ/",
+        "meaning": "cuộc khảo sát"
+      },
+      {
+        "word": "stick to",
+        "pos": "phr. v",
+        "ipa": "/stɪk tuː/",
+        "meaning": "bám theo, tuân thủ"
+      },
+      {
+        "word": "self-discipline",
+        "pos": "n",
+        "ipa": "/ˌself ˈdɪsəplɪn/",
+        "meaning": "tính tự giác, kỷ luật bản thân"
+      },
+      {
+        "word": "replacement",
+        "pos": "n",
+        "ipa": "/rɪˈpleɪsmənt/",
+        "meaning": "sự thay thế"
+      }
+    ]
+  },
+  "speaking": {
+    "introTitle": "Bài giới thiệu bản thân (5 điểm, khoảng 1 phút)",
+    "intro": [
+      "Good morning. My name is ___. I'm ___ years old and I come from ___.",
+      "I graduated from ___ University with a degree in ___.",
+      "At the moment, I'm working as a/an ___ at ___.",
+      "In my free time, I enjoy ___ because it helps me ___.",
+      "I'm applying for the Master's programme in ___ at the University of Science because I want to ___.",
+      "After I graduate, I hope to ___.",
+      "Thank you for listening."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…)",
+    "rescue": [
+      "That's an interesting question. Let me think…",
+      "Could you repeat the question, please?",
+      "I'm not sure, but I think…",
+      "What I mean is…"
+    ],
+    "questions": [
+      {
+        "q": "Can you tell me a little about yourself?",
+        "hint": "Tên, quê, ngành học, công việc hiện tại. Dùng lại bài giới thiệu nhưng nói tự nhiên."
+      },
+      {
+        "q": "Why do you want to do a Master's degree?",
+        "hint": "Ý chính: nâng cao kiến thức / cơ hội nghề nghiệp. Lý do: because… Ví dụ: For example, in my job I…"
+      },
+      {
+        "q": "What do you usually do in your free time?",
+        "hint": "1 sở thích → vì sao thích → lần gần nhất bạn làm việc đó."
+      },
+      {
+        "q": "What are your strengths and weaknesses?",
+        "hint": "1 điểm mạnh + ví dụ; 1 điểm yếu + cách bạn đang khắc phục."
+      },
+      {
+        "q": "What are your plans for the next five years?",
+        "hint": "Dùng be going to / hope to / plan to. Học xong thạc sĩ → công việc → mục tiêu cá nhân."
+      }
+    ],
+    "rubric": [
+      "Trôi chảy (ít ngập ngừng, nói đủ ý)",
+      "Ngữ pháp (thì đúng, chủ ngữ – động từ hòa hợp)",
+      "Từ vựng (đúng chủ đề, có collocation)",
+      "Phát âm (âm cuối -s, -ed, trọng âm)",
+      "Nội dung (trả lời đúng câu hỏi, có lý do và ví dụ)"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "I ___ my homework yet.",
+      "options": [
+        "don't finish",
+        "haven't finished",
+        "didn't finish",
+        "am not finishing"
+      ],
+      "answer": "B",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "'yet' ở câu phủ định → hiện tại hoàn thành: haven't finished."
+    },
+    {
+      "q": "English ___ in many countries around the world.",
+      "options": [
+        "speaks",
+        "is speaking",
+        "is spoken",
+        "spoke"
+      ],
+      "answer": "C",
+      "tag": "Bị động",
+      "explain": "Tiếng Anh được nói → bị động hiện tại đơn: is spoken."
+    },
+    {
+      "q": "While she ___ TV, the phone rang.",
+      "options": [
+        "was watching",
+        "watched",
+        "watches",
+        "has watched"
+      ],
+      "answer": "A",
+      "tag": "Quá khứ tiếp diễn",
+      "explain": "while + quá khứ tiếp diễn, hành động xen vào dùng quá khứ đơn (rang)."
+    },
+    {
+      "q": "They ___ money by selling handmade cards.",
+      "options": [
+        "do",
+        "take",
+        "have",
+        "make"
+      ],
+      "answer": "D",
+      "tag": "Collocation make",
+      "explain": "make money = kiếm tiền."
+    },
+    {
+      "q": "My bike ___ last night.",
+      "options": [
+        "stole",
+        "was stolen",
+        "is stolen",
+        "has stolen"
+      ],
+      "answer": "B",
+      "tag": "Bị động",
+      "explain": "Xe bị lấy cắp → bị động; last night → quá khứ: was stolen."
+    },
+    {
+      "q": "We ___ an argument about money last week.",
+      "options": [
+        "did",
+        "made",
+        "had",
+        "took"
+      ],
+      "answer": "C",
+      "tag": "Collocation have",
+      "explain": "have an argument = cãi nhau; last week → had."
+    },
+    {
+      "q": "She ___ in Hanoi since 2020.",
+      "options": [
+        "lives",
+        "lived",
+        "is living",
+        "has lived"
+      ],
+      "answer": "D",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "since 2020 → hiện tại hoàn thành: has lived."
+    },
+    {
+      "q": "The meeting ___ by the manager next Monday.",
+      "options": [
+        "will be held",
+        "will hold",
+        "holds",
+        "is holding"
+      ],
+      "answer": "A",
+      "tag": "Bị động",
+      "explain": "Cuộc họp được tổ chức (by the manager) + next Monday → will be held."
+    },
+    {
+      "q": "I ___ my best, but I failed the test.",
+      "options": [
+        "made",
+        "did",
+        "took",
+        "had"
+      ],
+      "answer": "B",
+      "tag": "Collocation do",
+      "explain": "do one's best → did my best."
+    },
+    {
+      "q": "By the end of 2025, she ___ three books.",
+      "options": [
+        "wrote",
+        "writes",
+        "had written",
+        "has written"
+      ],
+      "answer": "C",
+      "tag": "Quá khứ hoàn thành",
+      "explain": "By + mốc trong quá khứ → hành động hoàn tất trước mốc đó: had written."
+    }
+  ],
+  "extra": {
+    "title": "Luyện thêm: các thì",
+    "note": "30 câu chọn đáp án + 5 câu viết lại. Làm từng phần, nộp xong đọc kỹ giải thích câu sai.",
+    "sets": [
+      {
+        "key": "tensePresent",
+        "title": "Các thì hiện tại",
+        "items": [
+          {
+            "q": "My sister usually ___ to work by bus, but today she is driving.",
+            "options": [
+              "goes",
+              "is going",
+              "has gone",
+              "went"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại đơn",
+            "explain": "\"usually\" chỉ thói quen → hiện tại đơn. Vế sau \"today she is driving\" mới là việc tạm thời."
+          },
+          {
+            "q": "Listen! Someone ___ at the door.",
+            "options": [
+              "knocks",
+              "is knocking",
+              "has knocked",
+              "knocked"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại tiếp diễn",
+            "explain": "\"Listen!\" → việc đang xảy ra ngay lúc nói → am/is/are + V-ing."
+          },
+          {
+            "q": "We ___ each other since we were at primary school.",
+            "options": [
+              "know",
+              "are knowing",
+              "have known",
+              "knew"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "\"since + mốc\" → hiện tại hoàn thành. \"know\" là động từ trạng thái, không dùng dạng -ing."
+          },
+          {
+            "q": "She ___ English for three hours, so she is very tired now.",
+            "options": [
+              "studies",
+              "is studying",
+              "studied",
+              "has been studying"
+            ],
+            "answer": "D",
+            "tag": "HTHT tiếp diễn",
+            "explain": "Hành động kéo dài liên tục tới bây giờ và để lại kết quả (mệt) → have/has been + V-ing."
+          },
+          {
+            "q": "This soup ___ delicious. Can I have some more?",
+            "options": [
+              "tastes",
+              "is tasting",
+              "has tasted",
+              "tasted"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại đơn",
+            "explain": "taste (= có vị) là động từ trạng thái → hiện tại đơn, không dùng is tasting."
+          },
+          {
+            "q": "The train to Hue ___ at 7:30 tomorrow morning, according to the timetable.",
+            "options": [
+              "leave",
+              "leaves",
+              "will be left",
+              "has left"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại đơn",
+            "explain": "Lịch trình cố định (timetable) → hiện tại đơn dù nói về tương lai. Chủ ngữ số ít → leaves."
+          },
+          {
+            "q": "I ___ my homework yet, so I can't go out.",
+            "options": [
+              "don't finish",
+              "didn't finish",
+              "haven't finished",
+              "am not finishing"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "\"yet\" (câu phủ định, câu hỏi) → hiện tại hoàn thành."
+          },
+          {
+            "q": "How often ___ to the gym?",
+            "options": [
+              "are you going",
+              "have you gone",
+              "did you go",
+              "do you go"
+            ],
+            "answer": "D",
+            "tag": "Hiện tại đơn",
+            "explain": "\"How often\" hỏi về mức độ thường xuyên → hiện tại đơn."
+          },
+          {
+            "q": "This is the first time I ___ sushi.",
+            "options": [
+              "have eaten",
+              "eat",
+              "am eating",
+              "ate"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "This is the first/second time + S + have/has + V3."
+          },
+          {
+            "q": "She ___ in this company for ten years, and she still loves her job.",
+            "options": [
+              "works",
+              "is working",
+              "has worked",
+              "worked"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "\"for ten years\" + vẫn còn làm (still) → hiện tại hoàn thành."
+          }
+        ]
+      },
+      {
+        "key": "tensePast",
+        "title": "Các thì quá khứ",
+        "items": [
+          {
+            "q": "I ___ my keys yesterday, so I had to call my wife.",
+            "options": [
+              "lose",
+              "have lost",
+              "was losing",
+              "lost"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "\"yesterday\" → mốc quá khứ đã xong → quá khứ đơn. Không dùng hiện tại hoàn thành với yesterday."
+          },
+          {
+            "q": "While I ___ dinner, the lights went out.",
+            "options": [
+              "was cooking",
+              "cooked",
+              "have cooked",
+              "had cooked"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ tiếp diễn",
+            "explain": "While + quá khứ tiếp diễn (việc đang diễn ra), việc xen vào dùng quá khứ đơn (went out)."
+          },
+          {
+            "q": "After she ___ her homework, she went to bed.",
+            "options": [
+              "was finishing",
+              "had finished",
+              "has finished",
+              "finishes"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Việc xảy ra trước một việc khác trong quá khứ → had + V3."
+          },
+          {
+            "q": "What ___ at 8 p.m. last night? I called you but you didn't answer.",
+            "options": [
+              "did you do",
+              "have you done",
+              "were you doing",
+              "do you do"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ tiếp diễn",
+            "explain": "Một giờ cụ thể trong quá khứ (8 p.m. last night) → hỏi việc đang làm lúc đó → was/were + V-ing."
+          },
+          {
+            "q": "My grandfather ___ in the army when he was young.",
+            "options": [
+              "has served",
+              "was serving",
+              "had served",
+              "served"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "Việc đã xong trong một giai đoạn quá khứ (when he was young) → quá khứ đơn."
+          },
+          {
+            "q": "She ___ to Japan three years ago.",
+            "options": [
+              "went",
+              "has gone",
+              "had gone",
+              "goes"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "\"ago\" → luôn dùng quá khứ đơn."
+          },
+          {
+            "q": "I didn't recognise him because I ___ him for years.",
+            "options": [
+              "didn't see",
+              "haven't seen",
+              "hadn't seen",
+              "wasn't seeing"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Việc kéo dài tới trước một thời điểm quá khứ (lúc không nhận ra) → had + V3."
+          },
+          {
+            "q": "They ___ football when it started to rain.",
+            "options": [
+              "played",
+              "were playing",
+              "have played",
+              "had played"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ tiếp diễn",
+            "explain": "Việc đang diễn ra (were playing) thì việc khác xen vào (started, quá khứ đơn)."
+          },
+          {
+            "q": "___ you ___ the news last night?",
+            "options": [
+              "Have / watched",
+              "Had / watched",
+              "Were / watching",
+              "Did / watch"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "\"last night\" → quá khứ đơn: Did + S + V nguyên mẫu?"
+          },
+          {
+            "q": "By the end of last year, he ___ enough money to buy a motorbike.",
+            "options": [
+              "saved",
+              "has saved",
+              "had saved",
+              "was saving"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "By + mốc quá khứ (by the end of last year) → quá khứ hoàn thành."
+          }
+        ]
+      },
+      {
+        "key": "tenseHard",
+        "title": "Phân biệt thì + tương lai",
+        "items": [
+          {
+            "q": "I ___ this film before, so I know how it ends.",
+            "options": [
+              "have seen",
+              "saw",
+              "had seen",
+              "see"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "Trải nghiệm không rõ thời điểm (before) và còn liên quan tới hiện tại (know) → hiện tại hoàn thành."
+          },
+          {
+            "q": "\"The phone is ringing.\" – \"I ___ it.\"",
+            "options": [
+              "answer",
+              "will answer",
+              "am going to answer",
+              "have answered"
+            ],
+            "answer": "B",
+            "tag": "Will",
+            "explain": "Quyết định ngay lúc nói → will. \"be going to\" dùng cho kế hoạch đã có từ trước."
+          },
+          {
+            "q": "We ___ to Nha Trang next week. We have already booked the hotel.",
+            "options": [
+              "will go",
+              "go",
+              "are going to go",
+              "went"
+            ],
+            "answer": "C",
+            "tag": "Be going to",
+            "explain": "Kế hoạch đã định sẵn (đã đặt khách sạn) → be going to."
+          },
+          {
+            "q": "I ___ in Ho Chi Minh City for five years before I moved to Hanoi.",
+            "options": [
+              "have lived",
+              "am living",
+              "lived",
+              "had lived"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Việc kéo dài và kết thúc trước một việc quá khứ khác (moved) → had + V3."
+          },
+          {
+            "q": "He ___ a lot of weight since he started jogging.",
+            "options": [
+              "lost",
+              "has lost",
+              "had lost",
+              "loses"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "since + mệnh đề quá khứ đơn (since he started) → mệnh đề chính dùng hiện tại hoàn thành."
+          },
+          {
+            "q": "When I was a child, I ___ in the river every summer.",
+            "options": [
+              "swam",
+              "have swum",
+              "was swimming",
+              "had swum"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "Thói quen trong quá khứ (every summer, when I was a child) → quá khứ đơn (hoặc used to + V)."
+          },
+          {
+            "q": "By the time you come back, I ___ the report.",
+            "options": [
+              "finish",
+              "finished",
+              "will have finished",
+              "have finished"
+            ],
+            "answer": "C",
+            "tag": "Tương lai hoàn thành",
+            "explain": "By the time + hiện tại đơn (nói về tương lai) → will have + V3: sẽ xong trước lúc đó."
+          },
+          {
+            "q": "This time tomorrow, we ___ on the beach in Vung Tau.",
+            "options": [
+              "lie",
+              "are lying",
+              "lay",
+              "will be lying"
+            ],
+            "answer": "D",
+            "tag": "Tương lai tiếp diễn",
+            "explain": "\"This time tomorrow\" → việc đang diễn ra tại một thời điểm tương lai → will be + V-ing."
+          },
+          {
+            "q": "I ___ to London twice, but I have never been to Paris.",
+            "options": [
+              "went",
+              "have been",
+              "had been",
+              "was going"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "Số lần trải nghiệm tính đến nay (twice) → have been. Giống lỗi \"three times so far\" ngày 1."
+          },
+          {
+            "q": "Mai ___ her leg when she was skiing last winter.",
+            "options": [
+              "broke",
+              "has broken",
+              "was breaking",
+              "had broken"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "Việc ngắn xen vào (broke) khi việc khác đang diễn ra (was skiing) → quá khứ đơn."
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "I started learning English five years ago.",
+        "start": "I have",
+        "answers": [
+          "I have learned English for five years.",
+          "I have learnt English for five years.",
+          "I have been learning English for five years."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started … ago → have + V3 (hoặc have been + V-ing) + for + khoảng thời gian. Bỏ \"ago\"."
+      },
+      {
+        "source": "The last time I saw her was in 2020.",
+        "start": "I haven't",
+        "answers": [
+          "I haven't seen her since 2020."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "The last time + S + V2 + was + mốc → S + haven't + V3 + since + mốc."
+      },
+      {
+        "source": "This is the first time I have visited Hue.",
+        "start": "I have never",
+        "answers": [
+          "I have never visited Hue before.",
+          "I have never visited Hue."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "This is the first time + HTHT → S + have never + V3 + (before)."
+      },
+      {
+        "source": "It's two months since he last called me.",
+        "start": "He hasn't",
+        "answers": [
+          "He hasn't called me for two months.",
+          "He hasn't called me for two months now."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "It's + khoảng thời gian + since + S + last + V2 → S + hasn't + V3 + for + khoảng thời gian."
+      },
+      {
+        "source": "She finished her homework and then she went to bed.",
+        "start": "Before she went to bed, she",
+        "answers": [
+          "Before she went to bed, she had finished her homework."
+        ],
+        "tag": "Quá khứ hoàn thành",
+        "explain": "Việc xảy ra trước (finished) → had + V3; việc sau (went to bed) → quá khứ đơn."
+      }
+    ]
+  }
+}

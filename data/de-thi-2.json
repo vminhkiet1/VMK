@@ -1,0 +1,1289 @@
+{
+  "title": "Đề thi thử 2 · format đề thật 90 câu",
+  "meta": "Paper 1: 60 phút · Paper 2: 30 phút · Paper 3: ~25 phút",
+  "note": "Paper 1 và Paper 2 là nguyên Practice Test 6 trong tài liệu ôn của trường; phần nghe do Claude soạn lời thoại theo câu hỏi của đề. Làm đúng giờ: Paper 1 60 phút, Paper 2 30 phút, rồi Paper 3. Đậu khi trung bình ≥ 50% và không phần nào bị điểm liệt.",
+  "papers": [
+    {
+      "title": "PAPER 1 – Reading Comprehension",
+      "minutes": 60,
+      "parts": [
+        {
+          "key": "y1a",
+          "title": "Part A. Vocabulary (1–10)",
+          "directions": "Choose the word or phrase which best completes each sentence.",
+          "start": 1,
+          "items": [
+            {
+              "q": "She took twice the prescribed ___ of sleeping tablets.",
+              "options": [
+                "portion",
+                "dose",
+                "amount",
+                "ration"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "dose = liều (thuốc). the prescribed dose = liều được kê."
+            },
+            {
+              "q": "\"The man who has made up his ___ to win will never say 'impossible.'\" – Napoleon Bonaparte",
+              "options": [
+                "idea",
+                "decision",
+                "mind",
+                "brain"
+              ],
+              "answer": "C",
+              "tag": "Collocation",
+              "explain": "make up one's mind = quyết tâm, quyết định."
+            },
+            {
+              "q": "Patricia's a funny woman. She always tells ___ stories.",
+              "options": [
+                "horrible",
+                "amusing",
+                "boring",
+                "casual"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "funny → amusing (gây cười)."
+            },
+            {
+              "q": "Thomas was feeling sleepy because he ___ up late doing his homework.",
+              "options": [
+                "put",
+                "showed",
+                "turned",
+                "stayed"
+              ],
+              "answer": "D",
+              "tag": "Phrasal verb",
+              "explain": "stay up late = thức khuya. turn up = xuất hiện; show up = có mặt; put up = dựng lên."
+            },
+            {
+              "q": "Young children often ___ what they see others doing.",
+              "options": [
+                "regard",
+                "irritate",
+                "imitate",
+                "relate"
+              ],
+              "answer": "C",
+              "tag": "Từ vựng",
+              "explain": "imitate = bắt chước. irritate = làm khó chịu (dễ nhầm vì giống mặt chữ)."
+            },
+            {
+              "q": "This canned soup ___ a lot of salt.",
+              "options": [
+                "remains",
+                "contains",
+                "holds",
+                "involves"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "contain = chứa (thành phần). involve = bao gồm (hoạt động)."
+            },
+            {
+              "q": "I couldn't tell what time it was because the workmen had removed the ___ of the clock.",
+              "options": [
+                "pointers",
+                "hands",
+                "arms",
+                "fingers"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "the hands of a clock = kim đồng hồ."
+            },
+            {
+              "q": "I'm glad to ___ Miss Fionna to you. She will go to your school next month to teach English.",
+              "options": [
+                "recommend",
+                "command",
+                "present",
+                "suggest"
+              ],
+              "answer": "C",
+              "tag": "Từ vựng",
+              "explain": "present sb to sb = giới thiệu (trang trọng). recommend = gợi ý, tiến cử."
+            },
+            {
+              "q": "Fred was ___ in a road accident and couldn't walk normally for half a month.",
+              "options": [
+                "harmed",
+                "wounded",
+                "injured",
+                "damaged"
+              ],
+              "answer": "C",
+              "tag": "Từ dễ nhầm",
+              "explain": "injured = bị thương do tai nạn. wounded = bị thương do vũ khí; damaged dùng cho đồ vật."
+            },
+            {
+              "q": "When we came back from holiday our suitcases were ___ by the customs officer.",
+              "options": [
+                "guarded",
+                "tested",
+                "corrected",
+                "examined"
+              ],
+              "answer": "D",
+              "tag": "Từ vựng",
+              "explain": "examine = kiểm tra kỹ (hành lý ở hải quan)."
+            }
+          ]
+        },
+        {
+          "key": "y1b1",
+          "title": "Part B. First passage (11–16)",
+          "directions": "Read the passages and choose the answer which you think fits best.",
+          "start": 11,
+          "passageTitle": "Quantum of Solace",
+          "passage": [
+            "I'm a big fan of films featuring the spy James Bond. I've got most of them on DVD. We've recently bought Quantum of Solace, in which Daniel Craig plays the part of Bond. I don't know why the films got that name – but it's a great movie anyway.",
+            "All the actors who've played James Bond have been great, but Daniel Craig, who's made lots of other films, plays the part better than any of them. Even though he doesn't talk very much, I think he's the most perfect actor for the role. He even does a few of the more dangerous things in the film himself, instead of getting someone else to do them. I did wonder sometimes whether he'd be clever enough to defeat bad people – but I'm not going to tell you the ending! The actress who stars with Craig gives a fantastic performance too – I love all the glamorous clothes she wore!",
+            "The director probably had a hard job making this Bond film as full of action as earlier ones. But the excitement starts right at the beginning here, with a car chase along a mountain road, and plenty of other thrilling scenes, too – Bond leaping off tall buildings and so on. Unfortunately I found the story difficult to follow in places, and it also seemed to be over very quickly – it lasted under two hours. I also felt there weren't as many jokes as in the old Bond films. And where was all the ridiculous Bond equipment – the underwater car or exploding watch that everyone laughed at? This is a more serious, darker Bond film, but I still enjoyed it."
+          ],
+          "items": [
+            {
+              "q": "What is the writer trying to do in this essay?",
+              "options": [
+                "Explain what first attracted her to Bond films.",
+                "Tell readers about the Bond DVDs she owns.",
+                "Give a balanced view of a Bond film she has seen.",
+                "Describe how Daniel Craig got the part of James Bond."
+              ],
+              "answer": "C",
+              "tag": "Đọc: mục đích bài",
+              "explain": "Bài vừa khen (diễn viên, hành động) vừa chê (khó theo dõi, ít đùa) → balanced view."
+            },
+            {
+              "q": "What can a reader find out from this essay?",
+              "options": [
+                "Whether Quantum of Solace is her favourite Bond film.",
+                "What other films Daniel Craig has made.",
+                "Which other actors have played James Bond.",
+                "Whether she thinks Daniel Craig is the best James Bond."
+              ],
+              "answer": "D",
+              "tag": "Đọc: chi tiết",
+              "explain": "plays the part better than any of them → cô ấy cho rằng Craig là Bond hay nhất. B, C bài không kể tên."
+            },
+            {
+              "q": "What does the writer tell us about Craig in the new Bond film?",
+              "options": [
+                "He performs some of the action scenes.",
+                "He wears some stylish clothes.",
+                "He is given a lot of lines to say.",
+                "He looks strong and fit enough to fight the criminals."
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "He even does a few of the more dangerous things in the film himself. Quần áo đẹp là của nữ diễn viên; he doesn't talk very much nên C sai."
+            },
+            {
+              "q": "What is one problem with the film, according to the writer?",
+              "options": [
+                "It seems a bit too long.",
+                "It's sometimes hard to understand what's happening.",
+                "It has too much silly technology in it.",
+                "It has jokes that aren't very funny."
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "difficult to follow in places = có chỗ khó hiểu. A ngược (over very quickly); C ngược (không có đồ chơi kỳ quặc)."
+            },
+            {
+              "q": "Which of the following does NOT describe Quantum of Solace?",
+              "options": [
+                "Exciting.",
+                "Short.",
+                "Ridiculous.",
+                "Serious."
+              ],
+              "answer": "C",
+              "tag": "Đọc: NOT mentioned",
+              "explain": "Phim hấp dẫn (exciting), ngắn (under two hours), nghiêm túc (more serious). Ridiculous là đồ chơi trong phim CŨ."
+            },
+            {
+              "q": "Which of these might appear in a magazine review of the new Bond film?",
+              "options": [
+                "'It's full of excitement, with Bond jumping across rooftops, so don't be disappointed by the slow start.'",
+                "'The director wanted to move away from the last Bond film and include a bit less action.'",
+                "'I'm not sure the title tells you much … but be prepared to watch a rather different kind of Bond movie.'",
+                "'Daniel Craig performed well as James Bond, but the main female star was disappointing.'"
+              ],
+              "answer": "C",
+              "tag": "Đọc: suy luận",
+              "explain": "Khớp 2 ý trong bài: không hiểu tên phim + phim nghiêm túc, khác phim cũ. A sai (mở đầu rất hấp dẫn), D sai (nữ diễn viên rất hay)."
+            }
+          ]
+        },
+        {
+          "key": "y1b2",
+          "title": "Part B. Second passage (17–22)",
+          "start": 17,
+          "passageTitle": "Cycling in the countryside",
+          "passage": [
+            "Have you ever been cycling? This spring my older brother and I left the busy city and spent a long weekend cycling in the countryside. Our average speed was only around 14 kph, but that didn't matter. We hadn't come to break any speed records, or to get fit and healthy. All we wanted was some fresh air and a break from schoolwork. My bike only once went more than 30 kph, and that was when I raced my brother down the only hill on our route.",
+            "We really enjoyed cycling along flat, traffic-free country paths. There was plenty of spring sunshine, but it was quite cold, especially in the mornings. We didn't mind, though – and we soon warmed up as we rode along. Our only problem was when my brakes started making a terrible noise. But I didn't mind as it gave us an excuse to visit a café while a helpful bike mechanic had a look at it.",
+            "That was one of the best things about our route: every few kilometres there was a village where we could find everything we needed. All the local people were really friendly, too. However, most places we stopped at served chips with all the meals, which soon got fairly boring.",
+            "One night we were woken at 4 a.m. by a group of rugby fans singing loudly in the hotel corridor. We were tired and bad-tempered when we set off the next morning and nearly got lost, but soon felt more cheerful when the sun came out. That's what I like about cycling – it's simple and it's fun. If you're looking for a short break that's active and cheap, then cycling is a great choice."
+          ],
+          "items": [
+            {
+              "q": "What is the writer doing in the text?",
+              "options": [
+                "Describing the different places he saw while cycling.",
+                "Comparing cycling to other forms of exercise.",
+                "Pointing out the differences between cycling in the city and cycling in the countryside.",
+                "Recommending cycling as a good type of holiday."
+              ],
+              "answer": "D",
+              "tag": "Đọc: mục đích bài",
+              "explain": "Câu kết: If you're looking for a short break … cycling is a great choice → khuyên đi xe đạp."
+            },
+            {
+              "q": "What do we find out about the writer's bike?",
+              "options": [
+                "It wasn't as good as his brother's.",
+                "It was too old to go fast.",
+                "It needed attention at one point.",
+                "It had trouble going uphill."
+              ],
+              "answer": "C",
+              "tag": "Đọc: chi tiết",
+              "explain": "Phanh kêu to, thợ sửa xe phải xem → needed attention."
+            },
+            {
+              "q": "The writer was pleased because ___.",
+              "options": [
+                "he and his brother had chosen a good route",
+                "he felt much healthier than before he began his trip",
+                "he met other people who were keen on cycling",
+                "he went away at the best time of year for cycling"
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "one of the best things about our route: every few kilometres there was a village… → chọn tuyến đường tốt."
+            },
+            {
+              "q": "What did the writer dislike about his trip?",
+              "options": [
+                "Breaking down.",
+                "The food.",
+                "The weather.",
+                "Getting lost."
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "chips with all the meals, which soon got fairly boring → chán đồ ăn. Xe hỏng thì anh ấy 'didn't mind'."
+            },
+            {
+              "q": "Which of the following does NOT describe his holiday?",
+              "options": [
+                "For a change.",
+                "To get fit.",
+                "Active.",
+                "Short and cheap."
+              ],
+              "answer": "B",
+              "tag": "Đọc: NOT mentioned",
+              "explain": "We hadn't come … to get fit and healthy → không phải để rèn sức khỏe."
+            },
+            {
+              "q": "What might the writer say in a postcard to a friend?",
+              "options": [
+                "'I'm having a great holiday, spending lots of time in friendly cafés and enjoying being by myself for once.'",
+                "'I'm getting really fit cycling so fast up and down the hills in this part of the countryside.'",
+                "'I'm pleased to be away from cars and lorries for a change. Having a good time, despite some problems.'",
+                "'I'm enjoying cycling with my brother this weekend, and staying at a very quiet hotel in this countryside.'"
+              ],
+              "answer": "C",
+              "tag": "Đọc: suy luận",
+              "explain": "traffic-free paths + vài trục trặc (phanh, đồ ăn, ồn) nhưng vẫn vui. A sai (đi với anh trai), B sai (đường bằng, chỉ 1 đồi), D sai (khách sạn ồn)."
+            }
+          ]
+        },
+        {
+          "key": "y1b3",
+          "title": "Part B. Third passage (23–29)",
+          "start": 23,
+          "passageTitle": "The Western Alphabet",
+          "passage": [
+            "The western alphabet, which is used in Europe, the Americas, Africa, Australia and New Zealand as well as in other countries, originated in the Middle East. The people who gave the world this alphabet were the Phoenicians, a people who established colonies all over the Mediterranean, including Carthage in Africa and Gades in Spain. In their alphabet, the letters were represented by little pictures which represented sounds. The Phoenician A was aleph, which means 'bull', and it was made from a little picture of a bull's head. The letter B was beth, which meant 'house', and showed the round-roofed buildings which you can still see today in Syria.",
+            "The Phoenicians had contact with another nation of sailors, the Greeks, with whom they fought and traded. The Greeks also started to use the Phoenician alphabet. They changed the names so aleph and beth became alpha and beta. The shapes of the letters are the same but they have been turned sideways. If you know any Greek, you can try turning the letters around again, and see how they look. You will see that the curve on the right of the Greek A becomes the horns of a little bull.",
+            "Of course, the first two letters of the alphabet (alpha + beta) give it its name. Over the years there have been changes. Latin developed an alphabet with some different letters to the Greeks, and other letters have been added since. But really westerners are using the same system of writing which has served them so well for thousands of years."
+          ],
+          "items": [
+            {
+              "q": "What is the purpose of this text?",
+              "options": [
+                "To tell something of Phoenician history.",
+                "To tell the story of why we write as we do.",
+                "To compare the western alphabet with other alphabets.",
+                "To describe the life of sailors in the Mediterranean."
+              ],
+              "answer": "B",
+              "tag": "Đọc: mục đích bài",
+              "explain": "Cả bài kể nguồn gốc bảng chữ cái phương Tây (vì sao ta viết như hiện nay). A chỉ là một phần."
+            },
+            {
+              "q": "Where did the Phoenicians come from originally?",
+              "options": [
+                "Carthage.",
+                "Gades.",
+                "The Middle East.",
+                "All over the Mediterranean."
+              ],
+              "answer": "C",
+              "tag": "Đọc: chi tiết",
+              "explain": "Bảng chữ cái originated in the Middle East, do người Phoenicia tạo ra. Carthage, Gades chỉ là thuộc địa (colonies) họ lập sau."
+            },
+            {
+              "q": "What can be said about the Phoenician alphabet?",
+              "options": [
+                "The Phoenicians got it from the colonies.",
+                "The letters were represented by little pictures.",
+                "It is still used in today's Syria.",
+                "The letter B means 'bull' and showed a picture of a bull's head."
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "the letters were represented by little pictures. C bẫy: ở Syria vẫn còn NHÀ mái tròn, không phải bảng chữ. D nhầm A với B."
+            },
+            {
+              "q": "Which change did the Greeks make to the Phoenician alphabet?",
+              "options": [
+                "They changed the pictures to sounds.",
+                "They turned the letters in a different direction.",
+                "They altered the shapes of the letters.",
+                "They put a curve on the letter A."
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "The shapes are the same but they have been turned sideways. C sai vì hình dạng giữ nguyên."
+            },
+            {
+              "q": "The information in the text is meant to be ___.",
+              "options": [
+                "entertaining",
+                "informative",
+                "funny",
+                "challenging"
+              ],
+              "answer": "B",
+              "tag": "Đọc: mục đích bài",
+              "explain": "Bài cung cấp kiến thức lịch sử → informative."
+            },
+            {
+              "q": "What is a conclusion from the text?",
+              "options": [
+                "The Phoenician alphabet has been the best in the world.",
+                "Without colonies, we wouldn't have today's western alphabet.",
+                "The Latin alphabet was an improvement on the Greek alphabet.",
+                "The system of writing that came from the Phoenicians has been very useful for westerners for thousands of years."
+              ],
+              "answer": "D",
+              "tag": "Đọc: suy luận",
+              "explain": "Câu cuối: the same system of writing which has served them so well for thousands of years."
+            },
+            {
+              "q": "Which picture, according to the text, represents beth?",
+              "options": [
+                "A building with a round roof.",
+                "A tall, square building with windows.",
+                "A bull's head with horns.",
+                "A house with a chimney."
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "beth = house, showed the round-roofed buildings. (Đề gốc là 4 hình vẽ; ở đây ghi bằng chữ.) C là aleph."
+            }
+          ]
+        },
+        {
+          "key": "y1b4",
+          "title": "Part B. Fourth passage (30–35)",
+          "start": 30,
+          "passageTitle": "Life on an island",
+          "passage": [
+            "We live on the island of Hale. It's about four kilometres long and two kilometres wide, and it's joined to the mainland by a narrow road – called the Stand – built across the mouth of a river which separates us from the rest of the country. Most of the time you wouldn't know we're on an island because the river mouth between us and the mainland is just a vast stretch of tall grasses and brown mud. But when there's a high tide and the water rises a half metre or so above the road and nothing can pass until the tide goes out again a few hours later, then you know it's an island.",
+            "We were on our way back from the mainland. My older brother, Dominic, had just finished his first year at university in a town 150 km away. Dominic's train was due in at five and he'd asked for a lift back from the station. Now, Dad normally hates being disturbed when he's writing (which is just about all the time), and he also hates going anywhere, but despite the sighs and moans (why can't he get a taxi? what's wrong with the bus?), I could tell by the sparkle in his eyes that he was really looking forward to seeing Dominic.",
+            "So, anyway, Dad and I had driven to the mainland and picked up Dominic from the station. He had been talking non-stop since he'd slung his rucksack in the boot and got in the car. University this, university that, writers, books, parties, people, money, gigs… And when I say talking, I don't mean talking as in having a conversation, I mean talking as in jabbering like a mad thing. I didn't like it… the way he spoke and waved his hands around as if he was some kind of intellectual or something. It was embarrassing. It made me feel uncomfortable – that kind of discomfort you feel when someone you like, someone close to you, suddenly starts acting like a complete idiot. And I didn't like the way he was ignoring me, either. For all the attention I was getting I might as well not have been there. I felt a stranger in my own car.",
+            "As we approached the island on that Friday afternoon, the tide was low and the Stand welcomed us home, stretched out before us, clean and dry, beautifully hazy in the heat – a raised strip of grey concrete bound by white railings and a low footpath on either side, with rough cobbled banks leading down to the water. Beyond the railings, the water was glinting with that wonderful silver light we sometimes get here in the late afternoon which lazes through to the early evening.",
+            "We were about halfway across when I saw the boy. My first thought was how odd it was to see someone walking on the Stand. You don't often see people walking around here. Between Hale and Moulton (the nearest town about thirty kilometres away on the mainland), there's nothing but small cottages, farmland, heathland and a couple of hills. So islanders don't walk because of that. If they're going to Moulton they tend to take the bus. So the only pedestrians you're likely to see around here are walkers or bird-watchers. But even from a distance I could tell that the figure ahead didn't fit into either of these categories. I wasn't sure how I knew, I just did.",
+            "As we drew closer, he became clearer. He was actually a young man rather than a boy. Although he was on the small side, he wasn't as slight as I'd first thought. He wasn't exactly muscular, but he wasn't weedy-looking either. It's hard to explain. There was a sense of strength about him, a graceful strength that showed in his balance, the way he held himself, the way he walked…"
+          ],
+          "items": [
+            {
+              "q": "In the first paragraph, what is the writer's main point about the island?",
+              "options": [
+                "It can be dangerous to try to cross from the mainland.",
+                "It is much smaller than it looks from the mainland.",
+                "It is completely cut off at certain times.",
+                "It can be a difficult place for people to live in."
+              ],
+              "answer": "C",
+              "tag": "Đọc: ý chính đoạn",
+              "explain": "Khi thủy triều lên, nước ngập đường, nothing can pass → bị cô lập hoàn toàn vào những lúc đó."
+            },
+            {
+              "q": "What does the writer suggest about her father?",
+              "options": [
+                "His writing prevents him from doing things he wants to with his family.",
+                "His initial reaction to his son's request is different from usual.",
+                "His true feelings are easily hidden from his daughter.",
+                "His son's arrival is one event he will take time off for."
+              ],
+              "answer": "D",
+              "tag": "Đọc: suy luận",
+              "explain": "Bố ghét bị làm phiền và ghét đi đâu, nhưng vẫn đi đón và mắt sáng lên → chuyện con trai về là việc ông chịu bỏ thời gian. C sai: con gái nhìn ra ngay (I could tell)."
+            },
+            {
+              "q": "The writer emphasises her feelings of discomfort because she ___.",
+              "options": [
+                "is embarrassed that she doesn't understand what her brother is talking about",
+                "feels confused about why she can't relate to her brother anymore",
+                "is upset by the unexpected change in her brother's behaviour",
+                "feels foolish that her brother's attention is so important to her"
+              ],
+              "answer": "C",
+              "tag": "Đọc: suy luận",
+              "explain": "someone close to you suddenly starts acting like a complete idiot → khó chịu vì anh trai thay đổi bất ngờ."
+            },
+            {
+              "q": "In the fourth paragraph, what is the writer's purpose in describing the island?",
+              "options": [
+                "To express her positive feeling about it.",
+                "To explain how the road was built.",
+                "To illustrate what kind of weather was usual.",
+                "To describe her journey home."
+              ],
+              "answer": "A",
+              "tag": "Đọc: mục đích đoạn",
+              "explain": "welcomed us home, beautifully hazy, wonderful silver light → tình cảm tích cực với hòn đảo."
+            },
+            {
+              "q": "In 'because of that' (paragraph 5), 'that' refers to the fact that ___.",
+              "options": [
+                "locals think it's odd to walk anywhere",
+                "it's easier for people to take the bus than walk",
+                "people have everything they need on the island",
+                "there's nowhere in particular to walk to from the island"
+              ],
+              "answer": "D",
+              "tag": "Đọc: từ quy chiếu",
+              "explain": "Câu ngay trước: giữa Hale và Moulton chẳng có gì ngoài nhà nhỏ, ruộng, đồi → không có nơi nào để đi bộ tới."
+            },
+            {
+              "q": "What do we learn about the writer's reaction to the boy?",
+              "options": [
+                "She felt his air of confidence contrasted with his physical appearance.",
+                "She was able to come up with a reason for him being there.",
+                "She realised her first impression of him was inaccurate.",
+                "She thought she had seen him somewhere before."
+              ],
+              "answer": "C",
+              "tag": "Đọc: suy luận",
+              "explain": "actually a young man rather than a boy … wasn't as slight as I'd first thought → ấn tượng đầu tiên không chính xác. B sai: I wasn't sure how I knew."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 2 – Grammar & Use of English",
+      "minutes": 30,
+      "parts": [
+        {
+          "key": "y2a",
+          "title": "Part A. Sentence completion (36–45)",
+          "directions": "Choose the word or phrase which best completes each sentence.",
+          "start": 36,
+          "items": [
+            {
+              "q": "The man sitting next to us on the plane was nervous because he ___ before.",
+              "options": [
+                "hasn't flown",
+                "didn't fly",
+                "hadn't flown",
+                "wasn't flying"
+              ],
+              "answer": "C",
+              "tag": "Quá khứ hoàn thành",
+              "explain": "Mốc quá khứ (was nervous), chưa bay trước lúc đó → hadn't flown. Đúng lỗi have/had của bạn."
+            },
+            {
+              "q": "That awful drilling noise, ___ from our neighbour's house across the street, woke us up.",
+              "options": [
+                "come",
+                "comes",
+                "came",
+                "coming"
+              ],
+              "answer": "D",
+              "tag": "Rút gọn mệnh đề",
+              "explain": "which came → coming (rút gọn chủ động). Câu đã có động từ chính woke."
+            },
+            {
+              "q": "\"How many pages ___ so far?\" – \"Sixteen.\"",
+              "options": [
+                "do you study",
+                "did you study",
+                "have you studied",
+                "had you studied"
+              ],
+              "answer": "C",
+              "tag": "Hiện tại hoàn thành",
+              "explain": "so far → hiện tại hoàn thành."
+            },
+            {
+              "q": "\"Do you like football?\" – \"No, I have ___ interest in it.\"",
+              "options": [
+                "little",
+                "a few",
+                "a little",
+                "few"
+              ],
+              "answer": "A",
+              "tag": "Lượng từ",
+              "explain": "interest không đếm được; nghĩa phủ định (hầu như không) → little. a little = một chút (tích cực)."
+            },
+            {
+              "q": "It's a beautiful photo. I'm going to ___.",
+              "options": [
+                "get it enlarging",
+                "have it enlarging",
+                "have it enlarged",
+                "set it enlarged"
+              ],
+              "answer": "C",
+              "tag": "Have sth done",
+              "explain": "have + vật + V3 = nhờ người khác làm."
+            },
+            {
+              "q": "The ___ is just around the corner and you won't miss it.",
+              "options": [
+                "bicycle's shop",
+                "bicycle shop",
+                "bicycles shop",
+                "bicycles' shop"
+              ],
+              "answer": "B",
+              "tag": "Danh từ ghép",
+              "explain": "Danh từ ghép: danh từ đứng trước làm tính từ, để số ít, không 's: a bicycle shop."
+            },
+            {
+              "q": "___ these plants regularly or they will die.",
+              "options": [
+                "Water",
+                "If you water",
+                "Unless you water",
+                "Because you water"
+              ],
+              "answer": "A",
+              "tag": "Câu mệnh lệnh",
+              "explain": "Mệnh lệnh + or + hậu quả. If you water … or … không hợp nghĩa."
+            },
+            {
+              "q": "Our parents join hands to give us ___ nice house and ___ happy home.",
+              "options": [
+                "a / the",
+                "a / a",
+                "Ø / Ø",
+                "the / a"
+              ],
+              "answer": "B",
+              "tag": "Mạo từ",
+              "explain": "Nhắc lần đầu, danh từ đếm được số ít → a … a …"
+            },
+            {
+              "q": "I wish I ___ work today. I'm so tired.",
+              "options": [
+                "mustn't",
+                "needn't",
+                "don't have to",
+                "didn't have to"
+              ],
+              "answer": "D",
+              "tag": "Câu ước",
+              "explain": "Ước trái hiện tại → wish + V2: didn't have to."
+            },
+            {
+              "q": "Just think! This time tomorrow we ___ on a beach in Nha Trang.",
+              "options": [
+                "will be",
+                "are lying",
+                "will be lying",
+                "will have lain"
+              ],
+              "answer": "C",
+              "tag": "Tương lai tiếp diễn",
+              "explain": "This time tomorrow → will be + V-ing."
+            }
+          ]
+        },
+        {
+          "key": "y2b",
+          "title": "Part B. Error identification (46–55)",
+          "directions": "Each sentence has four underlined parts marked [ ](A)–(D). Identify the ONE that should be corrected.",
+          "start": 46,
+          "items": [
+            {
+              "q": "[On June 14th](A), in Carmel, Indiana, [a woman](B) saw a [strange bright light](C) moving around [on](D) the sky.",
+              "options": [
+                "On June 14th",
+                "a woman",
+                "strange bright light",
+                "on"
+              ],
+              "answer": "D",
+              "tag": "Giới từ",
+              "explain": "in the sky, không phải on the sky."
+            },
+            {
+              "q": "We [were listening](A) to the radio when suddenly the music [stopped](B) and the announcer [warned](C) that a severe storm [approached](D) the area.",
+              "options": [
+                "were listening",
+                "stopped",
+                "warned",
+                "approached"
+              ],
+              "answer": "D",
+              "tag": "Thì động từ",
+              "explain": "Cơn bão đang tiến tới vào lúc đó → was approaching."
+            },
+            {
+              "q": "[As soon as](A) Cecil got home, she [turned on](B) her computer to check her e-mail, [even if](C) she was [really](D) tired.",
+              "options": [
+                "As soon as",
+                "turned on",
+                "even if",
+                "really"
+              ],
+              "answer": "C",
+              "tag": "Liên từ",
+              "explain": "Sự thật đã xảy ra (cô ấy mệt thật) → even though. even if dùng cho giả định."
+            },
+            {
+              "q": "I was born and grew up in France [but](A) Italy is the country [where](B) I have grown to love and [where](C) I [now live](D).",
+              "options": [
+                "but",
+                "where (B: the country where)",
+                "where (C: and where)",
+                "now live"
+              ],
+              "answer": "B",
+              "tag": "Mệnh đề quan hệ",
+              "explain": "grown to love (yêu cái gì?) THIẾU tân ngữ → which/that. Chữ where thứ hai đúng vì I now live đã đủ nghĩa. Đây chính là lỗi where/which của bạn."
+            },
+            {
+              "q": "[Wood](A) from the ash tree becomes extremely [flexibly](B) when [it](C) is [exposed](D) to steam.",
+              "options": [
+                "Wood",
+                "flexibly",
+                "it",
+                "exposed"
+              ],
+              "answer": "B",
+              "tag": "Cấu tạo từ",
+              "explain": "Sau become cần tính từ → flexible."
+            },
+            {
+              "q": "Since the world [began](A), nations [have had](B) difficulty [to keep](C) peace [with](D) their neighbours.",
+              "options": [
+                "began",
+                "have had",
+                "to keep",
+                "with"
+              ],
+              "answer": "C",
+              "tag": "V-ing / to V",
+              "explain": "have difficulty + V-ing → keeping."
+            },
+            {
+              "q": "[To think](A) that Rick was a liar, Barbara refused [even](B) to listen to him [even though](C) Harriet explained that he really was [telling the truth](D).",
+              "options": [
+                "To think",
+                "even",
+                "even though",
+                "telling the truth"
+              ],
+              "answer": "A",
+              "tag": "Rút gọn mệnh đề",
+              "explain": "Nghĩa nguyên nhân (vì nghĩ rằng…) → Thinking (= Because she thought)."
+            },
+            {
+              "q": "John [tried](A) to finish [his research](B) but he [found](C) only part of [information](D) that he needed.",
+              "options": [
+                "tried",
+                "his research",
+                "found",
+                "information"
+              ],
+              "answer": "D",
+              "tag": "Mạo từ",
+              "explain": "Thông tin được xác định bằng mệnh đề that he needed → the information."
+            },
+            {
+              "q": "The problem is [that](A) we don't have [room enough](B) in the car to [take](C) your mother [with](D) us.",
+              "options": [
+                "that",
+                "room enough",
+                "take",
+                "with"
+              ],
+              "answer": "B",
+              "tag": "Too / enough",
+              "explain": "enough đứng TRƯỚC danh từ: enough room."
+            },
+            {
+              "q": "John had [so interesting](A) and creative [plans](B) that everyone [wanted](C) to work [with him](D).",
+              "options": [
+                "so interesting",
+                "plans",
+                "wanted",
+                "with him"
+              ],
+              "answer": "A",
+              "tag": "So / such",
+              "explain": "Có danh từ (plans) → such + adj + N: such interesting and creative plans."
+            }
+          ]
+        },
+        {
+          "key": "y2c",
+          "title": "Part C. Cloze (56–65)",
+          "directions": "Fill each numbered blank with the best word (A, B, C or D).",
+          "start": 56,
+          "passageTitle": "Global warming and wildlife",
+          "passage": [
+            "Despite the wealth of information campaigns telling people about global warming and its causes, most people have yet to realize (56) ___. Coming climate changes could alter as much as (57) ___ of plant and animal habitats by the end of the 22nd century. These changes could in (58) ___ cause widespread extinctions among plant and animal (59) ___ around the globe.",
+            "Coastal and island habitats are perhaps in the greatest danger (60) ___ they face the combined threats of warming oceans and rising sea (61) ___. As habitats change, many animals will come (62) ___ intense pressure to find more suitable homes for themselves. Mass migrations of at least some animals are certainly to be expected, but the fact remains that many animals will simply not be able to move fast enough.",
+            "Such dire predictions (63) ___ sound alarming, but they are based on the rather moderate estimate (64) ___ the amount of carbon dioxide in the atmosphere will double by 2100. Many scientists believe, however, that this figure is actually very conservative, and they claim that a tripling is far more (65) ___. If they are correct, the effects on nature will be even more dramatic."
+          ],
+          "items": [
+            {
+              "q": "Chỗ trống (56)",
+              "options": [
+                "how the problem is severe",
+                "how severe is the problem",
+                "how severe the problem is",
+                "the problem is how severe"
+              ],
+              "answer": "C",
+              "tag": "Câu hỏi gián tiếp",
+              "explain": "Mệnh đề danh từ: how + adj + S + V (không đảo)."
+            },
+            {
+              "q": "Chỗ trống (57)",
+              "options": [
+                "one-thirds",
+                "one-third",
+                "one-three",
+                "the third"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "Phân số 1/3 = one-third (tử số 1 → mẫu số số ít)."
+            },
+            {
+              "q": "Chỗ trống (58)",
+              "options": [
+                "turn",
+                "result",
+                "order",
+                "line"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "in turn = đến lượt nó, rồi từ đó."
+            },
+            {
+              "q": "Chỗ trống (59)",
+              "options": [
+                "types",
+                "genres",
+                "categories",
+                "species"
+              ],
+              "answer": "D",
+              "tag": "Từ vựng",
+              "explain": "plant and animal species = các loài động thực vật."
+            },
+            {
+              "q": "Chỗ trống (60)",
+              "options": [
+                "although",
+                "since",
+                "providing",
+                "therefore"
+              ],
+              "answer": "B",
+              "tag": "Liên từ",
+              "explain": "since = bởi vì (nêu lý do vùng ven biển nguy hiểm nhất)."
+            },
+            {
+              "q": "Chỗ trống (61)",
+              "options": [
+                "heights",
+                "altitudes",
+                "levels",
+                "tides"
+              ],
+              "answer": "C",
+              "tag": "Collocation",
+              "explain": "sea levels = mực nước biển."
+            },
+            {
+              "q": "Chỗ trống (62)",
+              "options": [
+                "from",
+                "under",
+                "across",
+                "by"
+              ],
+              "answer": "B",
+              "tag": "Giới từ",
+              "explain": "come under pressure = chịu áp lực."
+            },
+            {
+              "q": "Chỗ trống (63)",
+              "options": [
+                "may",
+                "must",
+                "can",
+                "ought to"
+              ],
+              "answer": "A",
+              "tag": "Động từ khuyết thiếu",
+              "explain": "may … but … = có thể nghe đáng sợ, nhưng… (nhượng bộ)."
+            },
+            {
+              "q": "Chỗ trống (64)",
+              "options": [
+                "which",
+                "what",
+                "that",
+                "why"
+              ],
+              "answer": "C",
+              "tag": "Mệnh đề",
+              "explain": "the estimate that + mệnh đề đầy đủ = ước tính rằng…"
+            },
+            {
+              "q": "Chỗ trống (65)",
+              "options": [
+                "truthful",
+                "proper",
+                "exact",
+                "realistic"
+              ],
+              "answer": "D",
+              "tag": "Từ vựng",
+              "explain": "far more realistic = sát thực tế hơn nhiều."
+            }
+          ]
+        },
+        {
+          "key": "y2d",
+          "title": "Part D. Sentence transformation (66–70)",
+          "directions": "Finish each sentence so that it means the same as the sentence before it.",
+          "start": 66,
+          "transform": [
+            {
+              "source": "The film was so funny that I burst out laughing.",
+              "start": "It was such",
+              "answers": [
+                "It was such a funny film that I burst out laughing."
+              ],
+              "tag": "So / such",
+              "explain": "so + adj ⇔ such + a + adj + N + that."
+            },
+            {
+              "source": "I first met my boyfriend in 2016.",
+              "start": "I have",
+              "answers": [
+                "I have known my boyfriend since 2016."
+              ],
+              "tag": "Hiện tại hoàn thành",
+              "explain": "first met … in 2016 → have known … since 2016. Dùng know (quen biết) chứ không phải have met."
+            },
+            {
+              "source": "Peter advised me to sell the shares immediately.",
+              "start": "Peter suggested",
+              "answers": [
+                "Peter suggested that I should sell the shares immediately.",
+                "Peter suggested that I sell the shares immediately.",
+                "Peter suggested I should sell the shares immediately.",
+                "Peter suggested selling the shares immediately.",
+                "Peter suggested I sell the shares immediately."
+              ],
+              "tag": "Suggest",
+              "explain": "suggest that + S + (should) + V, hoặc suggest + V-ing. Không viết suggested me to."
+            },
+            {
+              "source": "\"Did you write a note for Anna?\" I asked my mother.",
+              "start": "I asked my mother",
+              "answers": [
+                "I asked my mother if she had written a note for Anna.",
+                "I asked my mother whether she had written a note for Anna."
+              ],
+              "tag": "Câu gián tiếp",
+              "explain": "Hỏi Yes/No → if/whether; did you write → she had written."
+            },
+            {
+              "source": "I have never known a better tennis player than Roger Federer.",
+              "start": "Roger Federer is",
+              "answers": [
+                "Roger Federer is the best tennis player I have ever known.",
+                "Roger Federer is the best tennis player I've ever known.",
+                "Roger Federer is the best tennis player that I have ever known."
+              ],
+              "tag": "So sánh",
+              "explain": "never … better than → the best … I have ever known."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 3 – Listening Comprehension",
+      "parts": [
+        {
+          "key": "y3a",
+          "title": "Part A. Short conversations (71–80)",
+          "directions": "You will hear ten short conversations. Choose the best answer to each question.",
+          "start": 71,
+          "items": [
+            {
+              "q": "Where does the woman want to meet?",
+              "options": [
+                "Downstairs.",
+                "At the park.",
+                "At the office.",
+                "At a café."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Cô ấy vẫn còn làm việc lúc 6 giờ nên đề nghị gặp ở văn phòng. Bẫy: café được nhắc trước.",
+              "script": [
+                "Man: Let's meet at the café on Le Loi Street at six.",
+                "Woman: I'm afraid I'll still be working then. Could you come to the office instead?",
+                "Man: Sure, no problem."
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "At a train station.",
+                "At a bus stop.",
+                "At a swimming pool.",
+                "At an airport."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "flight, gate, boarding → sân bay.",
+              "script": [
+                "Woman: Excuse me, which gate does flight VN two-fifteen leave from?",
+                "Man: Gate twelve. Boarding starts in twenty minutes."
+              ]
+            },
+            {
+              "q": "Where does this conversation take place?",
+              "options": [
+                "In a hotel.",
+                "At an airport.",
+                "In a parking garage.",
+                "At a store."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "check out, room 305, minibar → khách sạn.",
+              "script": [
+                "Man: I'd like to check out, please. Room three-oh-five.",
+                "Woman: Certainly, sir. Did you take anything from the minibar?"
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "In the office.",
+                "At a restaurant.",
+                "In a cab.",
+                "On a bus."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Khách bảo tài xế chở tới khách sạn → taxi (cab).",
+              "script": [
+                "Woman: Could you take us to the Rex Hotel, please?",
+                "Man: Sure. With this traffic, it'll take about twenty minutes."
+              ]
+            },
+            {
+              "q": "Where did the man put the umbrella?",
+              "options": [
+                "Upstairs.",
+                "By the front door.",
+                "Outside.",
+                "Near the elevator."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "I put it by the front door. Bẫy: upstairs là chỗ cô ấy đoán.",
+              "script": [
+                "Woman: Have you seen my umbrella? Is it upstairs?",
+                "Man: No, I put it by the front door when you came in."
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "On a bus.",
+                "In a cab.",
+                "At a fair.",
+                "In a store."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "Hỏi giá áo, giảm giá, mặc thử → cửa hàng.",
+              "script": [
+                "Man: How much is this shirt?",
+                "Woman: It's three hundred thousand dong, but it's twenty percent off today. Would you like to try it on?"
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "In a grocery store.",
+                "In a restaurant.",
+                "In a kitchen.",
+                "On an airplane."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Tìm trứng ở quầy số 5, cạnh sữa → siêu thị, cửa hàng thực phẩm.",
+              "script": [
+                "Man: Excuse me, where can I find the eggs?",
+                "Woman: In aisle five, next to the milk. And the bread is on special offer today."
+              ]
+            },
+            {
+              "q": "Where is the woman going?",
+              "options": [
+                "To a bookstore.",
+                "To the library.",
+                "To school.",
+                "To the police station."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "Trả sách trước khi quá hạn, mượn thêm → thư viện. Bẫy: bookstore cũng có sách nhưng không mượn được.",
+              "script": [
+                "Man: Where are you off to?",
+                "Woman: I need to return these books before they're overdue, and maybe borrow a few more."
+              ]
+            },
+            {
+              "q": "Where is the man?",
+              "options": [
+                "In Los Angeles.",
+                "At an airport.",
+                "At a travel agency.",
+                "On an airplane."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Nhân viên đặt vé máy bay và khách sạn cho anh ấy → công ty du lịch. Bẫy: Los Angeles là nơi anh ấy SẼ đến.",
+              "script": [
+                "Woman: I can book you a flight to Los Angeles on Friday, and a hotel near the beach.",
+                "Man: Great. How much would that be altogether?"
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "In an office.",
+                "In a gym.",
+                "In a garage.",
+                "In a park."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "work out, running machine, lift weights → phòng tập.",
+              "script": [
+                "Woman: How often do you come here to work out?",
+                "Man: Three times a week. I usually do half an hour on the running machine and then lift some weights."
+              ]
+            }
+          ]
+        },
+        {
+          "key": "y3b",
+          "title": "Part B. Long conversation (81–85)",
+          "directions": "You will hear an interview with Angela Morgan, who has recently flown around the world in a helicopter.",
+          "start": 81,
+          "script": [
+            "Interviewer: Angela, you've just flown around the world in a helicopter. Why did you do it?",
+            "Angela: Well, it was a great adventure, of course, but the main reason was to raise money for a children's hospital. We collected over two hundred thousand pounds.",
+            "Interviewer: You're fifty-eight now. Do you feel older after such a long trip?",
+            "Angela: Not at all! My children have all left home, and I hate sitting around. I like to be busy all the time, so the trip was perfect for me.",
+            "Interviewer: When did you learn to fly?",
+            "Angela: Three years ago. I did a five-month course at a flying school near my home. My teacher, Jenny, came with me on the trip. My husband thought we were crazy!",
+            "Interviewer: Did you see much of the countries you visited?",
+            "Angela: Sadly, no. We usually stayed only one night in each place, so there was almost no time for sightseeing. We just ate, slept and checked the helicopter.",
+            "Interviewer: What did you enjoy most?",
+            "Angela: Flying over the desert was a bit frightening, but the best thing was watching the land below us change, from mountains to forests to the sea."
+          ],
+          "items": [
+            {
+              "q": "The main reason for Angela's trip was to ___.",
+              "options": [
+                "make money for her business",
+                "make money for other people",
+                "have an exciting adventure",
+                "do it before she was too old"
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "the main reason was to raise money for a children's hospital. Bẫy: great adventure được nói trước."
+            },
+            {
+              "q": "About her life now, Angela ___.",
+              "options": [
+                "feels much older",
+                "likes to be active and busy",
+                "is lonely without her children",
+                "feels different inside"
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "I like to be busy all the time."
+            },
+            {
+              "q": "When Angela had flying lessons, ___.",
+              "options": [
+                "her course lasted five months",
+                "it took her three years to be able to fly",
+                "she got to know her teacher well",
+                "her husband took lessons as well"
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "a five-month course. Bẫy: three years ago là thời điểm học, không phải thời gian học."
+            },
+            {
+              "q": "During the trip, Angela and her teacher ___.",
+              "options": [
+                "did very little sightseeing",
+                "carried all the water they needed",
+                "had engine problems several times",
+                "spent many days in each country"
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "almost no time for sightseeing; chỉ ở 1 đêm mỗi nơi."
+            },
+            {
+              "q": "On the trip, Angela most enjoyed ___.",
+              "options": [
+                "flying at night",
+                "walking in the desert",
+                "watching the changes in the scenery",
+                "having frightening experiences"
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "the best thing was watching the land below us change."
+            }
+          ]
+        },
+        {
+          "key": "y3c",
+          "title": "Part C. Talk (86–90)",
+          "directions": "You will hear a recorded message about an arts festival.",
+          "start": 86,
+          "script": [
+            "Speaker: Thank you for calling the Bury Arts Festival information line. This year's festival runs from the twelfth to the twenty-eighth of May. At the Theatre Royal, there is opera on the eighteenth and twentieth of May, and on the nineteenth you can enjoy a new comedy by local writer Sam Holt. From Monday to Friday, there are free lunchtime jazz concerts at the Corn Exchange. Soft drinks and sandwiches are on sale, but please note that no wine is sold at lunchtime. In the cathedral, the Market Players will perform a play about the history of the town every evening at eight. Finally, on Sunday the twenty-fifth, there is a special day at Ickworth House: a guided walk through the gardens in the morning, followed by an afternoon concert on the lawn. Tickets for all events are available from the box office."
+          ],
+          "items": [
+            {
+              "q": "When does the festival take place?",
+              "options": [
+                "12 to 18 May.",
+                "12 to 20 May.",
+                "12 to 28 May.",
+                "20 to 28 May."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "from the twelfth to the twenty-eighth of May."
+            },
+            {
+              "q": "What is on at the Theatre Royal on 19 May?",
+              "options": [
+                "Jazz.",
+                "A comedy.",
+                "Opera.",
+                "Classical music."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "Opera vào ngày 18 và 20; ngày 19 là a new comedy."
+            },
+            {
+              "q": "What do they sell during lunchtime jazz concerts at the Corn Exchange?",
+              "options": [
+                "Soft drinks and sandwiches.",
+                "Wine and sandwiches.",
+                "Soft drinks and light meals.",
+                "Wine and soft drinks."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Soft drinks and sandwiches; no wine."
+            },
+            {
+              "q": "What is on at the cathedral?",
+              "options": [
+                "Music.",
+                "Poetry.",
+                "Films.",
+                "A play."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "perform a play about the history of the town."
+            },
+            {
+              "q": "What does the programme offer at Ickworth?",
+              "options": [
+                "A walk and a book reading.",
+                "A concert and a meal.",
+                "A walk and a concert.",
+                "A concert and a book reading."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "a guided walk … followed by an afternoon concert."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "intro": "Please introduce yourself.",
+    "topic": "Bốc thăm: The environment (được đổi 1 lần sang: Technology in your life)",
+    "questions": [
+      "What environmental problems are there in your city?",
+      "What do you do to protect the environment?",
+      "Should the government ban plastic bags? Why or why not?",
+      "What will your city be like in 20 years?"
+    ]
+  }
+}

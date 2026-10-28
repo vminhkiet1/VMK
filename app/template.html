@@ -1,0 +1,692 @@
+<title>Luyện Thi Thạc Sĩ KHTN</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@500;600;700&family=Noto+Sans:wght@400&display=swap">
+<style>
+/* Layout: phiếu ôn thi — one centered answer sheet, sticky tab rail, bubbles like an OMR answer form, red pen for corrections */
+:root {
+  --paper: #EEF2F6;
+  --sheet: #FFFFFF;
+  --ink: #18264A;
+  --muted: #5A6782;
+  --line: #D3DBE6;
+  --accent: #2547A8;
+  --accent-soft: #E3E9F8;
+  --red: #C2362F;
+  --red-soft: #FBE9E7;
+  --ok: #2B7A4B;
+  --ok-soft: #E3F3E9;
+  --font-display: "Lora", Georgia, "Times New Roman", serif;
+  --font-body: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --font-ipa: "Noto Sans", "Segoe UI", "Lucida Sans Unicode", sans-serif;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1320; --sheet: #161D2C; --ink: #E3E8F2; --muted: #9AA6BD; --line: #2A3448;
+    --accent: #8AA4F2; --accent-soft: #1F2A47; --red: #F1857B; --red-soft: #3A1F1F;
+    --ok: #74CC98; --ok-soft: #173326; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1320; --sheet: #161D2C; --ink: #E3E8F2; --muted: #9AA6BD; --line: #2A3448;
+  --accent: #8AA4F2; --accent-soft: #1F2A47; --red: #F1857B; --red-soft: #3A1F1F;
+  --ok: #74CC98; --ok-soft: #173326; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wrap { max-width: 860px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { padding-block: 28px 12px; display: grid; gap: 14px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--font-display); font-size: clamp(26px, 5vw, 36px); line-height: 1.15; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-size: 22px; margin: 0; text-wrap: balance; }
+h3 { font-size: 15px; margin: 0; font-weight: 700; }
+.goal { display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--muted); font-size: 13.5px; }
+.goal b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.days { display: flex; gap: 6px; flex-wrap: wrap; }
+.day-btn { font: inherit; font-weight: 600; border: 1.5px solid var(--line); background: var(--sheet); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.day-btn[aria-pressed="true"] { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+.day-btn .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
+.day-btn .dot.ready { background: var(--ok); }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+nav.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.tab { font: inherit; font-size: 14px; font-weight: 500; white-space: nowrap; border: 0; background: none; color: var(--muted); padding: 11px 10px 9px; border-bottom: 2.5px solid transparent; cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 700; }
+.tab.global { margin-left: auto; }
+.tab.global ~ .tab.global { margin-left: 0; }
+main { padding-block: 22px 60px; display: grid; gap: 18px; }
+.sheet { background: var(--sheet); border: 1px solid var(--line); border-radius: var(--r); padding: 22px clamp(16px, 4vw, 28px); display: grid; gap: 16px; min-width: 0; }
+.head-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.meta { color: var(--muted); font-size: 13px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+td.formula { font-weight: 600; color: var(--accent); white-space: nowrap; }
+.ipa { font-family: var(--font-ipa); color: var(--muted); font-size: 13.5px; }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.trap { border-left: 3px solid var(--red); padding: 4px 0 4px 14px; display: grid; gap: 4px; }
+.wrong { color: var(--red); text-decoration: line-through; text-decoration-thickness: 1.5px; }
+.right { color: var(--ok); font-weight: 600; }
+.btn { font: inherit; font-weight: 600; font-size: 14px; border-radius: 8px; padding: 8px 16px; cursor: pointer; border: 1.5px solid var(--ink); background: var(--ink); color: var(--sheet); }
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn:focus-visible, .tab:focus-visible, .day-btn:focus-visible, .opt input:focus-visible + .bubble, textarea:focus-visible, input[type=text]:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.score { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+.q { display: grid; grid-template-columns: 34px 1fr; gap: 4px 10px; padding-block: 12px; border-bottom: 1px dashed var(--line); }
+.q:last-of-type { border-bottom: 0; }
+.qn { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--muted); padding-top: 1px; }
+.qtype { font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 6px 14px; margin-top: 6px; grid-column: 2; }
+.opt { display: flex; align-items: flex-start; gap: 8px; cursor: pointer; padding: 3px 4px; border-radius: 6px; }
+.opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.bubble { flex: none; width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid var(--muted); display: grid; place-items: center; font-size: 12px; font-weight: 700; color: var(--muted); }
+.opt input:checked + .bubble { background: var(--ink); border-color: var(--ink); color: var(--sheet); }
+.opt.is-correct .bubble { box-shadow: 0 0 0 3px var(--ok); }
+.opt.is-wrong .bubble { background: var(--red); border-color: var(--red); color: var(--sheet); }
+.opt.is-wrong span:last-child { color: var(--red); text-decoration: line-through; }
+.feedback { grid-column: 2; font-size: 14px; margin-top: 6px; padding: 8px 12px; border-radius: 8px; }
+.feedback.ok { background: var(--ok-soft); }
+.feedback.bad { background: var(--red-soft); }
+.feedback .tag { font-size: 12px; font-weight: 600; color: var(--muted); }
+.evidence { font-style: italic; color: var(--muted); }
+.passage { font-family: var(--font-display); font-size: 16.5px; line-height: 1.75; max-width: 65ch; display: grid; gap: 12px; }
+.passage p { margin: 0; }
+.passage .pn { font-family: var(--font-body); font-size: 12px; color: var(--muted); font-weight: 600; margin-right: 6px; }
+mark { background: var(--accent-soft); color: inherit; padding: 0 2px; border-radius: 3px; }
+.timer { font-family: var(--font-display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.timer.low { color: var(--red); }
+input[type=text], textarea { font: inherit; width: 100%; border: 1.5px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--paper); color: var(--ink); }
+textarea { min-height: 90px; resize: vertical; }
+.paper-title { font-size: 15px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 28px 4px 10px; }
+.tq { display: grid; gap: 6px; padding-block: 12px; border-bottom: 1px dashed var(--line); }
+.tq .start { display: flex; gap: 8px; align-items: center; }
+.tq .start b { white-space: nowrap; }
+.checklist { display: grid; gap: 0; }
+.ck { display: grid; grid-template-columns: 26px 110px 1fr; gap: 10px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+.ck input { accent-color: var(--accent); width: 17px; height: 17px; }
+.ck .t { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13.5px; }
+.ck.done .what { color: var(--muted); text-decoration: line-through; }
+.ck.rest { cursor: default; }
+.ck.rest .what { color: var(--muted); font-style: italic; }
+.card-stage { display: grid; place-items: center; gap: 14px; }
+.flash { width: min(100%, 440px); min-height: 190px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--paper); display: grid; place-items: center; text-align: center; padding: 22px; cursor: pointer; gap: 6px; font: inherit; color: var(--ink); }
+.flash .big { font-family: var(--font-display); font-size: 26px; font-weight: 700; }
+tr.known-row td { opacity: .5; }
+tr.known-row td:first-child { opacity: 1; }
+.ck-known { accent-color: var(--ok); width: 17px; height: 17px; cursor: pointer; }
+.btn.ok { background: var(--ok); border-color: var(--ok); color: var(--sheet); }
+.toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); cursor: pointer; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font-size: 12.5px; font-weight: 600; padding: 2px 10px; border-radius: 999px; background: var(--red-soft); color: var(--red); }
+.chip.n { background: var(--accent-soft); color: var(--accent); }
+.ai-out { white-space: pre-wrap; font-size: 14px; background: var(--accent-soft); border-radius: 8px; padding: 10px 12px; }
+.ai-out:empty { display: none; }
+.intro-line { padding: 6px 0; border-bottom: 1px dashed var(--line); }
+.note { font-size: 13px; color: var(--muted); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.grid2 > * { min-width: 0; }
+.status { font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--paper); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
+.status.on { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+@media (max-width: 520px) {
+  .q { grid-template-columns: 26px 1fr; }
+  .opts { grid-column: 1 / -1; }
+  .feedback { grid-column: 1 / -1; }
+  .ck { grid-template-columns: 24px 1fr; }
+  .ck .t { grid-column: 2; }
+  .ck .what { grid-column: 2; }
+}
+@media (prefers-reduced-motion: no-preference) { .flash { transition: transform .15s; } .flash:active { transform: scale(.98); } }
+</style>
+
+<header class="wrap top">
+  <div class="eyebrow">Tiếng Anh đầu vào thạc sĩ · ĐH Khoa học Tự nhiên · ĐHQG-HCM</div>
+  <h1>Luyện thi 7 ngày</h1>
+  <div class="goal">
+    <span>Mục tiêu <b>≥ 55/100</b></span><span>Đậu khi <b>≥ 50</b></span><span>Trình độ <b>B1</b></span><span id="syncState" class="status">Lưu trên trình duyệt</span>
+  </div>
+  <div class="days" id="days" role="group" aria-label="Chọn ngày"></div>
+</header>
+<nav class="tabs" aria-label="Các bước"><div class="wrap" id="tabs" role="tablist"></div></nav>
+<main class="wrap" id="main"></main>
+
+<script>
+const DATA = /*__DATA__*/{"days":{}};
+const SCHEDULE = [
+  ["Thì + bị động", "Collocation make/do/take/have", "Bài giới thiệu bản thân; làm Paper 1"],
+  ["Mệnh đề quan hệ + liên từ", "Phrasal verb nhóm 1", "Làm đề mẫu (điểm xuất phát); 1 chủ đề nói"],
+  ["Câu điều kiện + unless + câu ước", "Từ dễ nhầm", "Viết lại câu chuyên sâu; 2 chủ đề nói"],
+  ["V-ing/to V + so sánh", "Phrasal verb nhóm 2 + giới từ", "Thi thử đề 1; 1 chủ đề nói"],
+  ["Gián tiếp + suggest / had better", "Cấu tạo từ", "Tìm lỗi sai; viết lại 20 mẫu; đọc 2 bài; nói với Claude"],
+  ["Ôn tổng hợp qua đề", "—", "Thi thử 2 đúng format 90 câu; nói thử toàn bộ"],
+  ["Ôn lỗi sai", "Ôn 20 mẫu viết lại", "Đọc 1 bài; giới thiệu 4–5 câu; nghỉ sớm"]
+];
+const TABS = [
+  ["plan", "Kế hoạch"], ["grammar", "Ngữ pháp"], ["grammarEx", "Bài tập NP"], ["extra", "Luyện thêm"], ["vocab", "Từ vựng"],
+  ["vocabEx", "Bài tập TV"], ["reading", "Đọc"], ["exam", "Đề thi"], ["speaking", "Nói"], ["summary", "Tổng kết"]
+];
+const LETTERS = ["A", "B", "C", "D"];
+
+/* ---------- storage: db capability when available, browser storage otherwise ---------- */
+const LS = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const state = {
+  day: LS.get("khtn.day", 1), tab: LS.get("khtn.tab", "plan"),
+  mistakes: LS.get("khtn.mistakes", []), scores: LS.get("khtn.scores", {}), progress: LS.get("khtn.progress", {}),
+  known: LS.get("khtn.known", {}), showKnown: false,
+  answers: {}, graded: {}, showScript: {}, sample: null
+};
+let db = null;
+const Store = {
+  addMistakes(list) {
+    if (!list.length) return;
+    if (db) { list.forEach(m => db.collection("mistakes").add(m).catch(() => {})); }
+    else { state.mistakes = [...list, ...state.mistakes].slice(0, 500); LS.set("khtn.mistakes", state.mistakes); }
+  },
+  setScore(id, obj) {
+    state.scores[id] = obj;
+    if (db) db.doc("scores/" + id).set(obj).catch(() => {});
+    else LS.set("khtn.scores", state.scores);
+  },
+  setProgress(day, done) {
+    state.progress["d" + day] = { done };
+    if (db) db.doc("progress/d" + day).set({ done }).catch(() => {});
+    else LS.set("khtn.progress", state.progress);
+  },
+  setKnown(day, items) {
+    state.known["d" + day] = { items };
+    if (db) db.doc("known/d" + day).set({ items }).catch(() => {});
+    else LS.set("khtn.known", state.known);
+  }
+};
+async function connect() {
+  if (!window.claude || !window.claude.use) return;
+  try {
+    const [d, s] = await Promise.all([window.claude.use("db"), window.claude.use("sample")]);
+    state.sample = s;
+    if (d) {
+      db = d;
+      document.getElementById("syncState").textContent = "Đã đồng bộ với Claude";
+      document.getElementById("syncState").classList.add("on");
+      db.collection("mistakes").orderBy("at", "desc").limit(500).onSnapshot(snap => {
+        state.mistakes = snap.docs.map(x => x.data()); rerenderIf(["summary", "log"]);
+      }, () => {});
+      db.collection("scores").onSnapshot(snap => {
+        const o = {}; snap.docs.forEach(x => o[x.id] = x.data()); state.scores = o; rerenderIf(["summary", "log"]);
+      }, () => {});
+      db.collection("progress").onSnapshot(snap => {
+        const o = {}; snap.docs.forEach(x => o[x.id] = x.data()); state.progress = o; rerenderIf(["plan", "schedule"]);
+      }, () => {});
+      db.collection("known").onSnapshot(snap => {
+        const o = {}; snap.docs.forEach(x => o[x.id] = x.data()); state.known = o; rerenderIf(["vocab"]);
+      }, () => {});
+    }
+    render();
+  } catch {}
+}
+
+/* ---------- helpers ---------- */
+const $ = (tag, attrs = {}, ...kids) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") el.className = v;
+    else if (k === "html") el.innerHTML = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else if (v !== false && v != null) el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const k of kids.flat()) if (k != null) el.append(k.nodeType ? k : document.createTextNode(k));
+  return el;
+};
+const blank = s => s.replace(/___/g, "______");
+const norm = s => s.toLowerCase().replace(/[’']/g, "'").replace(/[.,!?;:]/g, "").replace(/\s+/g, " ").trim();
+const D = () => DATA.days[state.day];
+const TAB_DATA = { grammar: "grammar", grammarEx: "grammarMcq", extra: "extra", vocab: "vocab", vocabEx: "vocabMcq", reading: "reading", exam: "exam", speaking: "speaking", summary: "reviewQuiz" };
+const hasTab = (d, k) => !TAB_DATA[k] || !!d[TAB_DATA[k]];
+function rerenderIf(tabs) { if (tabs.includes(state.tab)) render(); }
+
+async function askClaude(prompt, out, btn) {
+  if (!state.sample) return;
+  btn.disabled = true; out.textContent = "Claude đang đọc…";
+  try {
+    const r = await state.sample(prompt, { onText: ({ text }) => { out.textContent = text.replace(/\*\*/g, ""); }, modelTier: "default" });
+    out.textContent = r.text.replace(/\*\*/g, "");
+  } catch (e) {
+    out.textContent = e && e.code === "rate_limited" ? "Claude đang bận. Đợi một phút rồi bấm lại." : "Không gọi được Claude ở chế độ xem này.";
+  } finally { btn.disabled = false; }
+}
+
+/* ---------- MCQ block (answer-sheet bubbles) ---------- */
+function mcq(key, items, opts = {}) {
+  const box = $("div");
+  const ans = state.answers[key] || (state.answers[key] = {});
+  const graded = state.graded[key];
+  items.forEach((it, i) => {
+    const q = $("div", { class: "q" },
+      $("div", { class: "qn" }, String((opts.start || 1) + i) + "."),
+      $("div", {}, it.type ? $("div", { class: "qtype" }, it.type) : null, blank(it.q)));
+    const os = $("div", { class: "opts", role: "radiogroup" });
+    it.options.forEach((o, j) => {
+      const L = LETTERS[j];
+      const cls = ["opt"];
+      if (graded) { if (L === it.answer) cls.push("is-correct"); else if (ans[i] === L) cls.push("is-wrong"); }
+      os.append($("label", { class: cls.join(" ") },
+        $("input", { type: "radio", name: key + "-" + i, value: L, checked: ans[i] === L, disabled: !!graded,
+          onchange: () => { ans[i] = L; } }),
+        $("span", { class: "bubble" }, L), $("span", {}, o)));
+    });
+    q.append(os);
+    if (graded) {
+      const ok = ans[i] === it.answer;
+      q.append($("div", { class: "feedback " + (ok ? "ok" : "bad") },
+        $("div", { class: "tag" }, (ok ? "Đúng" : ans[i] ? "Sai · bạn chọn " + ans[i] : "Bỏ trống") + " · Đáp án " + it.answer + " · " + it.tag),
+        $("div", {}, it.explain),
+        it.evidence ? $("div", { class: "evidence" }, "Câu chứa đáp án: “" + it.evidence + "”") : null));
+    }
+    box.append(q);
+  });
+  const total = items.length;
+  const right = graded ? items.filter((it, i) => ans[i] === it.answer).length : 0;
+  box.append($("div", { class: "actions" },
+    graded ? $("span", { class: "score" }, right + "/" + total) : null,
+    graded ? $("button", { class: "btn ghost", onclick: () => { delete state.graded[key]; state.answers[key] = {}; render(); } }, "Làm lại")
+      : $("button", { class: "btn", onclick: () => {
+          const unanswered = items.filter((_, i) => !ans[i]).length;
+          state.graded[key] = true;
+          const wrong = items.map((it, i) => ({ it, i })).filter(({ it, i }) => ans[i] !== it.answer);
+          Store.addMistakes(wrong.map(({ it, i }) => ({ day: state.day, section: opts.section, tag: it.tag, q: it.q,
+            chosen: ans[i] ? ans[i] + ". " + it.options[LETTERS.indexOf(ans[i])] : "(bỏ trống)",
+            answer: it.answer + ". " + it.options[LETTERS.indexOf(it.answer)], at: Date.now() })));
+          Store.setScore("d" + state.day + "-" + key, { day: state.day, section: opts.section, score: total - wrong.length, total, at: Date.now() });
+          if (opts.onGraded) opts.onGraded();
+          render();
+        } }, "Nộp bài"),
+    graded ? null : $("span", { class: "note" }, "Đáp án chỉ hiện sau khi nộp.")));
+  return box;
+}
+
+function transformBlock(tkey, list, start, section = "Viết lại câu") {
+  const tans = state.answers[tkey] || (state.answers[tkey] = {});
+  const tg = state.graded[tkey];
+  const tbox = $("div");
+  list.forEach((t, i) => {
+    const ok = tg && t.answers.some(a => norm(a) === norm(tans[i] || ""));
+    const row = $("div", { class: "tq" },
+      $("div", {}, $("b", {}, (start + i) + ". "), t.source),
+      $("div", { class: "start" }, $("b", {}, "→"),
+        $("input", { type: "text", id: "tf-" + state.day + "-" + tkey + "-" + i, value: tans[i] || (t.start + " "), disabled: !!tg, "aria-label": "Viết lại câu " + (start + i),
+          oninput: e => { tans[i] = e.target.value; } })));
+    if (tg) {
+      const out = $("div", { class: "ai-out" });
+      row.append($("div", { class: "feedback " + (ok ? "ok" : "bad") },
+        $("div", { class: "tag" }, (ok ? "Khớp đáp án mẫu" : "Khác đáp án mẫu") + " · " + t.tag),
+        $("div", {}, "Mẫu: ", $("b", {}, t.answers.join("  /  "))), $("div", {}, t.explain)));
+      if (!ok && state.sample) {
+        const b = $("button", { class: "btn ghost", onclick: () => askClaude(
+          "Bạn là giáo viên tiếng Anh B1. Bài viết lại câu.\nCâu gốc: " + t.source + "\nBắt đầu bằng: " + t.start + "\nĐáp án mẫu: " + t.answers.join(" / ") +
+          "\nHọc viên viết: " + (tans[i] || "") + "\nCâu của học viên có đúng ngữ pháp và giữ nguyên nghĩa không? Trả lời bằng tiếng Việt, tối đa 3 câu, không dùng markdown.", out, b) }, "Nhờ Claude xem câu này");
+        row.append($("div", { class: "actions" }, b), out);
+      }
+    }
+    tbox.append(row);
+  });
+  tbox.append($("div", { class: "actions" }, tg
+    ? $("button", { class: "btn ghost", onclick: () => { delete state.graded[tkey]; state.answers[tkey] = {}; render(); } }, "Làm lại")
+    : $("button", { class: "btn", onclick: () => {
+        state.graded[tkey] = true;
+        const wrong = list.map((t, i) => ({ t, i })).filter(({ t, i }) => !t.answers.some(a => norm(a) === norm(tans[i] || "")));
+        Store.addMistakes(wrong.map(({ t, i }) => ({ day: state.day, section, tag: t.tag, q: t.source + " → " + t.start + "…",
+          chosen: tans[i] || "(bỏ trống)", answer: t.answers[0], at: Date.now() })));
+        Store.setScore("d" + state.day + "-" + tkey, { day: state.day, section, score: list.length - wrong.length, total: list.length, at: Date.now() });
+        render(); } }, "Nộp bài")));
+  return tbox;
+}
+
+/* ---------- listening (browser speech, played twice) ---------- */
+const TTS = window.speechSynthesis;
+function speakLines(lines, btn) {
+  if (!TTS) return;
+  if (TTS.speaking) { TTS.cancel(); return; }
+  const voices = TTS.getVoices().filter(v => /^en[-_]/i.test(v.lang));
+  const female = voices.find(v => /female|samantha|zira|susan|serena|karen|moira|tessa|libby|sonia|aria|jenny/i.test(v.name)) || voices[0];
+  const male = voices.find(v => v !== female && /male|daniel|david|alex|fred|george|guy|ryan|mark/i.test(v.name)) || voices.find(v => v !== female) || female;
+  const who = {};
+  const queue = [];
+  for (let round = 0; round < 2; round++) lines.forEach(l => {
+    const m = l.match(/^([A-Z][a-z]+):\s*(.*)$/);
+    const name = m ? m[1] : "", text = m ? m[2] : l;
+    if (!(name in who)) who[name] = /^(Woman|Lan|Speaker|Mai|Hoa)$/.test(name) ? "f" : name === "" ? "f" : "m";
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-GB"; u.rate = 0.92;
+    const v = who[name] === "f" ? female : male; if (v) u.voice = v;
+    u.pitch = who[name] === "f" ? 1.1 : 0.9;
+    queue.push(u);
+  });
+  const label = btn.textContent;
+  btn.textContent = "■ Dừng";
+  queue[queue.length - 1].onend = queue[queue.length - 1].onerror = () => { btn.textContent = label; };
+  queue.forEach(u => TTS.speak(u));
+}
+function listenBtn(lines, label) {
+  if (!TTS) return $("span", { class: "note" }, "Trình duyệt không hỗ trợ đọc tiếng. Bấm “Xem lời thoại” để đọc thay.");
+  const b = $("button", { class: "btn ghost", onclick: () => speakLines(lines, b) }, "▶ " + (label || "Nghe (2 lần)"));
+  return b;
+}
+function scriptToggle(lines, key) {
+  const open = state.showScript[key];
+  return $("div", {},
+    $("button", { class: "btn ghost", onclick: () => { state.showScript[key] = !open; render(); } }, open ? "Ẩn lời thoại" : "Xem lời thoại"),
+    open ? $("div", { class: "passage note" }, lines.map(l => $("p", {}, l))) : null);
+}
+
+/* ---------- exam ---------- */
+const PER_Q = { 0: 1, 1: 40 / 30, 2: 1 };
+function examScore(d) {
+  return d.exam.papers.map((pa, pi) => {
+    let right = 0, done = 0, total = 0;
+    pa.parts.forEach(pt => {
+      const n = (pt.items || pt.transform).length; total += n;
+      const s = state.scores["d" + d.day + "-" + pt.key];
+      if (s) { right += s.score; done += n; }
+    });
+    return { title: pa.title, points: pa.points, right, done, total, pts: Math.round(right * (pa.points ? pa.points / total : PER_Q[pi]) * 10) / 10 };
+  });
+}
+/* ---------- tabs ---------- */
+const views = {
+  plan(d) {
+    const done = (state.progress["d" + state.day] || {}).done || [];
+    const list = $("div", { class: "checklist" });
+    d.plan.forEach((p, i) => {
+      const rest = p.step === "Nghỉ";
+      const isDone = done.includes(i);
+      list.append($("label", { class: "ck" + (isDone ? " done" : "") + (rest ? " rest" : "") },
+        rest ? $("span") : $("input", { type: "checkbox", checked: isDone, onchange: e => {
+          const nd = e.target.checked ? [...done, i] : done.filter(x => x !== i);
+          Store.setProgress(state.day, nd); render(); } }),
+        $("span", { class: "t" }, p.time),
+        $("span", { class: "what" }, $("b", {}, p.step), p.content ? " · " + p.content : "")));
+    });
+    const steps = d.plan.filter(p => p.step !== "Nghỉ").length;
+    return [$("section", { class: "sheet" },
+      $("div", { class: "head-row" }, $("h2", {}, "Kế hoạch ngày " + d.day), $("span", { class: "meta" }, done.length + "/" + steps + " bước xong · khoảng 4 tiếng")),
+      $("div", { class: "chips" }, $("span", { class: "chip n" }, d.grammarTopic), $("span", { class: "chip n" }, d.vocabTopic), $("span", { class: "chip n" }, d.speakingTopic)),
+      list,
+      $("p", { class: "note" }, "Bạn nghe tốt nhất nên Paper 3 là chỗ gánh điểm. Hôm nay dồn sức cho ngữ pháp nền vì nó nằm trong Paper 2 (40 điểm)."))];
+  },
+  grammar(d) {
+    const g = d.grammar;
+    const s = $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, d.grammarTopic), $("span", { class: "meta" }, "Đọc khoảng 15 phút")));
+    g.sections.forEach(sec => {
+      const t = $("table", {}, $("thead", {}, $("tr", {}, sec.headers.map(h => $("th", {}, h)))),
+        $("tbody", {}, sec.rows.map(r => $("tr", {}, r.map((c, j) => $("td", { class: j === 1 && sec.headers.length === 4 ? "formula" : "" }, c))))));
+      s.append($("h3", {}, sec.title), $("div", { class: "scroll" }, t));
+    });
+    s.append($("h3", {}, "Ghi nhớ"), $("ul", { class: "plain" }, g.notes.map(n => $("li", {}, n))));
+    const traps = $("section", { class: "sheet" }, $("h2", {}, "3 bẫy hay gặp"));
+    g.traps.forEach((t, i) => traps.append($("div", { class: "trap" },
+      $("h3", {}, (i + 1) + ". " + t.title), $("div", { class: "wrong" }, t.wrong), $("div", { class: "right" }, t.right), $("div", { class: "note" }, t.why))));
+    return [s, traps];
+  },
+  grammarEx(d) {
+    const tbox = transformBlock("transform", d.transform, 11);
+    return [
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Sentence completion"), $("span", { class: "meta" }, "Paper 2 · Part A · 10 câu")),
+        mcq("grammarMcq", d.grammarMcq, { section: "Bài tập ngữ pháp" })),
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Sentence transformation"), $("span", { class: "meta" }, "Paper 2 · Part C · viết lại sao cho nghĩa không đổi")), tbox)
+    ];
+  },
+  extra(d) {
+    const x = d.extra;
+    let n = 1;
+    const head = $("section", { class: "sheet" }, $("h2", {}, x.title), $("p", { class: "note" }, x.note));
+    const sets = x.sets.map(s => {
+      const start = n; n += s.items.length;
+      return $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, s.title), $("span", { class: "meta" }, s.items.length + " câu")),
+        s.directions ? $("p", { class: "note" }, $("i", {}, s.directions)) : null,
+        s.passage ? $("h3", {}, s.passageTitle || "") : null,
+        s.passage ? $("div", { class: "passage" }, s.passage.map((t, i) => $("p", {}, $("span", { class: "pn" }, "(" + (i + 1) + ")"), t))) : null,
+        mcq(s.key, s.items, { section: x.title + " · " + s.title, start }));
+    });
+    const tf = x.transform && x.transform.length ? $("section", { class: "sheet" },
+      $("div", { class: "head-row" }, $("h2", {}, "Viết lại câu"), $("span", { class: "meta" }, x.transform.length + " câu")),
+      transformBlock("extraTransform", x.transform, n, x.title + " · Viết lại câu")) : null;
+    return [head, ...sets, tf];
+  },
+  vocab(d) {
+    const known = (state.known["d" + state.day] || {}).items || [];
+    const isKnown = v => known.includes(v.phrase);
+    const setKnown = (v, on) => { Store.setKnown(state.day, on ? [...new Set([...known, v.phrase])] : known.filter(p => p !== v.phrase)); };
+    const deck = state.showKnown ? d.vocab : d.vocab.filter(v => !isKnown(v));
+    const left = d.vocab.length - known.length;
+    const showToggle = $("label", { class: "toggle" },
+      $("input", { type: "checkbox", id: "show-known-" + state.day, checked: state.showKnown, onchange: e => { state.showKnown = e.target.checked; state.flashIdx = 0; state.flipped = false; render(); } }),
+      "Hiện cả cụm đã biết");
+    let stage;
+    if (!deck.length) {
+      stage = $("div", { class: "card-stage" }, $("p", {}, "Bạn đã đánh dấu biết hết " + d.vocab.length + " cụm. Sang tab Bài tập TV để kiểm tra lại nhé."),
+        $("button", { class: "btn ghost", onclick: () => { Store.setKnown(state.day, []); state.flashIdx = 0; render(); } }, "Học lại tất cả"));
+    } else {
+      const i = Math.min(state.flashIdx || 0, deck.length - 1);
+      const v = deck[i];
+      const flipped = !!state.flipped;
+      const card = $("button", { class: "flash", onclick: () => { state.flipped = !flipped; render(); }, "aria-label": "Lật thẻ" },
+        flipped ? $("div", {}, $("div", { class: "big" }, v.meaning), $("div", { class: "note" }, v.colloc), $("div", {}, $("i", {}, v.example)))
+          : $("div", {}, $("div", { class: "big" }, v.phrase), $("div", { class: "ipa" }, v.ipa), $("div", { class: "note" }, isKnown(v) ? "Đã biết · bấm để xem nghĩa" : "Bấm để xem nghĩa")));
+      const go = n => { state.flashIdx = (i + n + deck.length) % deck.length; state.flipped = false; render(); };
+      const mark = () => {
+        setKnown(v, !isKnown(v)); state.flipped = false;
+        // khi ẩn cụm đã biết, thẻ hiện tại biến mất nên giữ nguyên vị trí là sang thẻ kế tiếp
+        if (state.showKnown) state.flashIdx = (i + 1) % deck.length;
+        else state.flashIdx = Math.min(i, Math.max(0, deck.length - 2));
+        render();
+      };
+      stage = $("div", { class: "card-stage" }, $("div", { class: "meta" }, (i + 1) + "/" + deck.length), card,
+        $("div", { class: "actions" },
+          $("button", { class: "btn ghost", onclick: () => go(-1) }, "← Trước"),
+          $("button", { class: isKnown(v) ? "btn ghost" : "btn ok", onclick: mark }, isKnown(v) ? "Bỏ đánh dấu" : "✓ Đã biết"),
+          $("button", { class: "btn", onclick: () => go(1) }, "Tiếp →")));
+    }
+    const table = $("table", {}, $("thead", {}, $("tr", {}, ["Đã biết", "Cụm từ", "Từ loại", "Phiên âm", "Nghĩa", "Collocation", "Ví dụ"].map(h => $("th", {}, h)))),
+      $("tbody", {}, d.vocab.map((v, j) => $("tr", { class: isKnown(v) ? "known-row" : "" },
+        $("td", {}, $("input", { type: "checkbox", class: "ck-known", id: "kn-" + state.day + "-" + j, checked: isKnown(v), "aria-label": "Đã biết " + v.phrase,
+          onchange: e => { setKnown(v, e.target.checked); render(); } })),
+        $("td", {}, $("b", {}, v.phrase)), $("td", { class: "note" }, v.pos), $("td", { class: "ipa" }, v.ipa),
+        $("td", {}, v.meaning), $("td", {}, v.colloc), $("td", {}, $("i", {}, v.example))))));
+    return [
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Thẻ ghi nhớ"), showToggle), stage),
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, d.vocabTopic), $("span", { class: "meta" }, "Còn " + left + " cần học · " + known.length + " đã biết")),
+        $("p", { class: "note" }, "Tick “Đã biết” cho cụm bạn đã thuộc để bỏ khỏi bộ thẻ."), $("div", { class: "scroll" }, table))
+    ];
+  },
+  vocabEx(d) {
+    return [$("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Vocabulary"), $("span", { class: "meta" }, "Paper 1 · Part A · 10 câu")),
+      mcq("vocabMcq", d.vocabMcq, { section: "Bài tập từ vựng" }))];
+  },
+  reading(d) {
+    const r = d.reading;
+    const left = state.timerLeft ?? r.minutes * 60;
+    const mm = String(Math.floor(left / 60)).padStart(2, "0"), ss = String(left % 60).padStart(2, "0");
+    const graded = state.graded.reading;
+    const passage = $("div", { class: "passage" }, r.paragraphs.map((p, i) => {
+      const el = $("p", {}, $("span", { class: "pn" }, "(" + (i + 1) + ")"));
+      let html = p.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+      if (graded) r.questions.forEach(q => q.evidence.split(" … ").forEach(frag => {
+        const f = frag.replace(/^\W+|\W+$/g, ""); if (f.length > 6 && html.includes(f)) html = html.replace(f, "<mark>" + f + "</mark>");
+      }));
+      el.insertAdjacentHTML("beforeend", html);
+      return el;
+    }));
+    const timerBtn = $("button", { class: "btn ghost", onclick: () => {
+      if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
+      else { state.timerId = setInterval(() => { state.timerLeft = Math.max(0, (state.timerLeft ?? r.minutes * 60) - 1);
+        if (state.timerLeft === 0) { clearInterval(state.timerId); state.timerId = null; }
+        const t = document.getElementById("timer"); if (t) { t.textContent = String(Math.floor(state.timerLeft / 60)).padStart(2, "0") + ":" + String(state.timerLeft % 60).padStart(2, "0"); t.classList.toggle("low", state.timerLeft <= 120); } }, 1000); }
+      render(); } }, state.timerId ? "Tạm dừng" : left === r.minutes * 60 ? "Bắt đầu 12 phút" : "Chạy tiếp");
+    const words = graded ? $("section", { class: "sheet" }, $("h2", {}, "8 từ mới nên học"),
+      $("div", { class: "scroll" }, $("table", {}, $("tbody", {}, r.newWords.map(w => $("tr", {}, $("td", {}, $("b", {}, w.word)), $("td", { class: "note" }, w.pos), $("td", { class: "ipa" }, w.ipa), $("td", {}, w.meaning))))))) : null;
+    return [
+      $("section", { class: "sheet" },
+        $("div", { class: "head-row" }, $("h2", {}, r.title), $("div", { class: "actions" }, $("span", { id: "timer", class: "timer" + (left <= 120 ? " low" : "") }, mm + ":" + ss), timerBtn)),
+        $("p", { class: "note" }, "Mẹo: đọc 5 câu hỏi trước, gạch từ khóa, rồi scan bài để tìm đoạn chứa đáp án."),
+        passage),
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Câu hỏi"), $("span", { class: "meta" }, "Paper 1 · Part B")),
+        mcq("reading", r.questions, { section: "Luyện đọc", onGraded: () => { if (state.timerId) { clearInterval(state.timerId); state.timerId = null; } } })),
+      words
+    ];
+  },
+  exam(d) {
+    const x = d.exam;
+    const sc = examScore(d);
+    const sum = Math.round(sc.reduce((a, s) => a + s.pts, 0) * 10) / 10;
+    const pct = s => s.done ? Math.round(s.right / s.done * 100) : null;
+    const byPct = !x.papers.every(pa => pa.points);
+    const head = $("section", { class: "sheet" },
+      $("div", { class: "head-row" }, $("h2", {}, x.title), $("span", { class: "meta" }, x.meta || "Đọc–Viết 90 phút · Nghe ~20 phút")),
+      $("p", { class: "note" }, x.note),
+      $("div", { class: "scroll" }, $("table", {}, $("tbody", {},
+        sc.map(s => $("tr", {}, $("td", {}, s.title), $("td", { class: "note" }, s.done + "/" + s.total + " câu đã nộp"),
+          $("td", { style: "font-variant-numeric: tabular-nums; font-weight: 700" }, !s.done ? "–" : byPct ? s.right + "/" + s.done + " · " + pct(s) + "%" : s.pts + " / " + s.points))),
+        $("tr", {}, $("td", {}, "Paper 4 – Speaking"), $("td", { class: "note" }, "luyện với Claude"), $("td", {}, byPct ? "–" : "– / 20")),
+        byPct
+          ? $("tr", {}, $("td", {}, $("b", {}, "Trung bình Paper 1–3")), $("td", {}), $("td", { style: "font-variant-numeric: tabular-nums; font-weight: 700" },
+              sc.some(s => s.done) ? Math.round(sc.filter(s => s.done).reduce((a, s) => a + pct(s), 0) / sc.filter(s => s.done).length) + "%" : "–"))
+          : $("tr", {}, $("td", {}, $("b", {}, "Tổng Paper 1–3")), $("td", {}), $("td", { style: "font-variant-numeric: tabular-nums; font-weight: 700" }, sum + " / 80"))))),
+      $("p", { class: "note" }, byPct
+        ? "Đậu khi trung bình ≥ 50% và không phần nào bị điểm liệt. Phần nào dưới 40% là vùng nguy hiểm, cần kéo lên trước."
+        : "Paper 2 mỗi câu ≈ 1,33 điểm (40 điểm / 30 câu). Cần ≥ 50/100 để đạt; mục tiêu của bạn là 55."));
+    const out = [head];
+    x.papers.forEach((pa, pi) => {
+      out.push($("h2", { class: "paper-title" }, pa.title + (pa.points ? " (" + pa.points + " điểm)" : pa.minutes ? " · " + pa.minutes + " phút" : "")));
+      pa.parts.forEach(pt => {
+        const s = $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, pt.title)));
+        if (pt.directions) s.append($("p", { class: "note" }, $("i", {}, pt.directions)));
+        if (pt.passage) s.append($("h3", {}, pt.passageTitle), $("div", { class: "passage" }, pt.passage.map(p => $("p", {}, p))));
+        if (pt.script) s.append($("div", { class: "actions" }, listenBtn(pt.script)), state.graded[pt.key] ? scriptToggle(pt.script, pt.key) : null);
+        if (pt.transform) s.append(transformBlock(pt.key, pt.transform, pt.start, x.title + " · " + pt.title));
+        else if (pi === 2 && !pt.script) {
+          s.append($("p", { class: "note" }, "Bấm ▶ trước mỗi câu. Mỗi đoạn được đọc 2 lần."));
+          const box = mcq(pt.key, pt.items, { section: x.title + " · " + pt.title, start: pt.start });
+          [...box.querySelectorAll(".q")].forEach((q, i) => q.children[1].prepend($("div", { class: "actions" }, listenBtn(pt.items[i].script, "Nghe"),
+            state.graded[pt.key] ? scriptToggle(pt.items[i].script, pt.key + i) : null)));
+          s.append(box);
+        } else s.append(mcq(pt.key, pt.items, { section: x.title + " · " + pt.title, start: pt.start }));
+        out.push(s);
+      });
+    });
+    const sp = x.speaking;
+    out.push($("h2", { class: "paper-title" }, "PAPER 4 – Speaking (20 điểm)"),
+      $("section", { class: "sheet" },
+        $("p", {}, $("b", {}, "Part A (5 điểm): "), sp.intro, $("span", { class: "note" }, " → dùng bài giới thiệu ở tab Nói ngày 1.")),
+        $("p", {}, $("b", {}, "Part B (15 điểm). Topic: "), $("i", {}, sp.topic)),
+        $("ol", {}, sp.questions.map(q => $("li", {}, q))),
+        $("p", { class: "note" }, "Nói to từng câu 40–60 giây theo khung Ý chính → Lý do → Ví dụ. Gõ câu trả lời vào cuộc trò chuyện để Claude chấm.")));
+    return out;
+  },
+  speaking(d) {
+    const sp = d.speaking;
+    const draft = state.answers.intro || LS.get("khtn.intro." + state.day, "");
+    const introOut = $("div", { class: "ai-out" });
+    const introBtn = $("button", { class: "btn ghost", onclick: () => askClaude(
+      "Bạn là giám khảo nói tiếng Anh đầu vào thạc sĩ, trình độ B1. Đây là bài giới thiệu bản thân (khoảng 1 phút) của thí sinh:\n\n" + (state.answers.intro || "") +
+      "\n\nHãy: 1) liệt kê lỗi ngữ pháp/từ vựng và sửa, giải thích ngắn bằng tiếng Việt; 2) viết lại bản hoàn chỉnh ngắn gọn ở trình độ B1. Không dùng markdown heading.", introOut, introBtn) }, "Nhờ Claude sửa bài");
+    const intro = $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, sp.introTitle), $("span", { class: "meta" }, "Paper 4")),
+      $("div", {}, sp.intro.map(l => $("div", { class: "intro-line" }, l))),
+      $("label", { for: "intro-" + state.day, class: "note" }, "Viết bài của bạn (điền vào chỗ trống, nói to 3 lần):"),
+      $("textarea", { id: "intro-" + state.day, oninput: e => { state.answers.intro = e.target.value; LS.set("khtn.intro." + state.day, e.target.value); } }, draft),
+      state.sample ? $("div", { class: "actions" }, introBtn) : null, introOut);
+    if (!state.answers.intro && draft) state.answers.intro = draft;
+    const sa = state.answers.speak || (state.answers.speak = {});
+    const qs = $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Giám khảo hỏi: " + d.speakingTopic), $("span", { class: "meta" }, sp.questions.length + " câu · nói 40–60 giây mỗi câu")),
+      $("div", { class: "grid2" },
+        $("div", {}, $("h3", {}, "Khung trả lời"), $("p", { class: "note" }, sp.frame)),
+        $("div", {}, $("h3", {}, "Câu cứu nguy"), $("ul", { class: "plain note" }, sp.rescue.map(r => $("li", {}, r))))));
+    sp.questions.forEach((q, i) => {
+      const out = $("div", { class: "ai-out" });
+      const b = $("button", { class: "btn ghost", onclick: () => askClaude(
+        "Bạn là giám khảo nói tiếng Anh đầu vào thạc sĩ, trình độ B1.\nCâu hỏi: " + q.q + "\nThí sinh trả lời: " + (sa[i] || "") +
+        "\nHãy: 1) sửa lỗi ngữ pháp/từ vựng, giải thích ngắn bằng tiếng Việt; 2) gợi ý 1 câu trả lời hay hơn ngắn gọn (2–3 câu tiếng Anh B1). Gạch đầu dòng, không dùng markdown heading.", out, b) }, "Nhờ Claude sửa");
+      qs.append($("div", { class: "tq" },
+        $("div", {}, $("b", {}, (i + 1) + ". " + q.q)), $("div", { class: "note" }, q.hint),
+        $("textarea", { id: "sp-" + state.day + "-" + i, placeholder: "Nói to trước, sau đó gõ lại câu trả lời của bạn ở đây", oninput: e => { sa[i] = e.target.value; } }, sa[i] || ""),
+        state.sample ? $("div", { class: "actions" }, b) : null, out));
+    });
+    const totalOut = $("div", { class: "ai-out" });
+    const totalBtn = $("button", { class: "btn", onclick: () => askClaude(
+      "Bạn là giám khảo nói tiếng Anh đầu vào thạc sĩ ĐH KHTN, trình độ B1. Phần hội thoại chấm trên 15 điểm theo tiêu chí: " + sp.rubric.join("; ") +
+      ".\n\n" + sp.questions.map((q, i) => "Hỏi: " + q.q + "\nĐáp: " + (sa[i] || "(không trả lời)")).join("\n\n") +
+      "\n\nHãy chấm điểm ước tính /15, rồi nêu đúng 3 điểm cần cải thiện, bằng tiếng Việt, ngắn gọn, không dùng markdown heading.", totalOut, totalBtn) }, "Chấm điểm ước tính /15");
+    const rubric = $("section", { class: "sheet" }, $("h2", {}, "Tiêu chí chấm (15 điểm)"), $("ul", { class: "plain" }, sp.rubric.map(r => $("li", {}, r))),
+      state.sample ? $("div", { class: "actions" }, totalBtn) : $("p", { class: "note" }, "Mở trang này trên claude.ai để Claude sửa bài và chấm điểm, hoặc dán câu trả lời vào cuộc trò chuyện."),
+      totalOut);
+    return [intro, qs, rubric];
+  },
+  summary(d) {
+    const mine = state.mistakes.filter(m => m.day === state.day);
+    return [summaryBlock(mine, "Lỗi sai ngày " + d.day),
+      $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, "Quiz ôn tập"), $("span", { class: "meta" }, "10 câu trộn ngữ pháp + từ vựng")),
+        mcq("reviewQuiz", d.reviewQuiz, { section: "Quiz tổng kết" }))];
+  }
+};
+
+function summaryBlock(list, title) {
+  const by = {};
+  list.forEach(m => { (by[m.tag] = by[m.tag] || []).push(m); });
+  const tags = Object.keys(by).sort((a, b) => by[b].length - by[a].length);
+  const s = $("section", { class: "sheet" }, $("div", { class: "head-row" }, $("h2", {}, title), $("span", { class: "meta" }, list.length + " lỗi")));
+  if (!tags.length) { s.append($("p", { class: "note" }, "Chưa có lỗi nào. Nộp các bài tập, câu sai sẽ tự ghi vào đây theo chủ điểm.")); return s; }
+  s.append($("div", { class: "chips" }, tags.map(t => $("span", { class: "chip" }, t + " × " + by[t].length))));
+  tags.forEach(t => {
+    s.append($("h3", {}, t));
+    s.append($("ul", { class: "plain" }, by[t].map(m => $("li", {}, blank(m.q), " — ", $("span", { class: "wrong" }, m.chosen), " → ", $("span", { class: "right" }, m.answer),
+      $("span", { class: "note" }, "  (ngày " + m.day + " · " + m.section + ")")))));
+  });
+  return s;
+}
+
+function scheduleView() {
+  const t = $("table", {}, $("thead", {}, $("tr", {}, ["Ngày", "Ngữ pháp", "Từ vựng", "Đề / Nói", ""].map(h => $("th", {}, h)))),
+    $("tbody", {}, SCHEDULE.map((r, i) => {
+      const n = i + 1, ready = !!DATA.days[n], done = ((state.progress["d" + n] || {}).done || []).length;
+      return $("tr", {}, $("td", {}, $("b", {}, n)), r.map(c => $("td", {}, c)),
+        $("td", {}, $("span", { class: "status" + (ready ? " on" : "") }, ready ? (done ? done + " bước xong" : "Sẵn sàng") : "Chưa soạn")));
+    })));
+  return [$("section", { class: "sheet" }, $("h2", {}, "Lịch 7 ngày"), $("div", { class: "scroll" }, t),
+    $("p", { class: "note" }, "Ngày 4 thi thử 70 câu, ngày 6 thi thử đúng format đề thật 90 câu (có Tìm lỗi sai, 4 bài đọc). Từ ngày 2 mỗi ngày viết lại 5 câu. Ngày chưa soạn: gõ “Bắt đầu ngày N” với Claude để soạn và cập nhật trang này."))];
+}
+function logView() {
+  const scores = Object.values(state.scores).sort((a, b) => a.day - b.day || a.at - b.at);
+  const st = $("section", { class: "sheet" }, $("h2", {}, "Điểm các bài đã nộp"),
+    scores.length ? $("div", { class: "scroll" }, $("table", {}, $("tbody", {}, scores.map(s => $("tr", {}, $("td", {}, "Ngày " + s.day), $("td", {}, s.section),
+      $("td", { style: "font-variant-numeric: tabular-nums; font-weight: 700" }, s.score + "/" + s.total))))))
+      : $("p", { class: "note" }, "Chưa nộp bài nào."));
+  return [summaryBlock(state.mistakes, "Sổ lỗi sai (tất cả các ngày)"), st];
+}
+
+/* ---------- render ---------- */
+function render() {
+  const days = document.getElementById("days"); days.replaceChildren();
+  for (let n = 1; n <= 7; n++) days.append($("button", { class: "day-btn", "aria-pressed": String(state.day === n && !["schedule", "log"].includes(state.tab)),
+    onclick: () => { if (state.day !== n) { state.answers = {}; state.graded = {}; state.showScript = {}; if (TTS) TTS.cancel(); } state.day = n; if (["schedule", "log"].includes(state.tab)) state.tab = "plan"; LS.set("khtn.day", n); LS.set("khtn.tab", state.tab); render(); } },
+    $("span", { class: "dot" + (DATA.days[n] ? " ready" : "") }), "Ngày " + n));
+  const tabs = document.getElementById("tabs"); tabs.replaceChildren();
+  const d = D();
+  if (d) TABS.filter(([k]) => hasTab(d, k)).forEach(([k, label]) => tabs.append($("button", { class: "tab", role: "tab", "aria-selected": String(state.tab === k), onclick: () => { state.tab = k; LS.set("khtn.tab", k); render(); window.scrollTo({ top: 0 }); } }, label)));
+  [["schedule", "Lịch 7 ngày"], ["log", "Sổ lỗi sai"]].forEach(([k, label]) => tabs.append($("button", { class: "tab global", role: "tab", "aria-selected": String(state.tab === k), onclick: () => { state.tab = k; LS.set("khtn.tab", k); render(); } }, label)));
+  const main = document.getElementById("main");
+  let nodes;
+  if (state.tab === "schedule") nodes = scheduleView();
+  else if (state.tab === "log") nodes = logView();
+  else if (!d) nodes = [$("section", { class: "sheet" }, $("h2", {}, "Ngày " + state.day + " chưa được soạn"),
+    $("p", {}, "Gõ “Bắt đầu ngày " + state.day + "” với Claude. Bài học sẽ được thêm vào trang này."), $("p", { class: "note" }, SCHEDULE[state.day - 1].join(" · ")))];
+  else nodes = (hasTab(d, state.tab) && views[state.tab] || views.plan)(d);
+  main.replaceChildren(...nodes.filter(Boolean));
+}
+if (!DATA.days[state.day]) state.day = 1;
+render();
+connect();
+</script>

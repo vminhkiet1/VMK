@@ -1,0 +1,1021 @@
+{
+  "title": "Đề mẫu KHTN · 70 câu",
+  "note": "Làm như thi thật: Paper 1 + 2 trong 90 phút, Paper 3 khoảng 20 phút (mỗi bài nghe phát 2 lần). Nộp từng Part, điểm quy đổi hiện ở đầu trang.",
+  "papers": [
+    {
+      "title": "PAPER 1 – Vocabulary & Reading",
+      "points": 20,
+      "parts": [
+        {
+          "key": "x1a",
+          "title": "Part A. Vocabulary (1–10)",
+          "directions": "Directions: Choose the word or phrase (A, B, C or D) that best completes each sentence.",
+          "start": 1,
+          "items": [
+            {
+              "q": "The bus ___ down on the way, so we arrived an hour late.",
+              "options": [
+                "broke",
+                "put",
+                "turned",
+                "let"
+              ],
+              "answer": "A",
+              "tag": "Phrasal verb",
+              "explain": "break down = (xe, máy) bị hỏng. turn down = từ chối/vặn nhỏ; let down = làm thất vọng; put down = đặt xuống."
+            },
+            {
+              "q": "Could you give the police a brief ___ of the man you saw?",
+              "options": [
+                "account",
+                "description",
+                "information",
+                "detail"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "a description of a person = sự mô tả một người. account = bản tường thuật sự việc; detail là chi tiết nhỏ; information không đếm được, không đi với \"a\"."
+            },
+            {
+              "q": "I tried to ___ him to stay, but he had already made up his mind.",
+              "options": [
+                "insist",
+                "persuade",
+                "suggest",
+                "demand"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "persuade sb to do sth = thuyết phục ai làm gì. insist on; suggest + V-ing/that; demand that/demand sth, không dùng \"demand sb to do\"."
+            },
+            {
+              "q": "I'd like to ___ an appointment with Dr. Lan for Friday morning.",
+              "options": [
+                "make",
+                "do",
+                "have",
+                "take"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "make an appointment = đặt lịch hẹn. Collocation cố định."
+            },
+            {
+              "q": "After weeks of discussion, the board finally ___ a decision.",
+              "options": [
+                "reached",
+                "got",
+                "did",
+                "put"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "reach a decision = đi đến quyết định. Cũng nói make a decision, nhưng không dùng do/get/put."
+            },
+            {
+              "q": "We searched everywhere for the missing keys, but all in ___.",
+              "options": [
+                "failure",
+                "waste",
+                "vain",
+                "use"
+              ],
+              "answer": "C",
+              "tag": "Idiom",
+              "explain": "in vain = vô ích, uổng công. Thành ngữ cố định."
+            },
+            {
+              "q": "Regular exercise can significantly ___ the risk of heart disease.",
+              "options": [
+                "reduce",
+                "fall",
+                "drop",
+                "decline"
+              ],
+              "answer": "A",
+              "tag": "Từ vựng",
+              "explain": "Cần ngoại động từ có tân ngữ \"the risk\": reduce. decline/fall thường là nội động từ (giá giảm); drop the risk không tự nhiên."
+            },
+            {
+              "q": "Our new manager is very ___; she always listens to her staff's ideas.",
+              "options": [
+                "considering",
+                "considerable",
+                "considerate",
+                "consideration"
+              ],
+              "answer": "C",
+              "tag": "Từ dễ nhầm",
+              "explain": "considerate = chu đáo, biết quan tâm người khác. considerable = đáng kể (a considerable amount). Sau \"very\" cần tính từ."
+            },
+            {
+              "q": "All students must ___ their assignments before Friday.",
+              "options": [
+                "hand in",
+                "take off",
+                "hand out",
+                "give up"
+              ],
+              "answer": "A",
+              "tag": "Phrasal verb",
+              "explain": "hand in = nộp (bài). hand out = phát ra; give up = từ bỏ; take off = cởi ra/cất cánh."
+            },
+            {
+              "q": "The company plans to ___ more money in research next year.",
+              "options": [
+                "pay",
+                "cost",
+                "spend",
+                "invest"
+              ],
+              "answer": "D",
+              "tag": "Từ dễ nhầm",
+              "explain": "invest money in sth = đầu tư tiền vào. spend money ON sth; pay FOR; cost không đi với \"money in\"."
+            }
+          ]
+        },
+        {
+          "key": "x1b1",
+          "title": "Part B. Reading – First passage (11–15)",
+          "directions": "Directions: Read the passages and choose the best answer (A, B, C or D) to each question.",
+          "start": 11,
+          "passageTitle": "Sleep and Memory",
+          "passage": [
+            "For a long time, sleep was seen as a period when the brain simply switched off. Today, scientists know that this is far from true. While we sleep, the brain is busy sorting and storing the information we collected during the day.",
+            "In one well-known type of experiment, two groups of students learn a list of new words in the evening. One group sleeps for eight hours, while the other stays awake through the night. When both groups are tested the next day, the students who slept usually remember far more words. Researchers believe that during deep sleep, the brain replays new memories and moves them from short-term storage to long-term storage.",
+            "Sleep also seems to help us solve problems. People who are given a difficult puzzle and allowed to 'sleep on it' are often more likely to find the answer the next morning than those who keep working on it without rest.",
+            "Unfortunately, many students do exactly the opposite before an exam. They stay up late, drink coffee and try to learn everything in one night. This habit, known as 'cramming', may help them remember a few facts for a short time, but much of the information is quickly forgotten. Lack of sleep also makes it harder to concentrate during the exam itself.",
+            "The message for learners is simple: studying a little every day and getting enough sleep is far more effective than a single long night of revision."
+          ],
+          "items": [
+            {
+              "q": "What is the main idea of the passage?",
+              "options": [
+                "Puzzles are difficult to solve at night.",
+                "The brain switches off completely during sleep.",
+                "Students drink too much coffee.",
+                "Sleep plays an important role in learning and memory."
+              ],
+              "answer": "D",
+              "tag": "Đọc: ý chính",
+              "explain": "Cả bài nói về vai trò của giấc ngủ với trí nhớ và việc học. A và D chỉ là chi tiết; C bị bài phủ nhận ngay đoạn 1."
+            },
+            {
+              "q": "In the experiment, the students who slept ___.",
+              "options": [
+                "did not take the test",
+                "remembered more words the next day",
+                "forgot most of the words",
+                "learned the words faster in the evening"
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 2: \"the students who slept usually remember far more words\"."
+            },
+            {
+              "q": "The word 'it' in \"sleep on it\" (paragraph 3) refers to ___.",
+              "options": [
+                "the rest",
+                "the puzzle",
+                "the night",
+                "the answer"
+              ],
+              "answer": "B",
+              "tag": "Đọc: từ quy chiếu",
+              "explain": "\"sleep on it\" = để sang hôm sau mới quyết; \"it\" thay cho \"a difficult puzzle\" ngay trước đó."
+            },
+            {
+              "q": "According to the passage, 'cramming' ___.",
+              "options": [
+                "improves concentration during the exam",
+                "helps students remember information for a long time",
+                "is recommended by researchers",
+                "may help with a few facts, but much is soon forgotten"
+              ],
+              "answer": "D",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 4: giúp nhớ vài dữ kiện trong thời gian ngắn nhưng phần lớn bị quên nhanh, và còn làm giảm tập trung (loại D)."
+            },
+            {
+              "q": "What advice does the writer give to learners?",
+              "options": [
+                "Take a test every morning.",
+                "Avoid studying in the evening.",
+                "Study a little every day and get enough sleep.",
+                "Stay up late before an exam."
+              ],
+              "answer": "C",
+              "tag": "Đọc: chi tiết",
+              "explain": "Câu cuối bài nêu rõ lời khuyên này."
+            }
+          ]
+        },
+        {
+          "key": "x1b2",
+          "title": "Part B. Reading – Second passage (16–20)",
+          "start": 16,
+          "passageTitle": "Working from Home",
+          "passage": [
+            "Before 2020, working from home was a privilege enjoyed by only a small number of employees. When the pandemic forced offices to close, millions of people suddenly had to turn their kitchens and bedrooms into workplaces. Several years later, many companies have decided not to return completely to the old system. Instead, they have adopted a 'hybrid' model, in which staff spend part of the week in the office and part of it at home.",
+            "Supporters of remote work point to several benefits. Employees save the time and money they used to spend on commuting, and many say they can concentrate better without the noise of a busy office. Companies, for their part, can reduce the cost of renting large office spaces.",
+            "However, working from home is not without its problems. Some workers feel lonely and miss the informal conversations with colleagues that often lead to new ideas. Others find it difficult to separate their working life from their private life, and end up working much longer hours than before. Managers, too, sometimes find it harder to train new staff or to build a strong team spirit.",
+            "For these reasons, most experts believe that the hybrid model is likely to remain the most popular option. It allows employees to enjoy the flexibility of remote work while keeping the face-to-face contact that is still essential for many tasks."
+          ],
+          "items": [
+            {
+              "q": "What is the passage mainly about?",
+              "options": [
+                "How to train new staff",
+                "The history of the pandemic",
+                "How to rent an office",
+                "The advantages and disadvantages of working from home"
+              ],
+              "answer": "D",
+              "tag": "Đọc: ý chính",
+              "explain": "Đoạn 2 nêu lợi ích, đoạn 3 nêu bất lợi, đoạn 4 kết luận. Các phương án khác chỉ là chi tiết."
+            },
+            {
+              "q": "According to the passage, a 'hybrid' model means ___.",
+              "options": [
+                "working longer hours",
+                "working only in the office",
+                "working only at home",
+                "dividing the week between the office and home"
+              ],
+              "answer": "D",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 1 định nghĩa: part of the week in the office and part of it at home."
+            },
+            {
+              "q": "Which of the following is NOT mentioned as a benefit of remote work?",
+              "options": [
+                "Saving time on commuting",
+                "Better concentration",
+                "Higher salaries",
+                "Lower office costs for companies"
+              ],
+              "answer": "C",
+              "tag": "Đọc: NOT mentioned",
+              "explain": "A, B, C đều có ở đoạn 2. Bài không nhắc tới lương cao hơn."
+            },
+            {
+              "q": "The word 'essential' in the last paragraph is closest in meaning to ___.",
+              "options": [
+                "expensive",
+                "difficult",
+                "necessary",
+                "optional"
+              ],
+              "answer": "C",
+              "tag": "Đọc: từ đồng nghĩa",
+              "explain": "essential = cần thiết, thiết yếu = necessary. optional là trái nghĩa."
+            },
+            {
+              "q": "What do most experts believe about the hybrid model?",
+              "options": [
+                "It is likely to remain the most popular option.",
+                "It is only suitable for managers.",
+                "It causes loneliness.",
+                "It will soon disappear."
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 4: \"the hybrid model is likely to remain the most popular option\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 2 – Grammar, Use of English & Writing",
+      "points": 40,
+      "parts": [
+        {
+          "key": "x2a",
+          "title": "Part A. Sentence completion (21–35)",
+          "directions": "Directions: Choose the word or phrase (A, B, C or D) that best completes each sentence.",
+          "start": 21,
+          "items": [
+            {
+              "q": "If I ___ more free time, I would learn another language.",
+              "options": [
+                "will have",
+                "would have",
+                "have",
+                "had"
+              ],
+              "answer": "D",
+              "tag": "Câu điều kiện",
+              "explain": "Câu điều kiện loại 2 (không có thật ở hiện tại): If + S + V2/ed, S + would + V."
+            },
+            {
+              "q": "She ___ for this company since 2018.",
+              "options": [
+                "works",
+                "has worked",
+                "is working",
+                "worked"
+              ],
+              "answer": "B",
+              "tag": "Hiện tại hoàn thành",
+              "explain": "\"since 2018\" là dấu hiệu thì hiện tại hoàn thành: has/have + V3."
+            },
+            {
+              "q": "The report ___ by the end of next week.",
+              "options": [
+                "is finishing",
+                "finishes",
+                "will finish",
+                "will be finished"
+              ],
+              "answer": "D",
+              "tag": "Bị động",
+              "explain": "Bản báo cáo không tự hoàn thành, nên dùng bị động tương lai: will be + V3."
+            },
+            {
+              "q": "The woman ___ car was stolen called the police.",
+              "options": [
+                "which",
+                "whom",
+                "who",
+                "whose"
+              ],
+              "answer": "D",
+              "tag": "Mệnh đề quan hệ",
+              "explain": "whose + danh từ chỉ sự sở hữu: chiếc xe CỦA người phụ nữ."
+            },
+            {
+              "q": "I'm not used to ___ up so early.",
+              "options": [
+                "getting",
+                "be getting",
+                "got",
+                "get"
+              ],
+              "answer": "A",
+              "tag": "Used to / be used to",
+              "explain": "be used to + V-ing = quen với việc gì. Khác used to + V (đã từng)."
+            },
+            {
+              "q": "___ the heavy rain, the match went ahead as planned.",
+              "options": [
+                "Although",
+                "Because",
+                "Even though",
+                "Despite"
+              ],
+              "answer": "D",
+              "tag": "Liên từ",
+              "explain": "Sau chỗ trống là cụm danh từ \"the heavy rain\" nên dùng Despite. Although/Even though cần mệnh đề S + V."
+            },
+            {
+              "q": "He asked me where ___.",
+              "options": [
+                "did I live",
+                "I am living",
+                "do I live",
+                "I lived"
+              ],
+              "answer": "D",
+              "tag": "Câu gián tiếp",
+              "explain": "Câu hỏi gián tiếp: không đảo trợ động từ, và lùi thì (live → lived)."
+            },
+            {
+              "q": "By the time we arrived, the film ___.",
+              "options": [
+                "has already started",
+                "already started",
+                "was already starting",
+                "had already started"
+              ],
+              "answer": "D",
+              "tag": "Quá khứ hoàn thành",
+              "explain": "Hành động xảy ra trước một hành động khác trong quá khứ dùng quá khứ hoàn thành: had + V3."
+            },
+            {
+              "q": "You'd better ___ a doctor about that cough.",
+              "options": [
+                "seen",
+                "to see",
+                "see",
+                "seeing"
+              ],
+              "answer": "C",
+              "tag": "Had better",
+              "explain": "had better + V nguyên mẫu (không \"to\")."
+            },
+            {
+              "q": "This is the ___ book I have ever read.",
+              "options": [
+                "most interesting",
+                "more interesting",
+                "as interesting",
+                "interestinger"
+              ],
+              "answer": "A",
+              "tag": "So sánh",
+              "explain": "\"the ... I have ever read\" là so sánh nhất. Tính từ dài: the most + adj."
+            },
+            {
+              "q": "I wish I ___ how to swim.",
+              "options": [
+                "knew",
+                "know",
+                "will know",
+                "have known"
+              ],
+              "answer": "A",
+              "tag": "Câu ước",
+              "explain": "Ước điều trái với hiện tại: wish + S + V2/ed."
+            },
+            {
+              "q": "Hardly ___ the house when it started to rain.",
+              "options": [
+                "had I left",
+                "I had left",
+                "did I leave",
+                "I left"
+              ],
+              "answer": "A",
+              "tag": "Đảo ngữ",
+              "explain": "Đảo ngữ: Hardly + had + S + V3 + when + S + V2 = vừa mới... thì..."
+            },
+            {
+              "q": "The students stopped ___ when the teacher came in.",
+              "options": [
+                "talk",
+                "to talk",
+                "talking",
+                "talked"
+              ],
+              "answer": "C",
+              "tag": "V-ing / to V",
+              "explain": "stop + V-ing = ngừng làm việc đang làm. stop + to V = dừng lại để làm việc khác, không hợp nghĩa."
+            },
+            {
+              "q": "I had my car ___ at the garage yesterday.",
+              "options": [
+                "repairing",
+                "to repair",
+                "repaired",
+                "repair"
+              ],
+              "answer": "C",
+              "tag": "Have sth done",
+              "explain": "Thể nhờ bảo: have + vật + V3 (nhờ người khác sửa xe)."
+            },
+            {
+              "q": "The more you practise, ___ you will become.",
+              "options": [
+                "more confident",
+                "the most confident",
+                "the more confident",
+                "most confident"
+              ],
+              "answer": "C",
+              "tag": "So sánh",
+              "explain": "So sánh kép: The + so sánh hơn..., the + so sánh hơn... = càng... càng..."
+            }
+          ]
+        },
+        {
+          "key": "x2b",
+          "title": "Part B. Cloze (36–45)",
+          "directions": "Directions: Read the passage and choose the best word (A, B, C or D) for each numbered blank.",
+          "start": 36,
+          "passageTitle": "From School to Work",
+          "passage": [
+            "Leaving school and starting work is one of the biggest changes in a young person's life. The (36) ___ from classroom to workplace is not always easy. At school, students are told exactly what to do and (37) ___ to do it. At work, however, they are expected to take (38) ___ for their own tasks.",
+            "Many young workers say that the first few months were the most difficult. They had to get used (39) ___ working long hours, dealing with customers and following rules they did not always understand. (40) ___, most of them agree that the experience helped them grow up quickly.",
+            "Employers also have an important role to (41) ___. A good company provides training and gives new staff a chance to ask questions (42) ___ feeling embarrassed. Some firms even give each new employee a 'mentor', an experienced colleague (43) ___ job is to offer advice and support.",
+            "Experts advise school-leavers to be patient. It takes time to (44) ___ new skills, and nobody is expected to know everything on the first day. With the right attitude, the move from school to work can be an exciting (45) ___ of life."
+          ],
+          "items": [
+            {
+              "q": "Chỗ trống (36)",
+              "options": [
+                "transfusion",
+                "transition",
+                "translation",
+                "transmission"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "transition = sự chuyển tiếp (từ A sang B). translation = bản dịch; transmission = sự truyền phát; transfusion = truyền máu."
+            },
+            {
+              "q": "Chỗ trống (37)",
+              "options": [
+                "when",
+                "what",
+                "who",
+                "which"
+              ],
+              "answer": "A",
+              "tag": "Từ để hỏi",
+              "explain": "\"what to do and when to do it\" = làm gì và khi nào làm. \"what\" đã dùng ở trước, lặp lại không hợp nghĩa."
+            },
+            {
+              "q": "Chỗ trống (38)",
+              "options": [
+                "charge",
+                "control",
+                "care",
+                "responsibility"
+              ],
+              "answer": "D",
+              "tag": "Collocation",
+              "explain": "take responsibility FOR = chịu trách nhiệm về. take charge OF, take care OF, take control OF không đi với \"for\"."
+            },
+            {
+              "q": "Chỗ trống (39)",
+              "options": [
+                "in",
+                "to",
+                "for",
+                "with"
+              ],
+              "answer": "B",
+              "tag": "Giới từ",
+              "explain": "get used TO + V-ing = dần quen với việc gì."
+            },
+            {
+              "q": "Chỗ trống (40)",
+              "options": [
+                "However",
+                "Because",
+                "Therefore",
+                "Moreover"
+              ],
+              "answer": "A",
+              "tag": "Liên từ",
+              "explain": "Câu trước nói khó khăn, câu sau nói trải nghiệm có ích, tức ý tương phản: However."
+            },
+            {
+              "q": "Chỗ trống (41)",
+              "options": [
+                "play",
+                "take",
+                "do",
+                "make"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "play a role = đóng vai trò. \"have a role to play\" là cách nói cố định."
+            },
+            {
+              "q": "Chỗ trống (42)",
+              "options": [
+                "despite",
+                "unless",
+                "without",
+                "with"
+              ],
+              "answer": "C",
+              "tag": "Giới từ",
+              "explain": "ask questions without feeling embarrassed = hỏi mà không thấy ngại."
+            },
+            {
+              "q": "Chỗ trống (43)",
+              "options": [
+                "who",
+                "whose",
+                "which",
+                "whom"
+              ],
+              "answer": "B",
+              "tag": "Mệnh đề quan hệ",
+              "explain": "whose job = công việc CỦA người đồng nghiệp đó (sở hữu)."
+            },
+            {
+              "q": "Chỗ trống (44)",
+              "options": [
+                "study",
+                "know",
+                "learn",
+                "teach"
+              ],
+              "answer": "C",
+              "tag": "Collocation",
+              "explain": "learn new skills = học kỹ năng mới. study thường đi với môn học; know là trạng thái, không phải quá trình."
+            },
+            {
+              "q": "Chỗ trống (45)",
+              "options": [
+                "level",
+                "step",
+                "stage",
+                "degree"
+              ],
+              "answer": "C",
+              "tag": "Từ vựng",
+              "explain": "a stage of life = một giai đoạn của cuộc đời."
+            }
+          ]
+        },
+        {
+          "key": "x2c",
+          "title": "Part C. Sentence transformation (46–50)",
+          "directions": "Directions: Finish each sentence so that it means the same as the sentence before it.",
+          "start": 46,
+          "transform": [
+            {
+              "source": "Although he was very tired, he kept working.",
+              "start": "Despite",
+              "answers": [
+                "Despite being very tired, he kept working.",
+                "Despite his tiredness, he kept working.",
+                "Despite the fact that he was very tired, he kept working."
+              ],
+              "tag": "Liên từ",
+              "explain": "Despite + V-ing / cụm danh từ / the fact that + S + V."
+            },
+            {
+              "source": "\"I will call you tomorrow,\" she said to me.",
+              "start": "She told me",
+              "answers": [
+                "She told me that she would call me the next day.",
+                "She told me she would call me the next day.",
+                "She told me that she would call me the following day.",
+                "She told me she would call me the following day."
+              ],
+              "tag": "Câu gián tiếp",
+              "explain": "Câu gián tiếp: will → would, I → she, you → me, tomorrow → the next day / the following day."
+            },
+            {
+              "source": "People say that he is a talented doctor.",
+              "start": "He is said",
+              "answers": [
+                "He is said to be a talented doctor."
+              ],
+              "tag": "Bị động",
+              "explain": "Bị động với say/believe/think: S + is said + to V (cùng thì với động từ chính)."
+            },
+            {
+              "source": "I didn't study hard, so I failed the exam.",
+              "start": "If I",
+              "answers": [
+                "If I had studied hard, I wouldn't have failed the exam.",
+                "If I had studied hard, I would not have failed the exam.",
+                "If I had studied harder, I wouldn't have failed the exam."
+              ],
+              "tag": "Câu điều kiện",
+              "explain": "Điều kiện loại 3 (trái với quá khứ): If + had + V3, S + would (not) have + V3. Đổi phủ định thành khẳng định và ngược lại."
+            },
+            {
+              "source": "It took me two hours to finish the report.",
+              "start": "I spent",
+              "answers": [
+                "I spent two hours finishing the report.",
+                "I spent two hours on the report.",
+                "I spent two hours doing the report.",
+                "I spent two hours writing the report."
+              ],
+              "tag": "It takes / spend",
+              "explain": "It takes sb + time + to V ⇔ S + spend + time + V-ing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 3 – Listening",
+      "points": 20,
+      "parts": [
+        {
+          "key": "x3a",
+          "title": "Part A. Short conversations (51–60)",
+          "directions": "Directions: You will hear ten short conversations. Choose the best answer to each question.",
+          "start": 51,
+          "items": [
+            {
+              "q": "How will the man pay?",
+              "options": [
+                "By credit card.",
+                "By bank transfer.",
+                "In cash.",
+                "By cheque."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Máy quẹt thẻ hỏng, chỉ nhận tiền mặt, và người đàn ông nói có tiền mặt.",
+              "script": [
+                "Man: Can I pay by credit card?",
+                "Woman: I'm sorry, the card machine is broken today, so we can only take cash.",
+                "Man: No problem, I have some cash with me."
+              ]
+            },
+            {
+              "q": "What time does the library close today?",
+              "options": [
+                "At 6 p.m.",
+                "At 8 p.m.",
+                "At 10 p.m.",
+                "At 2 p.m."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Bình thường 8 giờ, hôm nay thứ Bảy đóng sớm 2 tiếng: 6 giờ tối. Bẫy: 8 giờ được nhắc tới đầu tiên.",
+              "script": [
+                "Woman: What time does the library close today?",
+                "Man: Normally at eight in the evening, but it's Saturday, so it closes two hours earlier."
+              ]
+            },
+            {
+              "q": "Where will they have the picnic?",
+              "options": [
+                "By the lake.",
+                "At the beach.",
+                "In the park near the river.",
+                "In a garden."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Người phụ nữ đề nghị đổi sang công viên gần sông và người đàn ông đồng ý.",
+              "script": [
+                "Man: Shall we have the picnic by the lake on Sunday?",
+                "Woman: It's always too windy there. Let's go to the park near the river instead.",
+                "Man: Good idea."
+              ]
+            },
+            {
+              "q": "What size will the woman try?",
+              "options": [
+                "36",
+                "37",
+                "38",
+                "39"
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "\"the bigger ones\" = cỡ lớn hơn trong hai cỡ còn lại, tức 39.",
+              "script": [
+                "Woman: Do these shoes come in a size 38?",
+                "Man: I'm afraid we've only got 37 and 39 left.",
+                "Woman: Then I'll try the bigger ones."
+              ]
+            },
+            {
+              "q": "What does the woman's brother look like?",
+              "options": [
+                "He has short dark hair and a beard.",
+                "He is bald and wears glasses.",
+                "He is tall and wears glasses.",
+                "He has long fair hair."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Người cao đeo kính là anh họ. Anh trai có tóc ngắn sẫm màu và râu.",
+              "script": [
+                "Man: Is your brother the tall man with glasses?",
+                "Woman: No, that's my cousin. My brother is the one with short dark hair and a beard."
+              ]
+            },
+            {
+              "q": "What time should they be at the station?",
+              "options": [
+                "At 8:15.",
+                "At 8:45.",
+                "At 9:15.",
+                "At 9:45."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "\"a quarter to nine\" = 8 giờ 45. Bẫy: 9:15 là giờ tàu chạy.",
+              "script": [
+                "Woman: Our train to Da Lat leaves at nine fifteen.",
+                "Man: Then we should be at the station by a quarter to nine to buy the tickets."
+              ]
+            },
+            {
+              "q": "What did the woman do at the weekend?",
+              "options": [
+                "She visited friends.",
+                "She went hiking.",
+                "She stayed at home and read.",
+                "She went shopping."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "\"meant to go hiking\" = định đi nhưng không đi. \"stayed in and caught up on some reading\" = ở nhà đọc sách.",
+              "script": [
+                "Man: How was your weekend?",
+                "Woman: I meant to go hiking, but it rained the whole time, so I just stayed in and caught up on some reading."
+              ]
+            },
+            {
+              "q": "How much will the woman pay?",
+              "options": [
+                "240,000 dong.",
+                "300,000 dong.",
+                "360,000 dong.",
+                "180,000 dong."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "2 × 120.000 + 60.000 (nửa giá) = 300.000 đồng.",
+              "script": [
+                "Woman: How much are the tickets?",
+                "Man: Adults are one hundred and twenty thousand dong, and children pay half price.",
+                "Woman: Two adults and one child, please."
+              ]
+            },
+            {
+              "q": "Why can't the woman attend the meeting?",
+              "options": [
+                "She is ill.",
+                "She has to pick up her daughter.",
+                "She is on holiday.",
+                "She has another meeting."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "Cô ấy phải đón con gái ở trường.",
+              "script": [
+                "Man: Are you coming to the meeting this afternoon?",
+                "Woman: I can't, I'm afraid. I have to pick up my daughter from school. But I'll read the notes later."
+              ]
+            },
+            {
+              "q": "What does the man suggest?",
+              "options": [
+                "Drinking less coffee and sleeping earlier.",
+                "Taking a holiday.",
+                "Seeing a doctor.",
+                "Drinking more coffee."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "\"cut down on coffee\" = uống ít cà phê lại; \"go to bed earlier\" = ngủ sớm hơn.",
+              "script": [
+                "Woman: I've been feeling really tired all week.",
+                "Man: Maybe you should cut down on coffee and go to bed a bit earlier."
+              ]
+            }
+          ]
+        },
+        {
+          "key": "x3b",
+          "title": "Part B. Long conversation (61–65)",
+          "directions": "You will hear a conversation between two friends, Minh and Lan, about Lan's master's degree.",
+          "start": 61,
+          "script": [
+            "Minh: Hi Lan! I heard you've just finished your master's degree. Congratulations!",
+            "Lan: Thanks, Minh. It took me two and a half years, because I was working full-time at the same time.",
+            "Minh: That must have been hard. When did you have classes?",
+            "Lan: Mostly in the evenings, from six to nine, and on Saturday mornings. Sunday was the only day I could rest.",
+            "Minh: What was the most difficult part?",
+            "Lan: Definitely the thesis. Collecting the data took me almost six months, and my supervisor asked me to rewrite one chapter three times.",
+            "Minh: Wow. Was English a problem for you?",
+            "Lan: At first, yes. Most of the articles I had to read were in English. But after about a year, reading them became much easier. I think my vocabulary improved a lot.",
+            "Minh: Would you recommend the programme to other people?",
+            "Lan: Yes, but only if they are well organised. My advice is to plan your time carefully and not leave everything until the last minute."
+          ],
+          "items": [
+            {
+              "q": "How long did Lan's master's programme take?",
+              "options": [
+                "Two and a half years.",
+                "Three years.",
+                "Two years.",
+                "One year."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "\"It took me two and a half years\"."
+            },
+            {
+              "q": "When did Lan usually have classes?",
+              "options": [
+                "On weekday mornings.",
+                "Only on Sundays.",
+                "Every afternoon.",
+                "In the evenings and on Saturday mornings."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "Buổi tối 6–9 giờ và sáng thứ Bảy. Chủ nhật là ngày nghỉ."
+            },
+            {
+              "q": "What was the most difficult part of the programme for Lan?",
+              "options": [
+                "The exams.",
+                "The thesis.",
+                "English classes.",
+                "Group projects."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "\"Definitely the thesis\" = chắc chắn là luận văn."
+            },
+            {
+              "q": "How did Lan's English change during the programme?",
+              "options": [
+                "It did not improve.",
+                "She took a speaking course.",
+                "Reading English articles became easier.",
+                "She stopped reading in English."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Sau khoảng một năm, đọc bài báo tiếng Anh dễ hơn nhiều và vốn từ tăng."
+            },
+            {
+              "q": "What is Lan's advice?",
+              "options": [
+                "Choose an easy topic.",
+                "Study abroad.",
+                "Plan your time carefully.",
+                "Don't work full-time."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "\"plan your time carefully and not leave everything until the last minute\"."
+            }
+          ]
+        },
+        {
+          "key": "x3c",
+          "title": "Part C. Talk (66–70)",
+          "directions": "You will hear a talk given to new postgraduate students at a university library.",
+          "start": 66,
+          "script": [
+            "Speaker: Good morning, everyone, and welcome to the university library. My name is Hoa, and I'm going to give you some information about our services. The library is open from half past seven in the morning until nine in the evening, Monday to Friday, and from eight until five on Saturdays. We are closed on Sundays and public holidays. Postgraduate students can borrow up to ten books at a time, for three weeks. If you return a book late, you will have to pay a fine of five thousand dong for each day. On the second floor you will find quiet study rooms, which can be booked online for a maximum of three hours. Please remember that food is not allowed anywhere in the library, although you may bring water in a bottle with a lid. Finally, our staff run free workshops every Wednesday afternoon on how to search for academic articles. I strongly recommend that you attend at least one. Thank you, and enjoy your studies."
+          ],
+          "items": [
+            {
+              "q": "What time does the library close on weekdays?",
+              "options": [
+                "At 5 p.m.",
+                "At 7:30 p.m.",
+                "At 9 p.m.",
+                "At 9:30 p.m."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Thứ Hai–thứ Sáu mở từ 7:30 sáng tới 9 giờ tối. 5 giờ chiều là giờ đóng cửa thứ Bảy."
+            },
+            {
+              "q": "How many books can postgraduate students borrow at a time?",
+              "options": [
+                "Three.",
+                "Ten.",
+                "Twenty.",
+                "Five."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "\"up to ten books at a time\". Bẫy: \"three\" là số tuần được mượn."
+            },
+            {
+              "q": "What happens if a book is returned late?",
+              "options": [
+                "The student cannot borrow books again.",
+                "The library cancels the student card.",
+                "The student pays 50,000 dong.",
+                "The student pays 5,000 dong per day."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "\"a fine of five thousand dong for each day\"."
+            },
+            {
+              "q": "What are students allowed to bring into the library?",
+              "options": [
+                "Fruit.",
+                "Hot drinks.",
+                "Water in a bottle with a lid.",
+                "Snacks."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Không được mang đồ ăn, nhưng được mang nước trong chai có nắp."
+            },
+            {
+              "q": "What happens every Wednesday afternoon?",
+              "options": [
+                "There are free workshops on finding academic articles.",
+                "New books arrive.",
+                "The study rooms are cleaned.",
+                "The library closes early."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Nhân viên tổ chức workshop miễn phí về cách tìm bài báo học thuật."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "intro": "Please introduce yourself.",
+    "topic": "The advantages of knowing a foreign language",
+    "questions": [
+      "How long have you been learning English?",
+      "What is the most difficult part of learning English for you?",
+      "Do you think children should learn a foreign language at a young age?",
+      "Besides English, which language would you like to learn?"
+    ]
+  }
+}

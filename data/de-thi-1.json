@@ -1,0 +1,1015 @@
+{
+  "title": "Đề thi thử 1 · 70 câu",
+  "note": "Làm như thi thật: Paper 1 + 2 trong 90 phút liền, không xem tài liệu; Paper 3 khoảng 20 phút (mỗi bài nghe phát 2 lần). Nộp từng Part, điểm quy đổi hiện ở đầu trang.",
+  "papers": [
+    {
+      "title": "PAPER 1 – Vocabulary & Reading",
+      "points": 20,
+      "parts": [
+        {
+          "key": "x1a",
+          "title": "Part A. Vocabulary (1–10)",
+          "directions": "Directions: Choose the word or phrase (A, B, C or D) that best completes each sentence.",
+          "start": 1,
+          "items": [
+            {
+              "q": "Please ___ off your mobile phones before the exam begins.",
+              "options": [
+                "turn",
+                "put",
+                "take",
+                "get"
+              ],
+              "answer": "A",
+              "tag": "Phrasal verb",
+              "explain": "turn off = tắt (máy, đèn). put off = hoãn; take off = cởi / cất cánh; get off = xuống xe."
+            },
+            {
+              "q": "She has a good ___ of humour; everyone loves talking to her.",
+              "options": [
+                "feeling",
+                "sense",
+                "idea",
+                "mood"
+              ],
+              "answer": "B",
+              "tag": "Collocation",
+              "explain": "a sense of humour = khiếu hài hước. Cụm cố định."
+            },
+            {
+              "q": "The government should ___ more attention to public transport.",
+              "options": [
+                "take",
+                "make",
+                "pay",
+                "give"
+              ],
+              "answer": "C",
+              "tag": "Collocation",
+              "explain": "pay attention to = chú ý tới. Không nói take/make/give attention."
+            },
+            {
+              "q": "We had to ___ the meeting until next week because the manager was ill.",
+              "options": [
+                "call on",
+                "look up",
+                "set out",
+                "put off"
+              ],
+              "answer": "D",
+              "tag": "Phrasal verb",
+              "explain": "put off = hoãn lại. call on = ghé thăm; look up = tra cứu; set out = khởi hành."
+            },
+            {
+              "q": "If you want to lose weight, you should ___ down on sweets.",
+              "options": [
+                "cut",
+                "take",
+                "turn",
+                "break"
+              ],
+              "answer": "A",
+              "tag": "Phrasal verb",
+              "explain": "cut down on = cắt giảm. turn down = từ chối; break down = hỏng."
+            },
+            {
+              "q": "Tuan is very ___; he never tells lies.",
+              "options": [
+                "polite",
+                "honest",
+                "careful",
+                "famous"
+              ],
+              "answer": "B",
+              "tag": "Từ vựng",
+              "explain": "honest = trung thực, hợp với \"never tells lies\". polite = lịch sự."
+            },
+            {
+              "q": "I'm afraid I can't ___ you a lift today; my car is at the garage.",
+              "options": [
+                "take",
+                "give",
+                "bring",
+                "make"
+              ],
+              "answer": "B",
+              "tag": "Collocation",
+              "explain": "give sb a lift = cho ai đi nhờ xe. Cụm cố định."
+            },
+            {
+              "q": "Thank you for your ___; it was very useful.",
+              "options": [
+                "advise",
+                "advices",
+                "advice",
+                "adviser"
+              ],
+              "answer": "C",
+              "tag": "Từ dễ nhầm",
+              "explain": "Sau your cần danh từ: advice (không đếm được, không có -s). advise là động từ."
+            },
+            {
+              "q": "He ___ his driving test three times before he finally passed.",
+              "options": [
+                "failed",
+                "lost",
+                "missed",
+                "dropped"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "fail a test = trượt bài thi. lose a match = thua trận; miss = lỡ."
+            },
+            {
+              "q": "The price of houses in the city centre is ___ high.",
+              "options": [
+                "extreme",
+                "extremes",
+                "extremity",
+                "extremely"
+              ],
+              "answer": "D",
+              "tag": "Cấu tạo từ",
+              "explain": "Bổ nghĩa cho tính từ high → cần trạng từ: extremely."
+            }
+          ]
+        },
+        {
+          "key": "x1b1",
+          "title": "Part B. Reading – First passage (11–15)",
+          "directions": "Directions: Read the passages and choose the best answer (A, B, C or D) to each question.",
+          "start": 11,
+          "passageTitle": "Fast Fashion",
+          "passage": [
+            "Today, many people buy new clothes every month, and some wear an item only a few times before throwing it away. This trend is known as 'fast fashion': cheap, fashionable clothes that are produced quickly and sold in large numbers.",
+            "For shoppers, fast fashion has clear advantages. It allows people on a small budget to follow the latest styles, and shops change their collections so often that there is always something new to buy.",
+            "However, the environmental cost is high. Making clothes uses huge amounts of water and energy. For example, about 2,700 litres of water are needed to produce a single cotton T-shirt. In addition, most cheap clothes are made from plastic-based materials, which can take hundreds of years to break down when they are thrown away.",
+            "There are also concerns about the workers who make the clothes. In some factories, people work long hours for very low wages, and conditions can be unsafe.",
+            "Some consumers are now trying to change their habits. They buy fewer but better-quality items, repair clothes instead of replacing them, or shop at second-hand stores. As one expert put it, 'The most sustainable piece of clothing is the one that is already in your wardrobe.'"
+          ],
+          "items": [
+            {
+              "q": "What is the passage mainly about?",
+              "options": [
+                "How to repair old clothes",
+                "The good and bad sides of fast fashion",
+                "The history of cotton",
+                "Working conditions in factories"
+              ],
+              "answer": "B",
+              "tag": "Đọc: ý chính",
+              "explain": "Đoạn 2 nói lợi ích, đoạn 3–4 nói tác hại, đoạn 5 nói cách thay đổi. A, C, D chỉ là chi tiết."
+            },
+            {
+              "q": "According to paragraph 2, fast fashion is popular because ___.",
+              "options": [
+                "it is cheap and always offers new styles",
+                "clothes last for many years",
+                "it is made from natural materials",
+                "workers are well paid"
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 2: people on a small budget (rẻ) … always something new to buy (luôn có mẫu mới)."
+            },
+            {
+              "q": "The word 'which' in paragraph 3 refers to ___.",
+              "options": [
+                "clothes",
+                "hundreds of years",
+                "plastic-based materials",
+                "water and energy"
+              ],
+              "answer": "C",
+              "tag": "Đọc: từ quy chiếu",
+              "explain": "\"plastic-based materials, which can take hundreds of years to break down\" → which thay cho danh từ ngay trước dấu phẩy."
+            },
+            {
+              "q": "Which of the following is NOT mentioned as a way to change shopping habits?",
+              "options": [
+                "buying fewer items",
+                "repairing clothes",
+                "shopping second-hand",
+                "renting clothes"
+              ],
+              "answer": "D",
+              "tag": "Đọc: NOT mentioned",
+              "explain": "Đoạn 5 có buy fewer, repair, second-hand stores. Không nói tới thuê quần áo."
+            },
+            {
+              "q": "The word 'concerns' in paragraph 4 is closest in meaning to ___.",
+              "options": [
+                "worries",
+                "benefits",
+                "rules",
+                "questions"
+              ],
+              "answer": "A",
+              "tag": "Đọc: từ đồng nghĩa",
+              "explain": "concerns = mối lo ngại. Ngữ cảnh: lương thấp, điều kiện không an toàn → worries."
+            }
+          ]
+        },
+        {
+          "key": "x1b2",
+          "title": "Part B. Reading – Second passage (16–20)",
+          "start": 16,
+          "passageTitle": "Bikes for Everyone",
+          "passage": [
+            "In many cities around the world, you can now rent a bicycle from a street station, ride it to your destination and leave it at another station. These bike-sharing schemes have become very popular over the last fifteen years.",
+            "The idea is simple. Users download an app, find the nearest bike and unlock it with their phone. The first thirty minutes are often free or very cheap, so the bikes are ideal for short journeys, such as getting from the train station to the office.",
+            "Supporters say that bike-sharing reduces traffic and air pollution. It also encourages people to exercise without having to plan special trips to the gym. In Paris, for example, the number of people cycling to work has doubled since the city introduced its scheme.",
+            "The schemes do have some problems. In some cities, bikes are stolen or damaged, and users sometimes leave them on pavements where they block pedestrians. Cycling can also be dangerous in cities without proper bike lanes.",
+            "Despite these problems, many city governments believe the benefits are greater than the costs. They are now building more bike lanes to make cycling safer and more attractive."
+          ],
+          "items": [
+            {
+              "q": "Which is the best title for the passage?",
+              "options": [
+                "The Dangers of Cycling",
+                "Bike-Sharing in Cities",
+                "How to Download an App",
+                "Traffic in Paris"
+              ],
+              "answer": "B",
+              "tag": "Đọc: ý chính",
+              "explain": "Cả bài nói về hệ thống chia sẻ xe đạp: cách dùng, lợi ích, vấn đề, tương lai."
+            },
+            {
+              "q": "How do users unlock the bikes?",
+              "options": [
+                "With a key",
+                "By paying at the station",
+                "With their phone",
+                "By calling the company"
+              ],
+              "answer": "C",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 2: unlock it with their phone."
+            },
+            {
+              "q": "According to paragraph 3, what has happened in Paris?",
+              "options": [
+                "More people now cycle to work.",
+                "The scheme was stopped.",
+                "Bikes became more expensive.",
+                "Traffic has increased."
+              ],
+              "answer": "A",
+              "tag": "Đọc: chi tiết",
+              "explain": "the number of people cycling to work has doubled = số người đạp xe đi làm tăng gấp đôi."
+            },
+            {
+              "q": "The word 'block' in paragraph 4 is closest in meaning to ___.",
+              "options": [
+                "help",
+                "carry",
+                "follow",
+                "get in the way of"
+              ],
+              "answer": "D",
+              "tag": "Đọc: từ đồng nghĩa",
+              "explain": "block pedestrians = cản đường người đi bộ = get in the way of."
+            },
+            {
+              "q": "What are many city governments doing now?",
+              "options": [
+                "Closing the schemes",
+                "Building more bike lanes",
+                "Making bikes more expensive",
+                "Banning cars"
+              ],
+              "answer": "B",
+              "tag": "Đọc: chi tiết",
+              "explain": "Đoạn 5: They are now building more bike lanes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 2 – Grammar, Use of English & Writing",
+      "points": 40,
+      "parts": [
+        {
+          "key": "x2a",
+          "title": "Part A. Sentence completion (21–35)",
+          "directions": "Directions: Choose the word or phrase (A, B, C or D) that best completes each sentence.",
+          "start": 21,
+          "items": [
+            {
+              "q": "If we had left earlier, we ___ the flight.",
+              "options": [
+                "wouldn't miss",
+                "didn't miss",
+                "wouldn't have missed",
+                "hadn't missed"
+              ],
+              "answer": "C",
+              "tag": "Câu điều kiện",
+              "explain": "Vế if: had + V3 → loại 3 → wouldn't have + V3."
+            },
+            {
+              "q": "I ___ my keys yesterday, so I had to wait for my wife to come home.",
+              "options": [
+                "lost",
+                "lose",
+                "have lost",
+                "had lost"
+              ],
+              "answer": "A",
+              "tag": "Quá khứ đơn",
+              "explain": "yesterday → quá khứ đơn. Không dùng have lost với yesterday."
+            },
+            {
+              "q": "English ___ in many countries around the world.",
+              "options": [
+                "speaks",
+                "is speaking",
+                "has spoken",
+                "is spoken"
+              ],
+              "answer": "D",
+              "tag": "Bị động",
+              "explain": "Tiếng Anh không tự nói → bị động hiện tại đơn: is spoken."
+            },
+            {
+              "q": "The doctor ___ I saw yesterday was very kind.",
+              "options": [
+                "who",
+                "which",
+                "whose",
+                "where"
+              ],
+              "answer": "A",
+              "tag": "Mệnh đề quan hệ",
+              "explain": "Trước là người (the doctor), sau là I saw (thiếu tân ngữ) → who/whom."
+            },
+            {
+              "q": "I enjoy ___ to music in my free time.",
+              "options": [
+                "listen",
+                "to listen",
+                "listened",
+                "listening"
+              ],
+              "answer": "D",
+              "tag": "V-ing / to V",
+              "explain": "enjoy + V-ing."
+            },
+            {
+              "q": "She decided ___ a new job closer to home.",
+              "options": [
+                "finding",
+                "to find",
+                "find",
+                "found"
+              ],
+              "answer": "B",
+              "tag": "V-ing / to V",
+              "explain": "decide + to V."
+            },
+            {
+              "q": "This is ___ restaurant in town, but the food is still good.",
+              "options": [
+                "the cheaper",
+                "cheapest",
+                "more cheap",
+                "the cheapest"
+              ],
+              "answer": "D",
+              "tag": "So sánh",
+              "explain": "So sánh nhất tính từ ngắn: the + adj-est. Thiếu \"the\" là sai."
+            },
+            {
+              "q": "My sister is not as tall ___ me.",
+              "options": [
+                "than",
+                "as",
+                "like",
+                "so"
+              ],
+              "answer": "B",
+              "tag": "So sánh",
+              "explain": "So sánh bằng: (not) as + adj + as."
+            },
+            {
+              "q": "___ it was raining, we went for a walk.",
+              "options": [
+                "Although",
+                "Despite",
+                "Because",
+                "In spite of"
+              ],
+              "answer": "A",
+              "tag": "Liên từ",
+              "explain": "Sau chỗ trống là mệnh đề (it was raining), nghĩa tương phản → Although."
+            },
+            {
+              "q": "She asked me if I ___ coffee.",
+              "options": [
+                "like",
+                "am liking",
+                "liked",
+                "will like"
+              ],
+              "answer": "C",
+              "tag": "Câu gián tiếp",
+              "explain": "Câu hỏi gián tiếp ở quá khứ (asked) → lùi thì: like → liked."
+            },
+            {
+              "q": "I wish I ___ speak French. It would be useful for my job.",
+              "options": [
+                "can",
+                "will",
+                "would be",
+                "could"
+              ],
+              "answer": "D",
+              "tag": "Câu ước",
+              "explain": "Ước trái với hiện tại: wish + could + V."
+            },
+            {
+              "q": "Not until he got home ___ that he had lost his wallet.",
+              "options": [
+                "he realised",
+                "did he realise",
+                "he did realise",
+                "realised he"
+              ],
+              "answer": "B",
+              "tag": "Đảo ngữ",
+              "explain": "Not until + mốc/mệnh đề + trợ động từ + S + V: did he realise."
+            },
+            {
+              "q": "Would you mind ___ the window? It's very hot in here.",
+              "options": [
+                "open",
+                "to open",
+                "opening",
+                "opened"
+              ],
+              "answer": "C",
+              "tag": "V-ing / to V",
+              "explain": "Would you mind + V-ing?"
+            },
+            {
+              "q": "I'm going to have my hair ___ tomorrow.",
+              "options": [
+                "cut",
+                "cutting",
+                "to cut",
+                "cuts"
+              ],
+              "answer": "A",
+              "tag": "Have sth done",
+              "explain": "have + vật + V3 (nhờ người khác làm). cut – cut – cut."
+            },
+            {
+              "q": "He used to ___ football every Sunday when he was young.",
+              "options": [
+                "playing",
+                "played",
+                "play",
+                "plays"
+              ],
+              "answer": "C",
+              "tag": "Used to / be used to",
+              "explain": "used to + V nguyên mẫu = đã từng (thói quen cũ)."
+            }
+          ]
+        },
+        {
+          "key": "x2b",
+          "title": "Part B. Cloze (36–45)",
+          "directions": "Directions: Read the passage and choose the best word (A, B, C or D) for each numbered blank.",
+          "start": 36,
+          "passageTitle": "Keeping Fit at Work",
+          "passage": [
+            "Many office workers spend up to ten hours a day (36) ___ at a desk. Doctors warn that this habit can (37) ___ serious health problems, such as back pain and heart disease. (38) ___, there are some simple things that workers can do to stay healthy.",
+            "First, try to stand up and walk around (39) ___ least once an hour. You could, for example, go and talk to a colleague (40) ___ of sending an email. Second, use the stairs instead of the lift. It may (41) ___ a few extra minutes, but your body will thank you.",
+            "Many companies now (42) ___ their staff to exercise. Some offer free yoga classes at lunchtime, (43) ___ others provide desks that can be raised so that people can work standing up.",
+            "Experts agree that small changes like these can make a big (44) ___. If you start today, you will soon feel more (45) ___ and less tired."
+          ],
+          "items": [
+            {
+              "q": "Chỗ trống (36)",
+              "options": [
+                "sit",
+                "to sit",
+                "sat",
+                "sitting"
+              ],
+              "answer": "D",
+              "tag": "V-ing / to V",
+              "explain": "spend + thời gian + V-ing."
+            },
+            {
+              "q": "Chỗ trống (37)",
+              "options": [
+                "lead to",
+                "result",
+                "cause to",
+                "make"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "lead to = dẫn tới. result phải là result in; cause không đi với to."
+            },
+            {
+              "q": "Chỗ trống (38)",
+              "options": [
+                "Therefore",
+                "Because",
+                "However",
+                "Although"
+              ],
+              "answer": "C",
+              "tag": "Liên từ",
+              "explain": "Câu trước nói tác hại, câu sau nói có cách khắc phục → tương phản, đầu câu có dấu phẩy: However."
+            },
+            {
+              "q": "Chỗ trống (39)",
+              "options": [
+                "in",
+                "at",
+                "on",
+                "for"
+              ],
+              "answer": "B",
+              "tag": "Giới từ",
+              "explain": "at least = ít nhất. Cụm cố định."
+            },
+            {
+              "q": "Chỗ trống (40)",
+              "options": [
+                "because",
+                "despite",
+                "rather",
+                "instead"
+              ],
+              "answer": "D",
+              "tag": "Giới từ",
+              "explain": "instead of + V-ing = thay vì."
+            },
+            {
+              "q": "Chỗ trống (41)",
+              "options": [
+                "take",
+                "spend",
+                "cost",
+                "last"
+              ],
+              "answer": "A",
+              "tag": "Collocation",
+              "explain": "It takes + thời gian = mất (bao lâu). spend cần người làm chủ ngữ."
+            },
+            {
+              "q": "Chỗ trống (42)",
+              "options": [
+                "prevent",
+                "stop",
+                "encourage",
+                "avoid"
+              ],
+              "answer": "C",
+              "tag": "Từ vựng",
+              "explain": "encourage sb to V = khuyến khích ai làm gì. prevent/stop sb from V-ing ngược nghĩa."
+            },
+            {
+              "q": "Chỗ trống (43)",
+              "options": [
+                "which",
+                "while",
+                "because",
+                "so"
+              ],
+              "answer": "B",
+              "tag": "Liên từ",
+              "explain": "while = trong khi (so sánh 2 việc: some … while others …)."
+            },
+            {
+              "q": "Chỗ trống (44)",
+              "options": [
+                "change",
+                "different",
+                "differ",
+                "difference"
+              ],
+              "answer": "D",
+              "tag": "Cấu tạo từ",
+              "explain": "make a difference = tạo ra khác biệt. Sau a big cần danh từ."
+            },
+            {
+              "q": "Chỗ trống (45)",
+              "options": [
+                "energy",
+                "energetic",
+                "energetically",
+                "energise"
+              ],
+              "answer": "B",
+              "tag": "Cấu tạo từ",
+              "explain": "feel + tính từ: feel energetic = thấy tràn đầy năng lượng."
+            }
+          ]
+        },
+        {
+          "key": "x2c",
+          "title": "Part C. Sentence transformation (46–50)",
+          "directions": "Directions: Finish each sentence so that it means the same as the sentence before it.",
+          "start": 46,
+          "transform": [
+            {
+              "source": "\"Where do you live?\" he asked me.",
+              "start": "He asked me",
+              "answers": [
+                "He asked me where I lived."
+              ],
+              "tag": "Câu gián tiếp",
+              "explain": "Câu hỏi gián tiếp: không đảo trợ động từ (bỏ do), lùi thì live → lived, you → I."
+            },
+            {
+              "source": "The film was so boring that we left early.",
+              "start": "It was such",
+              "answers": [
+                "It was such a boring film that we left early."
+              ],
+              "tag": "So / such",
+              "explain": "so + adj + that ⇔ such + a/an + adj + N + that."
+            },
+            {
+              "source": "My house is smaller than yours.",
+              "start": "Your house is",
+              "answers": [
+                "Your house is bigger than mine.",
+                "Your house is larger than mine."
+              ],
+              "tag": "So sánh",
+              "explain": "Đổi chủ ngữ → dùng tính từ trái nghĩa: smaller → bigger/larger. yours → mine."
+            },
+            {
+              "source": "If you don't practise, you won't improve.",
+              "start": "Unless",
+              "answers": [
+                "Unless you practise, you won't improve.",
+                "Unless you practise, you will not improve."
+              ],
+              "tag": "Unless",
+              "explain": "If … don't → Unless + khẳng định. Vế sau giữ nguyên."
+            },
+            {
+              "source": "They are building a new hospital in my town.",
+              "start": "A new hospital",
+              "answers": [
+                "A new hospital is being built in my town."
+              ],
+              "tag": "Bị động",
+              "explain": "Hiện tại tiếp diễn bị động: am/is/are + being + V3. Lỗi bạn đã sai ở ngày 1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PAPER 3 – Listening",
+      "points": 20,
+      "parts": [
+        {
+          "key": "x3a",
+          "title": "Part A. Short conversations (51–60)",
+          "directions": "Directions: You will hear ten short conversations. Choose the best answer to each question.",
+          "start": 51,
+          "items": [
+            {
+              "q": "What will the woman drink?",
+              "options": [
+                "Orange juice.",
+                "Tea.",
+                "Coffee.",
+                "Water."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Cô ấy đã uống 2 cốc cà phê, xin nước cam thay thế.",
+              "script": [
+                "Man: Would you like some coffee?",
+                "Woman: No, thanks. I've already had two cups this morning. Could I have some orange juice instead?",
+                "Man: Sure."
+              ]
+            },
+            {
+              "q": "When is the man's appointment?",
+              "options": [
+                "On Monday at 10 a.m.",
+                "On Tuesday at 10 a.m.",
+                "On Tuesday at 2 p.m.",
+                "On Wednesday at 2 p.m."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Ban đầu thứ Hai 10 giờ, nhưng đã đổi sang chiều thứ Ba lúc 2 giờ. Bẫy: thông tin cũ nói trước.",
+              "script": [
+                "Woman: Your appointment is on Monday at ten, isn't it?",
+                "Man: It was, but I moved it to Tuesday afternoon, at two o'clock."
+              ]
+            },
+            {
+              "q": "Where are the speakers?",
+              "options": [
+                "In a bank.",
+                "In a post office.",
+                "In a hotel.",
+                "In a restaurant."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "send this parcel, express mail → bưu điện.",
+              "script": [
+                "Man: I'd like to send this parcel to Da Nang, please.",
+                "Woman: Certainly. Would you like to send it by express mail? It'll arrive tomorrow."
+              ]
+            },
+            {
+              "q": "How does the woman usually go to work?",
+              "options": [
+                "By bus.",
+                "By motorbike.",
+                "By car.",
+                "On foot."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "I normally walk. Chỉ đi xe buýt khi trời mưa.",
+              "script": [
+                "Man: Do you drive to work?",
+                "Woman: Not usually. My office is only ten minutes away, so I normally walk. I only take the bus when it rains."
+              ]
+            },
+            {
+              "q": "What will the weather be like tomorrow afternoon?",
+              "options": [
+                "Sunny.",
+                "Rainy.",
+                "Windy.",
+                "Snowy."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "cloudy in the morning and rain all afternoon → chiều mưa.",
+              "script": [
+                "Woman: Shall we go to the beach tomorrow?",
+                "Man: The forecast says it'll be cloudy in the morning and it will rain all afternoon.",
+                "Woman: Let's go another day, then."
+              ]
+            },
+            {
+              "q": "How many people will come to dinner?",
+              "options": [
+                "Four.",
+                "Five.",
+                "Six.",
+                "Seven."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "4 người + bố mẹ = 6. Em gái nhắn là không tới được. Bẫy: số 7.",
+              "script": [
+                "Woman: How many people are coming to dinner?",
+                "Man: Well, there are four of us, plus my parents. Oh, and my sister said she might come too.",
+                "Woman: So, seven?",
+                "Man: No, my sister has just texted me. She can't come."
+              ]
+            },
+            {
+              "q": "What does the man want to buy?",
+              "options": [
+                "A shirt.",
+                "A jacket.",
+                "A pair of shoes.",
+                "A hat."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "a hat for my father, to keep the sun off.",
+              "script": [
+                "Man: Excuse me, I'm looking for a hat for my father. Something to keep the sun off.",
+                "Woman: These ones over here are very popular."
+              ]
+            },
+            {
+              "q": "What time does the film start?",
+              "options": [
+                "At 7:30.",
+                "At 7:00.",
+                "At 8:00.",
+                "At 8:30."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "Không phải 8 giờ, sớm hơn nửa tiếng → 7:30.",
+              "script": [
+                "Woman: The film starts at eight, doesn't it?",
+                "Man: No, it starts half an hour earlier. We should leave now."
+              ]
+            },
+            {
+              "q": "Why is the man late?",
+              "options": [
+                "He got up late.",
+                "His car broke down.",
+                "There was an accident, so the traffic was bad.",
+                "He missed the bus."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Đi đúng giờ nhưng có tai nạn trên đường chính, kẹt xe.",
+              "script": [
+                "Woman: You're late again!",
+                "Man: Sorry. I left home on time, but there was an accident on the main road, and the traffic was terrible."
+              ]
+            },
+            {
+              "q": "What does the woman advise the man to do?",
+              "options": [
+                "Buy a new phone.",
+                "Take it to a repair shop.",
+                "Call the company.",
+                "Turn it off and on again."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "try turning it off and then on again.",
+              "script": [
+                "Man: My phone keeps freezing. Should I buy a new one?",
+                "Woman: Before you spend any money, try turning it off and then on again. That usually works for me."
+              ]
+            }
+          ]
+        },
+        {
+          "key": "x3b",
+          "title": "Part B. Long conversation (61–65)",
+          "directions": "You will hear a conversation between two friends, Hoa and Tuan, about Tuan's new job.",
+          "start": 61,
+          "script": [
+            "Hoa: Hi Tuan! I heard you started a new job last month. How's it going?",
+            "Tuan: Really well, thanks. I'm working as a software engineer at a company in District 7.",
+            "Hoa: That's quite far from your house, isn't it?",
+            "Tuan: Yes, it takes me about forty-five minutes by motorbike. But the company lets us work from home on Fridays, so I only travel four days a week.",
+            "Hoa: That's nice. What do you like most about the job?",
+            "Tuan: My colleagues, definitely. They're friendly and always happy to help. The salary is good too, but the people are more important to me.",
+            "Hoa: Is there anything you don't like?",
+            "Tuan: Well, we have a lot of meetings, and most of them are in English. At first, I found it hard to follow what people were saying.",
+            "Hoa: Is it easier now?",
+            "Tuan: A little. I've started taking an English course on Tuesday and Thursday evenings. My manager says that if my English improves, I might be sent to work in Singapore next year.",
+            "Hoa: Wow, that would be amazing. Good luck!"
+          ],
+          "items": [
+            {
+              "q": "What is Tuan's job?",
+              "options": [
+                "A teacher.",
+                "A software engineer.",
+                "A manager.",
+                "A salesman."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "I'm working as a software engineer."
+            },
+            {
+              "q": "How long does it take Tuan to get to work?",
+              "options": [
+                "15 minutes.",
+                "30 minutes.",
+                "45 minutes.",
+                "An hour."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "about forty-five minutes by motorbike."
+            },
+            {
+              "q": "What does Tuan like most about his job?",
+              "options": [
+                "The salary.",
+                "The location.",
+                "Working from home.",
+                "His colleagues."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "My colleagues, definitely. Bẫy: lương cũng tốt nhưng không phải điều thích nhất."
+            },
+            {
+              "q": "When does Tuan have English classes?",
+              "options": [
+                "On Tuesday and Thursday evenings.",
+                "On Fridays.",
+                "At weekends.",
+                "Every morning."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "on Tuesday and Thursday evenings. Bẫy: thứ Sáu là ngày làm ở nhà."
+            },
+            {
+              "q": "What might happen next year?",
+              "options": [
+                "Tuan might change jobs.",
+                "Tuan might be sent to Singapore.",
+                "Tuan might become a manager.",
+                "Tuan might stop studying English."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "I might be sent to work in Singapore next year."
+            }
+          ]
+        },
+        {
+          "key": "x3c",
+          "title": "Part C. Talk (66–70)",
+          "directions": "You will hear a museum guide talking to a group of visitors.",
+          "start": 66,
+          "script": [
+            "Speaker: Good morning, everyone. Welcome to the City History Museum. My name is Lan, and I'll be your guide today. Our tour will last about an hour and a half. We'll start on the ground floor, where you can see objects from the nineteenth century, and then move up to the first floor, which is about the history of the city after 1975. Please remember that you are not allowed to take photos with a flash, because the light can damage old objects. However, photos without a flash are fine. If you get separated from the group, please wait for us at the information desk next to the main entrance. After the tour, you are welcome to visit our café on the second floor. Students with a student card get a twenty percent discount there. The museum shop closes at five o'clock, half an hour before the museum itself. Now, if you'd like to follow me…"
+          ],
+          "items": [
+            {
+              "q": "How long will the tour last?",
+              "options": [
+                "One hour.",
+                "An hour and a half.",
+                "Two hours.",
+                "Half an hour."
+              ],
+              "answer": "B",
+              "tag": "Nghe",
+              "explain": "about an hour and a half."
+            },
+            {
+              "q": "What can visitors see on the first floor?",
+              "options": [
+                "Objects from the 19th century.",
+                "A café.",
+                "The history of the city after 1975.",
+                "The museum shop."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "the first floor, which is about the history of the city after 1975. Đồ vật thế kỷ 19 ở tầng trệt."
+            },
+            {
+              "q": "What are visitors NOT allowed to do?",
+              "options": [
+                "Take photos with a flash.",
+                "Take any photos.",
+                "Drink coffee.",
+                "Visit the shop."
+              ],
+              "answer": "A",
+              "tag": "Nghe",
+              "explain": "not allowed to take photos with a flash; chụp không flash vẫn được."
+            },
+            {
+              "q": "Where should visitors wait if they get separated from the group?",
+              "options": [
+                "In the café.",
+                "In the shop.",
+                "Outside the main entrance.",
+                "At the information desk."
+              ],
+              "answer": "D",
+              "tag": "Nghe",
+              "explain": "wait for us at the information desk next to the main entrance."
+            },
+            {
+              "q": "What time does the museum close?",
+              "options": [
+                "At 4:30.",
+                "At 5:00.",
+                "At 5:30.",
+                "At 6:00."
+              ],
+              "answer": "C",
+              "tag": "Nghe",
+              "explain": "Cửa hàng đóng lúc 5 giờ, sớm hơn bảo tàng nửa tiếng → bảo tàng đóng 5:30. Bẫy: 5 giờ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "intro": "Please introduce yourself.",
+    "topic": "Technology in daily life",
+    "questions": [
+      "How often do you use the Internet, and what for?",
+      "What is the most useful app on your phone? Why?",
+      "Do you think children spend too much time on screens?",
+      "How has technology changed the way people work?"
+    ]
+  }
+}

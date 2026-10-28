@@ -1,0 +1,1035 @@
+{
+  "day": 7,
+  "grammarTopic": "Tổng ôn + làm lại câu đã sai",
+  "vocabTopic": "20 mẫu viết lại câu",
+  "speakingTopic": "Giới thiệu + bộ ý dùng chung",
+  "plan": [
+    {
+      "time": "0:00 – 0:20",
+      "step": "Tổng ôn 1 trang",
+      "content": "Tab Tổng ôn: dấu hiệu thì, where/which, 20 mẫu viết lại, 6 bước soát lỗi"
+    },
+    {
+      "time": "0:20 – 1:00",
+      "step": "Làm lại câu đã sai",
+      "content": "Tab Luyện thêm: các câu bạn từng sai từ ngày 1 + câu viết lại"
+    },
+    {
+      "time": "1:00 – 1:10",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:10 – 1:35",
+      "step": "20 mẫu viết lại",
+      "content": "12 câu theo mẫu trong tài liệu trường (tab Luyện thêm, cuối trang)"
+    },
+    {
+      "time": "1:35 – 1:50",
+      "step": "Đọc 1 bài bấm giờ",
+      "content": "Tom Cruise (Test 2), 10 phút"
+    },
+    {
+      "time": "1:50 – 2:10",
+      "step": "Nói",
+      "content": "Nói to bài giới thiệu 3 lần + 1 chủ đề ngẫu nhiên với Claude"
+    },
+    {
+      "time": "2:10 – 2:20",
+      "step": "Quiz cuối",
+      "content": "10 câu, rồi nghỉ sớm, ngủ đủ"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Thì: 1 câu hỏi chốt",
+        "headers": [
+          "Thấy",
+          "Dùng",
+          "Không dùng"
+        ],
+        "rows": [
+          [
+            "yesterday, ago, last…, in 2019, when I was young",
+            "Quá khứ đơn (V2)",
+            "have/has + V3"
+          ],
+          [
+            "so far, since, for, yet, already, ever, … times",
+            "have/has + V3",
+            "V2"
+          ],
+          [
+            "by + mốc quá khứ, before/when + V2 (việc xảy ra trước)",
+            "had + V3",
+            "have/has + V3"
+          ],
+          [
+            "Câu chủ động (người tự làm)",
+            "have + V3",
+            "have BEEN + V3 (đó là bị động)"
+          ]
+        ]
+      },
+      {
+        "title": "Where hay which: nhìn PHÍA SAU chỗ trống",
+        "headers": [
+          "Sau chỗ trống",
+          "Chọn",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Động từ ngay sau",
+            "which",
+            "Da Lat, which is famous for flowers"
+          ],
+          [
+            "S + V còn thiếu tân ngữ",
+            "which",
+            "the hotel which we booked · the country which I love"
+          ],
+          [
+            "S + V đã đủ nghĩa",
+            "where",
+            "the hotel where we stayed · the café where I meet friends"
+          ]
+        ]
+      },
+      {
+        "title": "20 mẫu viết lại câu (tài liệu trường)",
+        "headers": [
+          "Mẫu",
+          "Công thức"
+        ],
+        "rows": [
+          [
+            "1. although ↔ despite",
+            "Although + S + V ⇔ Despite / In spite of + N / V-ing"
+          ],
+          [
+            "2. So sánh",
+            "not as … as ⇔ -er than (đổi chủ ngữ) · No one … -er than ⇔ the -est"
+          ],
+          [
+            "3. enough / so…that / such…that",
+            "so + adj + that ⇔ such + a + adj + N + that ⇔ (not) adj enough to V"
+          ],
+          [
+            "4. It is + adj + to V",
+            "It is hard to learn ⇔ Learning … is hard"
+          ],
+          [
+            "5. ago / since / for",
+            "started … ago ⇔ have V3 for · last V2 in ⇔ haven't V3 since"
+          ],
+          [
+            "6–7. should / had better / advise",
+            "should V ⇔ had better V · If I were you, I'd V ⇔ I advise you to V"
+          ],
+          [
+            "8. too … to",
+            "too + adj + to V ⇔ not + adj trái nghĩa + enough to V"
+          ],
+          [
+            "9. If (loại 2, 3)",
+            "Hiện tại → If + V2, would V · Quá khứ → If + had V3, would have V3"
+          ],
+          [
+            "10. if ↔ unless",
+            "If … not ⇔ Unless (bỏ not)"
+          ],
+          [
+            "11. wish",
+            "Hiện tại → wish + V2 · Quá khứ → wish + had V3"
+          ],
+          [
+            "12. Bị động",
+            "be + V3 theo đúng thì; vật làm chủ ngữ"
+          ],
+          [
+            "13. Nhờ bảo",
+            "have + vật + V3 · have + người + V · get + người + to V"
+          ],
+          [
+            "14. because ↔ because of",
+            "because + mệnh đề ⇔ because of / due to + N"
+          ],
+          [
+            "15. It takes ↔ spend",
+            "It takes sb + time + to V ⇔ sb spends + time + V-ing"
+          ],
+          [
+            "16. It is … since",
+            "haven't V3 for + time ⇔ It is + time + since + S + last V2"
+          ],
+          [
+            "17. The more … the more",
+            "The + -er + S + V, the + -er + S + V"
+          ],
+          [
+            "18. suggest",
+            "Why don't you V? ⇔ suggested that + S + (should) V"
+          ],
+          [
+            "19. Let's ↔ Why don't we",
+            "Let's V ⇔ Why don't we V?"
+          ],
+          [
+            "20. Câu gián tiếp",
+            "asked if / wh- + S + V (không đảo, lùi thì) · told sb (not) to V"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Viết lại câu: chép lại phần KHÔNG đổi (tên, đồ vật, thời gian), chỉ thay phần cấu trúc. Đọc lại câu xem có thừa từ (ago, last, been) không.",
+      "Tìm lỗi sai: thì → loại từ → liên từ → số ít/nhiều → mạo từ → đại từ quan hệ.",
+      "Ngày thi: đến sớm, đi vệ sinh trước giờ thi. Paper 1 làm 4 bài đọc trước khi quá mệt, câu từ vựng nhanh."
+    ],
+    "traps": [
+      {
+        "title": "have/has khi có mốc quá khứ (bạn sai nhiều nhất)",
+        "wrong": "He has gone to work by motorbike every day last year.",
+        "right": "He went to work by motorbike every day last year.",
+        "why": "last year là mốc đã qua → quá khứ đơn."
+      },
+      {
+        "title": "Thêm been vào câu chủ động",
+        "wrong": "I have been learned English for five years.",
+        "right": "I have learned English for five years.",
+        "why": "have been + V3 = bị động. Người tự học → have + V3."
+      },
+      {
+        "title": "Viết lại câu điều kiện thiếu would / had",
+        "wrong": "If she taken the medicine, she had getten better.",
+        "right": "If she had taken the medicine, she would have got better.",
+        "why": "Vế if: had + V3. Vế chính: would have + V3."
+      }
+    ]
+  },
+  "extra": {
+    "title": "Làm lại câu đã sai + 20 mẫu viết lại",
+    "note": "Phần đầu là đúng những câu bạn đã sai từ ngày 1 tới giờ (lấy từ Sổ lỗi sai). Giải thích có ghi lần trước bạn chọn gì. Phần cuối là 12 câu viết lại theo 20 mẫu của tài liệu trường.",
+    "sets": [
+      {
+        "key": "redo",
+        "title": "Làm lại câu đã sai",
+        "items": [
+          {
+            "q": "If I ___ you, I would accept the job offer.",
+            "options": [
+              "am",
+              "was being",
+              "were",
+              "had been"
+            ],
+            "answer": "C",
+            "tag": "Câu điều kiện",
+            "explain": "Vế chính có would + V → loại 2 → If I were (dùng were cho mọi ngôi). (Lần trước bạn chọn: D. had been.)"
+          },
+          {
+            "q": "This is the first time I ___ sushi.",
+            "options": [
+              "have eaten",
+              "eat",
+              "am eating",
+              "ate"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "This is the first/second time + S + have/has + V3. (Lần trước bạn chọn: B. eat.)"
+          },
+          {
+            "q": "The train to Hue ___ at 7:30 tomorrow morning, according to the timetable.",
+            "options": [
+              "leave",
+              "leaves",
+              "will be left",
+              "has left"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại đơn",
+            "explain": "Lịch trình cố định (timetable) → hiện tại đơn dù nói về tương lai. Chủ ngữ số ít → leaves. (Lần trước bạn chọn: C. will be left.)"
+          },
+          {
+            "q": "By the end of last year, he ___ enough money to buy a motorbike.",
+            "options": [
+              "saved",
+              "has saved",
+              "had saved",
+              "was saving"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "By + mốc quá khứ (by the end of last year) → quá khứ hoàn thành. (Lần trước bạn chọn: B. has saved.)"
+          },
+          {
+            "q": "He ___ to work by motorbike every day last year.",
+            "options": [
+              "has gone",
+              "had gone",
+              "has been going",
+              "went"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "last year → quá khứ đơn, dù là thói quen (every day). (Lần trước bạn chọn: A. has gone.)"
+          },
+          {
+            "q": "When I got home, I realised I ___ my phone at the office.",
+            "options": [
+              "have left",
+              "had left",
+              "left",
+              "was leaving"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Mốc: lúc về nhà (quá khứ). Để quên điện thoại xảy ra trước đó → had left. (Lần trước bạn chọn: A. have left.)"
+          },
+          {
+            "q": "By the time you come back, I ___ the report.",
+            "options": [
+              "finish",
+              "finished",
+              "will have finished",
+              "have finished"
+            ],
+            "answer": "C",
+            "tag": "Tương lai hoàn thành",
+            "explain": "By the time + hiện tại đơn (nói về tương lai) → will have + V3: sẽ xong trước lúc đó. (Lần trước bạn chọn: D. have finished.)"
+          },
+          {
+            "q": "When I was a child, I ___ in the river every summer.",
+            "options": [
+              "swam",
+              "have swum",
+              "was swimming",
+              "had swum"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "Thói quen trong quá khứ (every summer, when I was a child) → quá khứ đơn (hoặc used to + V). (Lần trước bạn chọn: D. had swum.)"
+          },
+          {
+            "q": "Hanoi, ___ is the capital of Vietnam, has many old buildings.",
+            "options": [
+              "that",
+              "who",
+              "which",
+              "where"
+            ],
+            "answer": "C",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Có dấu phẩy → không dùng that. Sau là động từ (is) → which. where cần S + V phía sau. (Lần trước bạn chọn: D. where.)"
+          },
+          {
+            "q": "Water ___ at 100 degrees Celsius.",
+            "options": [
+              "boiled",
+              "boils",
+              "is boiling",
+              "has boiled"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại đơn",
+            "explain": "Sự thật hiển nhiên → hiện tại đơn: boils. (Lần trước bạn chọn: D. has boiled.)"
+          },
+          {
+            "q": "Da Lat, ___ is famous for its flowers, attracts many tourists.",
+            "options": [
+              "which",
+              "where",
+              "that",
+              "who"
+            ],
+            "answer": "A",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Ngay sau là động từ (is) → which làm chủ ngữ. where cần S + V phía sau. Có dấu phẩy → không dùng that. (Lần trước bạn chọn: B. where.)"
+          },
+          {
+            "q": "This is the house ___ my grandparents used to live.",
+            "options": [
+              "which",
+              "that",
+              "where",
+              "when"
+            ],
+            "answer": "C",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Sau chỗ trống: my grandparents used to live, đã đủ S + V, không thiếu tân ngữ → where (= in which). (Lần trước bạn chọn: A. which.)"
+          },
+          {
+            "q": "I ___ in Ho Chi Minh City for five years before I moved to Hanoi.",
+            "options": [
+              "have lived",
+              "am living",
+              "lived",
+              "had lived"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Việc kéo dài và kết thúc trước một việc quá khứ khác (moved) → had + V3. (Lần trước bạn chọn: A. have lived.)"
+          },
+          {
+            "q": "I ___ to London twice, but I have never been to Paris.",
+            "options": [
+              "went",
+              "have been",
+              "had been",
+              "was going"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "Số lần trải nghiệm tính đến nay (twice) → have been. Giống lỗi \"three times so far\" ngày 1. (Lần trước bạn chọn: A. went.)"
+          },
+          {
+            "q": "My grandfather ___ in the army when he was young.",
+            "options": [
+              "has served",
+              "was serving",
+              "had served",
+              "served"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "Việc đã xong trong một giai đoạn quá khứ (when he was young) → quá khứ đơn. (Lần trước bạn chọn: A. has served.)"
+          },
+          {
+            "q": "Listen! Someone ___ at the door.",
+            "options": [
+              "knocks",
+              "is knocking",
+              "has knocked",
+              "knocked"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại tiếp diễn",
+            "explain": "\"Listen!\" → việc đang xảy ra ngay lúc nói → am/is/are + V-ing. (Lần trước bạn chọn: C. has knocked.)"
+          },
+          {
+            "q": "This is the café ___ I often meet my friends.",
+            "options": [
+              "which",
+              "that",
+              "where",
+              "whom"
+            ],
+            "answer": "C",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "I often meet my friends đã đủ S + V + tân ngữ → where (= at which). (Lần trước bạn chọn: A. which.)"
+          },
+          {
+            "q": "She ___ in Da Nang when she was a student.",
+            "options": [
+              "lived",
+              "has lived",
+              "has been lived",
+              "had been living"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "when she was a student → giai đoạn đã qua → quá khứ đơn. (Lần trước bạn chọn: B. has lived.)"
+          },
+          {
+            "q": "After she ___ her homework, she went to bed.",
+            "options": [
+              "was finishing",
+              "had finished",
+              "has finished",
+              "finishes"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Việc xảy ra trước một việc khác trong quá khứ → had + V3. (Lần trước bạn chọn: C. has finished.)"
+          },
+          {
+            "q": "Mai ___ her leg when she was skiing last winter.",
+            "options": [
+              "broke",
+              "has broken",
+              "was breaking",
+              "had broken"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "Việc ngắn xen vào (broke) khi việc khác đang diễn ra (was skiing) → quá khứ đơn. (Lần trước bạn chọn: B. has broken.)"
+          },
+          {
+            "q": "You can borrow my laptop ___ you promise to take care of it.",
+            "options": [
+              "as long as",
+              "unless",
+              "although",
+              "despite"
+            ],
+            "answer": "A",
+            "tag": "Câu điều kiện",
+            "explain": "as long as = miễn là (điều kiện). unless = nếu không, sai nghĩa. (Lần trước bạn chọn: B. unless.)"
+          },
+          {
+            "q": "A new hospital ___ in our town at the moment.",
+            "options": [
+              "builds",
+              "is building",
+              "is being built",
+              "was built"
+            ],
+            "answer": "C",
+            "tag": "Bị động",
+            "explain": "'at the moment' → tiếp diễn; bệnh viện được xây → bị động tiếp diễn: is being built. (Lần trước bạn chọn: D. was built.)"
+          },
+          {
+            "q": "I ___ to Da Lat three times so far.",
+            "options": [
+              "go",
+              "went",
+              "am going",
+              "have been"
+            ],
+            "answer": "D",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "'three times', 'so far' → hiện tại hoàn thành: have been. (Lần trước bạn chọn: B. went.)"
+          },
+          {
+            "q": "We ___ three units of the book so far.",
+            "options": [
+              "finished",
+              "had finished",
+              "have finished",
+              "have been finished"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "so far → have + V3. Người tự làm → không có been. (Lần trước bạn chọn: D. have been finished.)"
+          },
+          {
+            "q": "Look at those dark clouds! It ___ rain.",
+            "options": [
+              "is going to",
+              "will",
+              "rains",
+              "is raining"
+            ],
+            "answer": "A",
+            "tag": "Be going to",
+            "explain": "Có dấu hiệu rõ ràng trước mắt (dark clouds) → be going to. (Lần trước bạn chọn: B. will.)"
+          },
+          {
+            "q": "What ___ at 8 p.m. last night? I called you but you didn't answer.",
+            "options": [
+              "did you do",
+              "have you done",
+              "were you doing",
+              "do you do"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ tiếp diễn",
+            "explain": "Một giờ cụ thể trong quá khứ (8 p.m. last night) → hỏi việc đang làm lúc đó → was/were + V-ing. (Lần trước bạn chọn: A. did you do.)"
+          }
+        ]
+      },
+      {
+        "key": "t2read",
+        "title": "Đọc bấm giờ · Tom Cruise (Test 2 · 30–35)",
+        "directions": "Read the passage and choose the best answer. Giới hạn 10 phút.",
+        "passageTitle": "TOM CRUISE",
+        "passage": [
+          "Over the years, Tom Cruise has become one of the most popular and successful actors in the world. Tom is now an international star, who gets paid millions of dollars for every film he makes. 'I'm lucky,' says Tom. 'I'm doing what I love, and I'm having a great time. Lots of people would love to do this job, but they didn't get the lucky breaks or chances that I did.' For many of us, however, Tom was more than just lucky or good-looking, as acting ability and great determination were needed for him to become one of Hollywood's biggest names.",
+          "Is Tom happy with his success so far? He has a different outlook on his career than you might expect. 'I've always looked to the future,' says Tom. 'I feel I'm always developing as an actor. I'm looking for new things all the time. I want to challenge myself to be better and always try new things. I know I've made a lot of progress in my career, but I still have ambitions for the future.'",
+          "After interviewing him, I understood that the real Tom Cruise is a man with a very interesting and agreeable personality. He has a mind of his own and he's not like the characters in his movies, even though they may reflect Tom's personal style in the way he plays them.",
+          "The amazing success of Tom's career has been due to his talent as an actor and his personal strength and single-mindedness. Tom knew what he wanted to do with his life and gave his best to succeed."
+        ],
+        "items": [
+          {
+            "q": "The purpose of this text is to ___.",
+            "options": [
+              "discuss Tom Cruise's success in acting",
+              "discuss Tom Cruise's outlook on life",
+              "tell the readers how Tom Cruise's strong personality is an important part of his success",
+              "argue that Tom Cruise's success is mostly good luck"
+            ],
+            "answer": "C",
+            "tag": "Đọc: mục đích bài",
+            "explain": "Đoạn cuối chốt: thành công nhờ tài năng + sức mạnh cá nhân, ý chí. A quá chung; D ngược ý người viết.",
+            "type": "Mục đích bài",
+            "evidence": "The amazing success of Tom's career has been due to his talent as an actor and his personal strength and single-mindedness"
+          },
+          {
+            "q": "Which of the following does NOT describe Tom Cruise?",
+            "options": [
+              "Ambitious.",
+              "Pleasant.",
+              "Determined.",
+              "Conservative."
+            ],
+            "answer": "D",
+            "tag": "Đọc: NOT mentioned",
+            "explain": "ambitions (A), agreeable personality (B), determination (C) đều có. Anh ấy luôn thử cái mới → không bảo thủ (conservative).",
+            "type": "NOT",
+            "evidence": "I want to challenge myself to be better and always try new things"
+          },
+          {
+            "q": "How does Tom compare himself to other people who try to become actors?",
+            "options": [
+              "He works harder than they do.",
+              "He was more fortunate at certain points in his career.",
+              "He had more qualities than they do to be a successful actor.",
+              "He looks to the future more than they do."
+            ],
+            "answer": "B",
+            "tag": "Đọc: chi tiết",
+            "explain": "they didn't get the lucky breaks or chances that I did → anh ấy may mắn hơn. C là ý của người viết, không phải lời Tom.",
+            "type": "Chi tiết",
+            "evidence": "they didn't get the lucky breaks or chances that I did"
+          },
+          {
+            "q": "How does Tom describe his attitude to his work?",
+            "options": [
+              "He is now very satisfied with what he has achieved.",
+              "He looks forward and wants to improve and develop.",
+              "He has to face too many challenges.",
+              "He is the characters in his movies."
+            ],
+            "answer": "B",
+            "tag": "Đọc: chi tiết",
+            "explain": "I've always looked to the future … always developing … challenge myself to be better.",
+            "type": "Chi tiết",
+            "evidence": "I've always looked to the future"
+          },
+          {
+            "q": "The writer says that Tom Cruise ___.",
+            "options": [
+              "hides his real personality",
+              "has a personality similar to the characters he plays",
+              "has no personal style when acting",
+              "is very likeable as a person"
+            ],
+            "answer": "D",
+            "tag": "Đọc: chi tiết",
+            "explain": "agreeable personality = tính cách dễ mến → likeable. B ngược (he's not like the characters).",
+            "type": "Chi tiết",
+            "evidence": "a man with a very interesting and agreeable personality"
+          },
+          {
+            "q": "A synonym of 'single-mindedness' is ___.",
+            "options": [
+              "stubbornness",
+              "concentration",
+              "determination",
+              "tirelessness"
+            ],
+            "answer": "C",
+            "tag": "Đọc: từ đồng nghĩa",
+            "explain": "single-mindedness = chuyên tâm theo đuổi một mục tiêu = determination. Câu sau giải thích: knew what he wanted … gave his best.",
+            "type": "Từ đồng nghĩa",
+            "evidence": "Tom knew what he wanted to do with his life and gave his best to succeed"
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "She didn't take the medicine, so she didn't get better.",
+        "start": "If she",
+        "answers": [
+          "If she had taken the medicine, she would have got better.",
+          "If she had taken the medicine, she would have gotten better."
+        ],
+        "tag": "Câu điều kiện",
+        "explain": "Thực tế quá khứ → loại 3: had + V3, would have + V3, đổi cả 2 vế sang khẳng định. (Lần trước bạn viết: If she taken the medicine, she had getten better.)"
+      },
+      {
+        "source": "It takes me 30 minutes to get to work.",
+        "start": "I spend",
+        "answers": [
+          "I spend 30 minutes getting to work.",
+          "I spend thirty minutes getting to work."
+        ],
+        "tag": "It takes / spend",
+        "explain": "It takes sb + time + to V ⇔ S + spend + time + V-ing. Hiện tại → spend (không phải spent). (Lần trước bạn viết: I spend 30 minutes to get to work.)"
+      },
+      {
+        "source": "I started working here two years ago.",
+        "start": "I have",
+        "answers": [
+          "I have worked here for two years.",
+          "I have been working here for two years."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started … ago → have + V3 … for + khoảng thời gian. (Lần trước bạn viết: I have been started working here two years ago..)"
+      },
+      {
+        "source": "They will build a new school next year.",
+        "start": "A new school",
+        "answers": [
+          "A new school will be built next year."
+        ],
+        "tag": "Bị động",
+        "explain": "Tương lai đơn bị động: will be + V3. Bỏ 'by them'. (Lần trước bạn viết: A new school will be built a new school next year..)"
+      },
+      {
+        "source": "People say that he is very rich.",
+        "start": "It",
+        "answers": [
+          "It is said that he is very rich."
+        ],
+        "tag": "Bị động",
+        "explain": "People say that … → It is said that … (bị động với động từ tường thuật). (Lần trước bạn viết: It is said he was very rich.)"
+      },
+      {
+        "source": "The last time I saw her was in 2020.",
+        "start": "I haven't",
+        "answers": [
+          "I haven't seen her since 2020."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "The last time + S + V2 + was + mốc → S + haven't + V3 + since + mốc. (Lần trước bạn viết: I haven't been seen her was since 2020.)"
+      },
+      {
+        "source": "It's two months since he last called me.",
+        "start": "He hasn't",
+        "answers": [
+          "He hasn't called me for two months.",
+          "He hasn't called me for two months now."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "It's + khoảng thời gian + since + S + last + V2 → S + hasn't + V3 + for + khoảng thời gian. (Lần trước bạn viết: He hasn't been last called me for two months.)"
+      },
+      {
+        "source": "I started learning English five years ago.",
+        "start": "I have",
+        "answers": [
+          "I have learned English for five years.",
+          "I have learnt English for five years.",
+          "I have been learning English for five years."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started … ago → have + V3 (hoặc have been + V-ing) + for + khoảng thời gian. Bỏ \"ago\". (Lần trước bạn viết: I have been learned English for five years.)"
+      },
+      {
+        "source": "My brother started working in Hanoi two years ago.",
+        "start": "My brother has",
+        "answers": [
+          "My brother has worked in Hanoi for two years.",
+          "My brother has been working in Hanoi for two years."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started … ago → has + V3 (hoặc has been + V-ing) + for. Không viết has been worked. (Lần trước bạn viết: My brother has started working for two years in Hanoi.)"
+      },
+      {
+        "source": "I don't have a car, so I can't drive to work.",
+        "start": "If I",
+        "answers": [
+          "If I had a car, I could drive to work.",
+          "If I had a car, I would be able to drive to work.",
+          "If I had a car, I would drive to work."
+        ],
+        "tag": "Câu điều kiện",
+        "explain": "Thực tế hiện tại → loại 2: don't have → had; can't → could (đổi phủ định thành khẳng định). (Lần trước bạn viết: If I had a car, I drove to work.)"
+      },
+      {
+        "source": "She last saw him when she was ten.",
+        "start": "She hasn't",
+        "answers": [
+          "She hasn't seen him since she was ten."
+        ],
+        "tag": "Ago / since / for",
+        "explain": "last + V2 → hasn't + V3 + since. Không có been."
+      },
+      {
+        "source": "They haven't written emails for two months.",
+        "start": "They last",
+        "answers": [
+          "They last wrote emails two months ago.",
+          "They last wrote an email two months ago.",
+          "They last wrote email two months ago."
+        ],
+        "tag": "Ago / since / for",
+        "explain": "haven't V3 for … → last + V2 + … ago."
+      },
+      {
+        "source": "My brother didn't buy that car because he didn't have enough money.",
+        "start": "If my brother",
+        "answers": [
+          "If my brother had had enough money, he would have bought that car."
+        ],
+        "tag": "Câu điều kiện",
+        "explain": "Quá khứ → loại 3: had had (đúng, 2 chữ had) … would have bought."
+      },
+      {
+        "source": "People don't understand him because he doesn't speak clearly.",
+        "start": "If he spoke",
+        "answers": [
+          "If he spoke clearly, people would understand him."
+        ],
+        "tag": "Câu điều kiện",
+        "explain": "Hiện tại → loại 2: spoke … would understand."
+      },
+      {
+        "source": "I didn't know that she was ill.",
+        "start": "I wish",
+        "answers": [
+          "I wish I had known that she was ill.",
+          "I wish I had known she was ill."
+        ],
+        "tag": "Câu ước",
+        "explain": "Tiếc về quá khứ → wish + had V3."
+      },
+      {
+        "source": "They have cancelled the meeting.",
+        "start": "The meeting",
+        "answers": [
+          "The meeting has been cancelled.",
+          "The meeting has been cancelled by them."
+        ],
+        "tag": "Bị động",
+        "explain": "Hiện tại hoàn thành bị động: has been + V3 (vật → có been)."
+      },
+      {
+        "source": "An engineer repaired my computer a week ago.",
+        "start": "I got an",
+        "answers": [
+          "I got an engineer to repair my computer a week ago."
+        ],
+        "tag": "Have sth done",
+        "explain": "get + người + to V (nhờ ai làm). have + người + V; have + vật + V3."
+      },
+      {
+        "source": "It took them 5 months to build the house.",
+        "start": "They",
+        "answers": [
+          "They spent 5 months building the house.",
+          "They spent five months building the house."
+        ],
+        "tag": "It takes / spend",
+        "explain": "It took + sb + time + to V → sb + spent + time + V-ing."
+      },
+      {
+        "source": "Nam hasn't been to Ha Noi for 2 years.",
+        "start": "It is",
+        "answers": [
+          "It is 2 years since Nam last went to Ha Noi.",
+          "It is two years since Nam last went to Ha Noi.",
+          "It is 2 years since Nam was last in Ha Noi.",
+          "It is 2 years since Nam went to Ha Noi.",
+          "It is two years since Nam went to Ha Noi."
+        ],
+        "tag": "It is … since",
+        "explain": "haven't V3 for + time → It is + time + since + S + (last) + V2."
+      },
+      {
+        "source": "As he grows older, he becomes increasingly cheerful.",
+        "start": "The older",
+        "answers": [
+          "The older he grows, the more cheerful he becomes.",
+          "The older he gets, the more cheerful he becomes."
+        ],
+        "tag": "So sánh kép",
+        "explain": "The + so sánh hơn + S + V, the + so sánh hơn + S + V."
+      },
+      {
+        "source": "The question was so difficult that no one could answer it.",
+        "start": "It was such",
+        "answers": [
+          "It was such a difficult question that no one could answer it."
+        ],
+        "tag": "So / such",
+        "explain": "so + adj ⇔ such + a + adj + N."
+      },
+      {
+        "source": "The car crashed because the driver was careless.",
+        "start": "Because of the",
+        "answers": [
+          "Because of the driver's carelessness, the car crashed.",
+          "Because of the careless driver, the car crashed."
+        ],
+        "tag": "Liên từ",
+        "explain": "because + mệnh đề → because of + cụm danh từ (carelessness / the careless driver)."
+      }
+    ]
+  },
+  "speaking": {
+    "introTitle": "Bài giới thiệu cuối cùng: 4–5 câu",
+    "intro": [
+      "Good morning. My name is ___ and I'm from ___.",
+      "I graduated from ___ University, majoring in ___.",
+      "At the moment, I'm working as a/an ___ at ___.",
+      "I'd like to do a master's degree in ___ because ___.",
+      "In my free time, I enjoy ___."
+    ],
+    "frame": "Ý chính → because… → For example… · 2–4 câu mỗi lượt. Không hiểu câu hỏi thì hỏi lại bằng tiếng Anh.",
+    "rescue": [
+      "Sorry, could you repeat the question, please?",
+      "Do you mean…?",
+      "That's a good question. Let me think…",
+      "I'm not sure, but I think…",
+      "In my opinion… because…"
+    ],
+    "questions": [
+      {
+        "q": "Family",
+        "hint": "Số người, ai làm gì, bạn thân nhất với ai và vì sao."
+      },
+      {
+        "q": "Hometown",
+        "hint": "Ở đâu, nổi tiếng về gì, đã thay đổi thế nào (it has changed…, new roads have been built)."
+      },
+      {
+        "q": "Studies / Work",
+        "hint": "Học gì, làm gì; I have worked there for…; khó nhất là + V-ing."
+      },
+      {
+        "q": "Hobbies",
+        "hint": "1 sở thích, vì sao thích, lần gần nhất làm (quá khứ đơn)."
+      },
+      {
+        "q": "Future plans",
+        "hint": "I'm going to… / I hope to… after I finish my master's degree."
+      },
+      {
+        "q": "Technology",
+        "hint": "Dùng điện thoại / máy tính làm gì trong công việc; lợi và hại."
+      },
+      {
+        "q": "Environment",
+        "hint": "Vấn đề ở thành phố (traffic, air pollution, plastic); bạn làm gì để giúp."
+      },
+      {
+        "q": "Learning English",
+        "hint": "Học bao lâu, khó nhất là gì, lợi ích cho công việc và học thạc sĩ."
+      }
+    ],
+    "rubric": [
+      "Trôi chảy, tương tác được",
+      "Ngữ pháp",
+      "Từ vựng",
+      "Phát âm",
+      "Nội dung có lý do và ví dụ"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "She ___ in Hue when she was a child.",
+      "options": [
+        "lived",
+        "has lived",
+        "has been lived",
+        "lives"
+      ],
+      "answer": "A",
+      "tag": "Quá khứ đơn",
+      "explain": "when she was a child → quá khứ đơn."
+    },
+    {
+      "q": "We ___ each other since 2015.",
+      "options": [
+        "knew",
+        "have known",
+        "have been known",
+        "know"
+      ],
+      "answer": "B",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "since → have + V3, chủ động không có been."
+    },
+    {
+      "q": "Hoi An, ___ is famous for its old town, attracts many tourists.",
+      "options": [
+        "where",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": "C",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Sau là động từ is → which; có dấu phẩy → không that."
+    },
+    {
+      "q": "If I ___ you, I would take the job.",
+      "options": [
+        "am",
+        "had been",
+        "will be",
+        "were"
+      ],
+      "answer": "D",
+      "tag": "Câu điều kiện",
+      "explain": "Loại 2: If I were."
+    },
+    {
+      "q": "He asked me whether I ___ to the party the night before.",
+      "options": [
+        "had gone",
+        "have gone",
+        "go",
+        "will go"
+      ],
+      "answer": "A",
+      "tag": "Câu gián tiếp",
+      "explain": "Lùi thì: went → had gone."
+    },
+    {
+      "q": "It took me two hours ___ the report.",
+      "options": [
+        "finishing",
+        "to finish",
+        "finish",
+        "finished"
+      ],
+      "answer": "B",
+      "tag": "It takes / spend",
+      "explain": "It takes + time + to V."
+    },
+    {
+      "q": "The flight was cancelled ___ the storm.",
+      "options": [
+        "because",
+        "although",
+        "because of",
+        "despite"
+      ],
+      "answer": "C",
+      "tag": "Liên từ",
+      "explain": "Sau là danh từ, chỉ nguyên nhân → because of."
+    },
+    {
+      "q": "She has ___ interesting job that she never wants to leave.",
+      "options": [
+        "so",
+        "so an",
+        "such",
+        "such an"
+      ],
+      "answer": "D",
+      "tag": "So / such",
+      "explain": "such + an + adj + N."
+    },
+    {
+      "q": "My computer ___ yesterday.",
+      "options": [
+        "repaired",
+        "was repaired",
+        "has been repaired",
+        "has repaired"
+      ],
+      "answer": "B",
+      "tag": "Bị động",
+      "explain": "Vật + yesterday → was repaired."
+    },
+    {
+      "q": "I wish I ___ more time to prepare for the exam last week.",
+      "options": [
+        "had had",
+        "had",
+        "have",
+        "would have"
+      ],
+      "answer": "A",
+      "tag": "Câu ước",
+      "explain": "last week → tiếc quá khứ → had had."
+    }
+  ]
+}

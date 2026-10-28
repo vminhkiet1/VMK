@@ -1,0 +1,327 @@
+{
+  "day": 6,
+  "grammarTopic": "Chiến thuật làm đề 90 câu",
+  "vocabTopic": "Ôn qua đề",
+  "speakingTopic": "Thi nói thử toàn bộ",
+  "examFile": "de-thi-2.json",
+  "plan": [
+    {
+      "time": "0:00 – 0:10",
+      "step": "Đọc chiến thuật",
+      "content": "Tab Chiến thuật: phân bổ thời gian, dạng câu hỏi đọc, cách soát Tìm lỗi sai"
+    },
+    {
+      "time": "0:10 – 1:10",
+      "step": "Thi thử 2: Paper 1",
+      "content": "10 từ vựng + 4 bài đọc (25 câu) trong 60 phút, không xem tài liệu"
+    },
+    {
+      "time": "1:10 – 1:40",
+      "step": "Thi thử 2: Paper 2",
+      "content": "35 câu trong 30 phút: điền câu, Tìm lỗi sai, điền đoạn, viết lại"
+    },
+    {
+      "time": "1:40 – 1:50",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:50 – 2:15",
+      "step": "Thi thử 2: Paper 3",
+      "content": "Nghe 20 câu, mỗi đoạn phát 2 lần"
+    },
+    {
+      "time": "2:15 – 2:25",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "2:25 – 3:05",
+      "step": "Chữa đề",
+      "content": "Đọc giải thích câu sai; gửi Claude % từng Paper"
+    },
+    {
+      "time": "3:05 – 3:30",
+      "step": "Thi nói thử với Claude",
+      "content": "Gõ “thi nói thử”: giới thiệu + bốc thăm chủ đề (đổi được 1 lần) + hỏi qua lại"
+    },
+    {
+      "time": "3:30 – 3:40",
+      "step": "Tổng kết",
+      "content": "Quiz 10 câu lỗi hay gặp"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Phân bổ thời gian (đề thật)",
+        "headers": [
+          "Phần",
+          "Số câu",
+          "Thời gian",
+          "Cách làm"
+        ],
+        "rows": [
+          [
+            "Paper 1 · Vocabulary",
+            "10",
+            "6 phút",
+            "Đọc cả câu; loại đáp án sai collocation trước."
+          ],
+          [
+            "Paper 1 · 4 bài đọc",
+            "25",
+            "~13 phút / bài",
+            "Đọc câu hỏi trước → scan từ khóa → câu hỏi mục đích / tiêu đề làm cuối."
+          ],
+          [
+            "Paper 2 · Sentence completion",
+            "10",
+            "6 phút",
+            "Nhìn dấu hiệu: thì, sau chỗ trống là danh từ hay mệnh đề."
+          ],
+          [
+            "Paper 2 · Error identification",
+            "10",
+            "8 phút",
+            "Soát 6 bước (thì → loại từ → liên từ → số ít/nhiều → mạo từ → đại từ quan hệ)."
+          ],
+          [
+            "Paper 2 · Cloze",
+            "10",
+            "8 phút",
+            "Đọc cả câu chứa chỗ trống và câu trước đó."
+          ],
+          [
+            "Paper 2 · Transformation",
+            "5",
+            "8 phút",
+            "Chữ bắt đầu cho biết mẫu; chép lại phần không đổi, chỉ sửa phần cấu trúc."
+          ]
+        ]
+      },
+      {
+        "title": "Dạng câu hỏi đọc trong đề trường",
+        "headers": [
+          "Dạng",
+          "Hỏi kiểu",
+          "Mẹo"
+        ],
+        "rows": [
+          [
+            "Mục đích / ý chính",
+            "What is the writer trying to do? · best title / headline",
+            "Làm CUỐI. Chọn đáp án bao cả bài; loại đáp án chỉ đúng 1 đoạn."
+          ],
+          [
+            "Chi tiết",
+            "According to paragraph 2… · What did X do?",
+            "Đáp án là câu trong bài được viết lại bằng từ khác. Đáp án chép y nguyên chữ trong bài thường là bẫy."
+          ],
+          [
+            "Cụm từ / thành ngữ",
+            "'in full swing' most probably means…",
+            "Đọc câu trước và sau, thay từng đáp án vào chỗ cụm từ."
+          ],
+          [
+            "Quy chiếu",
+            "'that' / 'such situations' refers to…",
+            "Nhìn câu hoặc cụm ngay PHÍA TRƯỚC."
+          ],
+          [
+            "NOT / CANNOT be inferred",
+            "Which is NOT mentioned?",
+            "Tìm 3 đáp án có trong bài; đáp án còn lại là câu trả lời."
+          ],
+          [
+            "Người viết sẽ nói gì",
+            "What might the writer say to a friend?",
+            "Mỗi đáp án có 2–3 chi tiết; chỉ 1 chi tiết sai là loại."
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Không để trống câu nào. Hết giờ thì đoán.",
+      "Đậu = trung bình ≥ 50% và không phần nào bị điểm liệt. Phần nào dưới 40% là vùng nguy hiểm.",
+      "Bài đọc thứ 4 thường dài và khó nhất: nếu bí, làm các câu chi tiết trước, bỏ qua câu suy luận rồi quay lại."
+    ],
+    "traps": [
+      {
+        "title": "Chọn đáp án có từ giống y trong bài",
+        "wrong": "Thấy 'three years' trong bài → chọn 'it took three years'.",
+        "right": "Đọc kỹ: 'Three years ago … a five-month course' → khóa học kéo dài 5 tháng.",
+        "why": "Đề hay lấy số, từ có trong bài làm bẫy. Đáp án đúng thường được diễn đạt lại."
+      },
+      {
+        "title": "Đọc hết bài rồi mới xem câu hỏi",
+        "wrong": "Đọc kỹ 650 từ của bài 4 rồi mới đọc câu hỏi → hết giờ.",
+        "right": "Đọc câu hỏi trước, gạch từ khóa, rồi tìm đoạn chứa đáp án.",
+        "why": "Paper 1 chỉ có 60 phút cho 35 câu."
+      },
+      {
+        "title": "Tìm lỗi sai: chọn chỗ 'nghe lạ'",
+        "wrong": "Chọn 'culturally universal' vì thấy lạ.",
+        "right": "Soát theo 6 bước; lỗi thật là 'involve' (thiếu -ing / that).",
+        "why": "Lỗi luôn là lỗi ngữ pháp rõ ràng, không phải từ khó."
+      }
+    ]
+  },
+  "speaking": {
+    "introTitle": "Thi nói thử với Claude (gõ “thi nói thử” trong cuộc trò chuyện)",
+    "intro": [
+      "Phần 1: Claude hỏi \"Could you introduce yourself?\" → nói 4–5 câu như bài ngày 5, tự nhiên, không đọc thuộc.",
+      "Claude có thể hỏi thêm 1–2 câu về bài giới thiệu (Why did you choose…?).",
+      "Phần 2: Claude bốc thăm 1 chủ đề; bạn được đổi 1 lần.",
+      "Claude hỏi qua lại 4–6 câu và hỏi vặn theo câu trả lời của bạn.",
+      "Cuối buổi: điểm ước tính /20 + 3 điểm cần sửa."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…). 2–4 câu mỗi lượt.",
+    "rescue": [
+      "Sorry, could you repeat the question, please?",
+      "Do you mean…?",
+      "That's a good question. Let me think…",
+      "I'm not sure, but I think…",
+      "In my opinion… because…"
+    ],
+    "questions": [
+      {
+        "q": "Could you introduce yourself?",
+        "hint": "4–5 câu: tên, quê, học gì, làm gì, vì sao học thạc sĩ."
+      },
+      {
+        "q": "Chủ đề có thể bốc: gia đình · quê hương · học tập · công việc · sở thích · kế hoạch tương lai · công nghệ · môi trường · lợi ích ngoại ngữ",
+        "hint": "Dùng bộ ý chung: công việc hiện tại, lý do học thạc sĩ, việc học tiếng Anh, 1 sở thích."
+      }
+    ],
+    "rubric": [
+      "Trôi chảy, tương tác được",
+      "Ngữ pháp",
+      "Từ vựng",
+      "Phát âm",
+      "Nội dung có lý do và ví dụ"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "I ___ my keys yesterday.",
+      "options": [
+        "have lost",
+        "lost",
+        "had lost",
+        "have been lost"
+      ],
+      "answer": "B",
+      "tag": "Quá khứ đơn",
+      "explain": "yesterday → quá khứ đơn."
+    },
+    {
+      "q": "This is the village ___ my father grew up.",
+      "options": [
+        "which",
+        "that",
+        "where",
+        "who"
+      ],
+      "answer": "C",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "my father grew up đủ nghĩa → where."
+    },
+    {
+      "q": "This is the village ___ I visited last summer.",
+      "options": [
+        "where",
+        "which",
+        "when",
+        "whose"
+      ],
+      "answer": "B",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "I visited (thăm cái gì?) thiếu tân ngữ → which."
+    },
+    {
+      "q": "We ___ English for five years.",
+      "options": [
+        "have been learned",
+        "learned",
+        "have learned",
+        "had been learned"
+      ],
+      "answer": "C",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "Chủ động → không có been."
+    },
+    {
+      "q": "If I had a car, I ___ to work.",
+      "options": [
+        "drove",
+        "will drive",
+        "would drive",
+        "had driven"
+      ],
+      "answer": "C",
+      "tag": "Câu điều kiện",
+      "explain": "Loại 2: vế chính would + V."
+    },
+    {
+      "q": "I spend two hours ___ every day.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "answer": "B",
+      "tag": "It takes / spend",
+      "explain": "spend + time + V-ing."
+    },
+    {
+      "q": "___ the rain, we went out.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because",
+        "However"
+      ],
+      "answer": "B",
+      "tag": "Liên từ",
+      "explain": "Sau là danh từ → Despite."
+    },
+    {
+      "q": "She asked me where ___.",
+      "options": [
+        "did I work",
+        "I worked",
+        "do I work",
+        "I am work"
+      ],
+      "answer": "B",
+      "tag": "Câu gián tiếp",
+      "explain": "Không đảo: where + S + V."
+    },
+    {
+      "q": "He suggested ___ a break.",
+      "options": [
+        "to take",
+        "take",
+        "taking",
+        "took"
+      ],
+      "answer": "C",
+      "tag": "Suggest",
+      "explain": "suggest + V-ing."
+    },
+    {
+      "q": "The house ___ in 2010.",
+      "options": [
+        "built",
+        "has built",
+        "has been built",
+        "was built"
+      ],
+      "answer": "D",
+      "tag": "Bị động",
+      "explain": "Vật + in 2010 → was built."
+    }
+  ]
+}

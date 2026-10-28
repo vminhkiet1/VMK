@@ -1,0 +1,991 @@
+{
+  "day": 2,
+  "grammarTopic": "Mệnh đề quan hệ + liên từ",
+  "vocabTopic": "Phrasal verb nhóm 1",
+  "speakingTopic": "Quê hương",
+  "examFile": "de-mau.json",
+  "plan": [
+    {
+      "time": "0:00 – 0:15",
+      "step": "Bài học ngữ pháp",
+      "content": "Mệnh đề quan hệ (who/which/whose/where…) + liên từ (although/despite, because/because of)"
+    },
+    {
+      "time": "0:15 – 0:40",
+      "step": "Bài tập ngữ pháp",
+      "content": "10 câu Sentence completion + 5 câu Sentence transformation"
+    },
+    {
+      "time": "0:40 – 0:55",
+      "step": "Luyện thêm: thì",
+      "content": "10 câu + 3 câu viết lại, nhắm vào 2 lỗi lặp lại của ngày 1"
+    },
+    {
+      "time": "0:55 – 1:05",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:05 – 2:35",
+      "step": "Đề mẫu: Paper 1 + 2",
+      "content": "50 câu trong 90 phút, không xem tài liệu, không mở study.md"
+    },
+    {
+      "time": "2:35 – 2:55",
+      "step": "Đề mẫu: Paper 3",
+      "content": "Nghe 20 câu, mỗi đoạn phát 2 lần"
+    },
+    {
+      "time": "2:55 – 3:05",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "3:05 – 3:20",
+      "step": "Chữa đề mẫu",
+      "content": "Đọc giải thích từng câu sai, ghi lại điểm từng Paper"
+    },
+    {
+      "time": "3:20 – 3:40",
+      "step": "Từ vựng",
+      "content": "20 phrasal verb + 10 câu Paper 1 Part A"
+    },
+    {
+      "time": "3:40 – 4:00",
+      "step": "Luyện nói",
+      "content": "Chủ đề Quê hương: 5 câu, có câu dùng hiện tại hoàn thành"
+    },
+    {
+      "time": "4:00 – 4:10",
+      "step": "Tổng kết",
+      "content": "Xem lỗi sai theo chủ điểm + quiz 10 câu"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Đại từ / trạng từ quan hệ",
+        "headers": [
+          "Từ",
+          "Thay cho",
+          "Theo sau thường là",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "who",
+            "người (làm chủ ngữ)",
+            "động từ",
+            "The man who lives next door is a doctor."
+          ],
+          [
+            "whom",
+            "người (làm tân ngữ)",
+            "S + V",
+            "The woman whom I met yesterday is my teacher."
+          ],
+          [
+            "which",
+            "vật, con vật",
+            "động từ hoặc S + V",
+            "The laptop which I bought is very fast."
+          ],
+          [
+            "that",
+            "người hoặc vật (chỉ trong mệnh đề KHÔNG có dấu phẩy)",
+            "động từ hoặc S + V",
+            "The car that he drives is new."
+          ],
+          [
+            "whose",
+            "sở hữu: CỦA người/vật đó",
+            "danh từ (không có a/the/my)",
+            "I know a girl whose father is a pilot."
+          ],
+          [
+            "where",
+            "nơi chốn (= in/at which)",
+            "S + V đầy đủ",
+            "This is the village where I was born."
+          ],
+          [
+            "when",
+            "thời gian (= on/in which)",
+            "S + V đầy đủ",
+            "I remember the day when we first met."
+          ]
+        ]
+      },
+      {
+        "title": "Liên từ: nhìn phía sau chỗ trống",
+        "headers": [
+          "Nghĩa",
+          "+ mệnh đề (S + V)",
+          "+ danh từ / V-ing",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Mặc dù",
+            "although / even though / though",
+            "despite / in spite of",
+            "Although it rained, we went out. = Despite the rain, we went out."
+          ],
+          [
+            "Bởi vì",
+            "because / since / as",
+            "because of / due to",
+            "Because it rained, … = Because of the rain, …"
+          ],
+          [
+            "Tuy nhiên",
+            "S + V. However, S + V.",
+            "—",
+            "It was hard. However, I finished it."
+          ],
+          [
+            "Vì vậy",
+            "…, so S + V. / Therefore, S + V.",
+            "—",
+            "I was tired, so I went to bed early."
+          ]
+        ]
+      },
+      {
+        "title": "Chọn từ quan hệ trong 2 bước",
+        "headers": [
+          "Bước",
+          "Làm gì",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "1. Nhìn từ đứng TRƯỚC chỗ trống",
+            "Người → who/whom/that. Vật → which/that. Nơi chốn → where (hoặc which). Thời gian → when.",
+            "the house ___ → vật hoặc nơi chốn"
+          ],
+          [
+            "2. Nhìn phía SAU chỗ trống",
+            "Có động từ ngay sau → who/which (làm chủ ngữ). Có danh từ trơn + động từ → whose. Có S + V đầy đủ, không thiếu gì → where/when. Có S + V nhưng thiếu tân ngữ → which/whom.",
+            "the house ___ I live → I live đã đủ nghĩa → where. the house ___ I bought → bought thiếu tân ngữ → which."
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Có dấu phẩy (thông tin thêm về tên riêng, my mother, Hanoi…) → KHÔNG dùng that. Hanoi, which is the capital, …",
+      "whom/which làm tân ngữ có thể bỏ: The book (which) I bought was cheap.",
+      "Giới từ + which/whom: the house in which I live = the house where I live. Không có \"in that\".",
+      "Despite + V-ing: Despite being tired, … Muốn giữ mệnh đề thì dùng Despite the fact that + S + V.",
+      "However đứng đầu câu, sau dấu chấm, có dấu phẩy sau nó. But đứng giữa câu."
+    ],
+    "traps": [
+      {
+        "title": "Dùng that sau dấu phẩy",
+        "wrong": "My father, that is a doctor, works in Hue.",
+        "right": "My father, who is a doctor, works in Hue.",
+        "why": "Mệnh đề có dấu phẩy chỉ dùng who/which, không dùng that."
+      },
+      {
+        "title": "Although + danh từ",
+        "wrong": "Although the rain, we went out.",
+        "right": "Despite the rain, we went out. / Although it rained, we went out.",
+        "why": "Although cần mệnh đề có S + V. \"the rain\" chỉ là danh từ → Despite."
+      },
+      {
+        "title": "Although … but trong cùng một câu",
+        "wrong": "Although he was tired, but he kept working.",
+        "right": "Although he was tired, he kept working.",
+        "why": "Tiếng Việt nói \"Mặc dù… nhưng…\", tiếng Anh chỉ dùng MỘT trong hai từ."
+      }
+    ]
+  },
+  "grammarMcq": [
+    {
+      "q": "The man ___ lives next door is a famous singer.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": "B",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Trước là người (the man), sau là động từ (lives) → who làm chủ ngữ."
+    },
+    {
+      "q": "This is the house ___ my grandparents used to live.",
+      "options": [
+        "which",
+        "that",
+        "where",
+        "when"
+      ],
+      "answer": "C",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Sau chỗ trống: my grandparents used to live, đã đủ S + V, không thiếu tân ngữ → where (= in which)."
+    },
+    {
+      "q": "I have a friend ___ father is a pilot.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": "D",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Sau chỗ trống là danh từ trơn \"father\" + động từ → whose (bố CỦA bạn ấy)."
+    },
+    {
+      "q": "___ she was tired, she stayed up to finish the report.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because of",
+        "However"
+      ],
+      "answer": "A",
+      "tag": "Liên từ",
+      "explain": "Sau chỗ trống là mệnh đề (she was tired) và nghĩa tương phản → Although. Despite/Because of cần danh từ."
+    },
+    {
+      "q": "The flight was delayed ___ the bad weather.",
+      "options": [
+        "because",
+        "although",
+        "because of",
+        "in spite"
+      ],
+      "answer": "C",
+      "tag": "Liên từ",
+      "explain": "Sau là cụm danh từ (the bad weather), nghĩa nguyên nhân → because of. \"in spite\" thiếu \"of\"."
+    },
+    {
+      "q": "The laptop ___ I bought last week has stopped working.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": "A",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Trước là vật, sau là I bought (thiếu tân ngữ: mua cái gì?) → which."
+    },
+    {
+      "q": "Hanoi, ___ is the capital of Vietnam, has many old buildings.",
+      "options": [
+        "that",
+        "who",
+        "which",
+        "where"
+      ],
+      "answer": "C",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Có dấu phẩy → không dùng that. Sau là động từ (is) → which. where cần S + V phía sau."
+    },
+    {
+      "q": "He failed the exam ___ studying very hard.",
+      "options": [
+        "although",
+        "despite",
+        "because",
+        "because of"
+      ],
+      "answer": "B",
+      "tag": "Liên từ",
+      "explain": "Sau là V-ing (studying), nghĩa tương phản (học chăm mà vẫn trượt) → despite."
+    },
+    {
+      "q": "I still remember the day ___ I started my first job.",
+      "options": [
+        "when",
+        "which",
+        "where",
+        "who"
+      ],
+      "answer": "A",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Trước là thời gian (the day), sau là S + V đầy đủ → when."
+    },
+    {
+      "q": "It was raining heavily. ___, the football match continued.",
+      "options": [
+        "Therefore",
+        "Because",
+        "Although",
+        "However"
+      ],
+      "answer": "D",
+      "tag": "Liên từ",
+      "explain": "Đầu câu, có dấu phẩy, nghĩa tương phản với câu trước → However. Therefore = vì vậy, sai nghĩa."
+    }
+  ],
+  "transform": [
+    {
+      "source": "Although it rained heavily, they went on with the match.",
+      "start": "Despite",
+      "answers": [
+        "Despite the heavy rain, they went on with the match.",
+        "Despite the fact that it rained heavily, they went on with the match."
+      ],
+      "tag": "Liên từ",
+      "explain": "Although + mệnh đề → Despite + cụm danh từ (rained heavily → the heavy rain) hoặc Despite the fact that + mệnh đề."
+    },
+    {
+      "source": "He was ill, so he didn't go to work.",
+      "start": "Because of",
+      "answers": [
+        "Because of his illness, he didn't go to work.",
+        "Because of being ill, he didn't go to work."
+      ],
+      "tag": "Liên từ",
+      "explain": "Because of + danh từ / V-ing: he was ill → his illness (hoặc being ill)."
+    },
+    {
+      "source": "I met a woman. Her son is my classmate.",
+      "start": "I met a woman whose",
+      "answers": [
+        "I met a woman whose son is my classmate."
+      ],
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Her son → whose son (con trai CỦA bà ấy). Bỏ \"her\" vì whose đã mang nghĩa sở hữu."
+    },
+    {
+      "source": "I last visited my hometown three years ago.",
+      "start": "I haven't",
+      "answers": [
+        "I haven't visited my hometown for three years."
+      ],
+      "tag": "Hiện tại hoàn thành",
+      "explain": "last + V2 + ago → haven't + V3 + for + khoảng thời gian. Chủ động nên KHÔNG có \"been\". Bỏ \"last\" và \"ago\"."
+    },
+    {
+      "source": "Someone stole my bike last night.",
+      "start": "My bike",
+      "answers": [
+        "My bike was stolen last night."
+      ],
+      "tag": "Bị động",
+      "explain": "Quá khứ đơn bị động: was/were + V3. Bỏ \"someone\" vì không cần nói ai làm. last night → quá khứ, không dùng has been."
+    }
+  ],
+  "extra": {
+    "title": "Luyện thêm: thì (sửa 2 lỗi lặp lại)",
+    "note": "Lỗi 1: thấy mốc quá khứ (ago, yesterday, in 2019, when he was young, before + V2) mà vẫn chọn have/has. Lỗi 2: thêm \"been\" vào câu chủ động. Nhớ: have + V3 = đã làm (chủ động); have been + V3 = đã BỊ làm (bị động, chủ ngữ thường là vật); have been + V-ing = đã đang làm (chủ động, nhấn mạnh quá trình).",
+    "sets": [
+      {
+        "key": "tenseFix",
+        "title": "Hiện tại hoàn thành, quá khứ đơn hay quá khứ hoàn thành?",
+        "items": [
+          {
+            "q": "My father ___ in a bank for 20 years before he retired last year.",
+            "options": [
+              "has worked",
+              "had worked",
+              "works",
+              "is working"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Đứng ở mốc \"lúc nghỉ hưu năm ngoái\" nhìn lại → had + V3. Mũi tên dừng ở quá khứ, không chạm tới bây giờ."
+          },
+          {
+            "q": "I ___ my wallet yesterday, so I couldn't pay for lunch.",
+            "options": [
+              "lost",
+              "have lost",
+              "had lost",
+              "have been lost"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "\"yesterday\" là mốc quá khứ đã kết thúc → quá khứ đơn. Không dùng have/has với yesterday."
+          },
+          {
+            "q": "She ___ English since she was ten.",
+            "options": [
+              "learned",
+              "has been learned",
+              "has learned",
+              "had learned"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "since + mốc, tính tới bây giờ → has + V3. \"has been learned\" là bị động (tiếng Anh bị học), sai nghĩa."
+          },
+          {
+            "q": "The letters ___ yet. Can you post them now?",
+            "options": [
+              "haven't sent",
+              "haven't been sent",
+              "didn't send",
+              "hadn't sent"
+            ],
+            "answer": "B",
+            "tag": "Bị động",
+            "explain": "Chủ ngữ là VẬT (the letters) không tự gửi được → bị động: haven't been + V3. Đây là lúc \"been\" đúng."
+          },
+          {
+            "q": "Tom ___ his homework yet.",
+            "options": [
+              "hasn't finished",
+              "hasn't been finished",
+              "didn't finish",
+              "isn't finishing"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "Chủ ngữ là NGƯỜI tự làm bài → chủ động: hasn't + V3, không có been. So với câu trên: vật → been, người → không been."
+          },
+          {
+            "q": "When we got to the station, the last bus ___.",
+            "options": [
+              "left",
+              "has left",
+              "was leaving",
+              "had left"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Đứng ở mốc \"lúc tới bến\" (quá khứ) nhìn lại: xe đã đi trước đó → had left."
+          },
+          {
+            "q": "Lan ___ to Singapore in 2019.",
+            "options": [
+              "has gone",
+              "had gone",
+              "went",
+              "has been"
+            ],
+            "answer": "C",
+            "tag": "Quá khứ đơn",
+            "explain": "\"in 2019\" là mốc quá khứ cụ thể → quá khứ đơn."
+          },
+          {
+            "q": "We ___ each other for ten years, and we are still best friends.",
+            "options": [
+              "knew",
+              "have known",
+              "had known",
+              "have been known"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "for ten years + vẫn còn tới giờ (are still) → have + V3. \"have been known\" là bị động, sai."
+          },
+          {
+            "q": "My grandmother ___ in the countryside when she was young.",
+            "options": [
+              "has lived",
+              "had lived",
+              "lives",
+              "lived"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "\"when she was young\" là giai đoạn đã qua → quá khứ đơn. Đây là lỗi has served ở ngày 1."
+          },
+          {
+            "q": "How long ___ in this city? – Since 2021.",
+            "options": [
+              "have you lived",
+              "did you live",
+              "are you living",
+              "had you lived"
+            ],
+            "answer": "A",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "How long + Since 2021 (tới giờ vẫn sống) → have you lived."
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "She started teaching at this school in 2018.",
+        "start": "She has",
+        "answers": [
+          "She has taught at this school since 2018.",
+          "She has been teaching at this school since 2018."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started + in 2018 → has + V3 + since 2018. Được dùng \"has been teaching\" (been + V-ing, chủ động). KHÔNG viết has been taught (bị động)."
+      },
+      {
+        "source": "I haven't seen this film before.",
+        "start": "This is the first time",
+        "answers": [
+          "This is the first time I have seen this film.",
+          "This is the first time I've seen this film."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "haven't … before ↔ This is the first time + S + have + V3. Không dùng hiện tại đơn sau the first time."
+      },
+      {
+        "source": "We arrived at the cinema. The film had started before that.",
+        "start": "When we arrived at the cinema, the film",
+        "answers": [
+          "When we arrived at the cinema, the film had started.",
+          "When we arrived at the cinema, the film had already started."
+        ],
+        "tag": "Quá khứ hoàn thành",
+        "explain": "Mốc là lúc tới rạp (quá khứ); phim bắt đầu trước đó → had + V3."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "phrase": "look after",
+      "pos": "phr. v.",
+      "ipa": "/lʊk ˈɑːftə(r)/",
+      "meaning": "chăm sóc",
+      "colloc": "look after children / a pet / yourself",
+      "example": "She looks after her grandmother every weekend."
+    },
+    {
+      "phrase": "look for",
+      "pos": "phr. v.",
+      "ipa": "/lʊk fɔː(r)/",
+      "meaning": "tìm kiếm",
+      "colloc": "look for a job / your keys",
+      "example": "I'm looking for a new job."
+    },
+    {
+      "phrase": "look forward to",
+      "pos": "phr. v.",
+      "ipa": "/lʊk ˈfɔːwəd tə/",
+      "meaning": "mong chờ",
+      "colloc": "look forward to + V-ing / danh từ",
+      "example": "I look forward to hearing from you."
+    },
+    {
+      "phrase": "look up",
+      "pos": "phr. v.",
+      "ipa": "/lʊk ʌp/",
+      "meaning": "tra cứu (từ điển, mạng)",
+      "colloc": "look up a word / look it up",
+      "example": "Look up new words in a dictionary."
+    },
+    {
+      "phrase": "find out",
+      "pos": "phr. v.",
+      "ipa": "/faɪnd aʊt/",
+      "meaning": "tìm ra, phát hiện",
+      "colloc": "find out the truth / find out that…",
+      "example": "I found out that the shop was closed."
+    },
+    {
+      "phrase": "give up",
+      "pos": "phr. v.",
+      "ipa": "/ɡɪv ʌp/",
+      "meaning": "từ bỏ",
+      "colloc": "give up smoking / give up + V-ing",
+      "example": "He gave up smoking last year."
+    },
+    {
+      "phrase": "put off",
+      "pos": "phr. v.",
+      "ipa": "/pʊt ɒf/",
+      "meaning": "hoãn lại",
+      "colloc": "put off a meeting / put off + V-ing",
+      "example": "Don't put off doing your homework."
+    },
+    {
+      "phrase": "call off",
+      "pos": "phr. v.",
+      "ipa": "/kɔːl ɒf/",
+      "meaning": "hủy bỏ",
+      "colloc": "call off a meeting / a trip / a match",
+      "example": "They called off the trip because of the storm."
+    },
+    {
+      "phrase": "turn down",
+      "pos": "phr. v.",
+      "ipa": "/tɜːn daʊn/",
+      "meaning": "từ chối; vặn nhỏ",
+      "colloc": "turn down an offer / turn down the music",
+      "example": "She turned down the job offer."
+    },
+    {
+      "phrase": "set up",
+      "pos": "phr. v.",
+      "ipa": "/set ʌp/",
+      "meaning": "thành lập, dựng lên",
+      "colloc": "set up a company / a business",
+      "example": "He set up his own company in 2020."
+    },
+    {
+      "phrase": "carry on",
+      "pos": "phr. v.",
+      "ipa": "/ˈkæri ɒn/",
+      "meaning": "tiếp tục",
+      "colloc": "carry on + V-ing / carry on with sth",
+      "example": "Carry on working while I'm out."
+    },
+    {
+      "phrase": "run out of",
+      "pos": "phr. v.",
+      "ipa": "/rʌn aʊt əv/",
+      "meaning": "hết, cạn",
+      "colloc": "run out of money / time / petrol",
+      "example": "We've run out of milk."
+    },
+    {
+      "phrase": "get on (well) with",
+      "pos": "phr. v.",
+      "ipa": "/ɡet ɒn wɪð/",
+      "meaning": "hòa hợp với",
+      "colloc": "get on well with colleagues / neighbours",
+      "example": "I get on well with my boss."
+    },
+    {
+      "phrase": "take after",
+      "pos": "phr. v.",
+      "ipa": "/teɪk ˈɑːftə(r)/",
+      "meaning": "giống (bố mẹ, người lớn trong nhà)",
+      "colloc": "take after your father / mother",
+      "example": "She takes after her mother."
+    },
+    {
+      "phrase": "come across",
+      "pos": "phr. v.",
+      "ipa": "/kʌm əˈkrɒs/",
+      "meaning": "tình cờ thấy, gặp",
+      "colloc": "come across an old photo / an article",
+      "example": "I came across an interesting article yesterday."
+    },
+    {
+      "phrase": "pick up",
+      "pos": "phr. v.",
+      "ipa": "/pɪk ʌp/",
+      "meaning": "đón (ai); nhặt; học lỏm",
+      "colloc": "pick sb up from school / at the airport",
+      "example": "I'll pick you up at 7."
+    },
+    {
+      "phrase": "fill in",
+      "pos": "phr. v.",
+      "ipa": "/fɪl ɪn/",
+      "meaning": "điền (đơn, mẫu)",
+      "colloc": "fill in a form / an application",
+      "example": "Please fill in this application form."
+    },
+    {
+      "phrase": "get over",
+      "pos": "phr. v.",
+      "ipa": "/ɡet ˈəʊvə(r)/",
+      "meaning": "vượt qua, hồi phục",
+      "colloc": "get over an illness / a problem / a shock",
+      "example": "It took her two weeks to get over the flu."
+    },
+    {
+      "phrase": "turn up",
+      "pos": "phr. v.",
+      "ipa": "/tɜːn ʌp/",
+      "meaning": "xuất hiện, đến; vặn to",
+      "colloc": "turn up late / turn up the volume",
+      "example": "He turned up late for the meeting."
+    },
+    {
+      "phrase": "cut down on",
+      "pos": "phr. v.",
+      "ipa": "/kʌt daʊn ɒn/",
+      "meaning": "cắt giảm",
+      "colloc": "cut down on sugar / coffee / spending",
+      "example": "My doctor told me to cut down on sugar."
+    }
+  ],
+  "vocabMcq": [
+    {
+      "q": "Could you ___ my cat while I'm on holiday?",
+      "options": [
+        "look for",
+        "look after",
+        "look up",
+        "look into"
+      ],
+      "answer": "B",
+      "tag": "Phrasal verb",
+      "explain": "look after = chăm sóc. look for = tìm; look up = tra cứu; look into = điều tra."
+    },
+    {
+      "q": "If you don't know a word, ___ it ___ in the dictionary.",
+      "options": [
+        "look / up",
+        "find / out",
+        "pick / up",
+        "turn / up"
+      ],
+      "answer": "A",
+      "tag": "Phrasal verb",
+      "explain": "look sth up = tra (từ điển). find out = phát hiện ra thông tin, không dùng với dictionary."
+    },
+    {
+      "q": "The concert was ___ because the singer was ill.",
+      "options": [
+        "set up",
+        "turned up",
+        "carried on",
+        "called off"
+      ],
+      "answer": "D",
+      "tag": "Phrasal verb",
+      "explain": "call off = hủy bỏ (bị động: was called off). carry on = tiếp tục, ngược nghĩa."
+    },
+    {
+      "q": "I'm really looking forward to ___ you next week.",
+      "options": [
+        "see",
+        "seeing",
+        "saw",
+        "have seen"
+      ],
+      "answer": "B",
+      "tag": "Phrasal verb",
+      "explain": "look forward to + V-ing. \"to\" ở đây là giới từ, không phải to + V nguyên mẫu."
+    },
+    {
+      "q": "She ___ a good job offer because the salary was too low.",
+      "options": [
+        "turned up",
+        "gave up",
+        "turned down",
+        "put on"
+      ],
+      "answer": "C",
+      "tag": "Phrasal verb",
+      "explain": "turn down an offer = từ chối lời mời. give up = từ bỏ việc mình đang làm."
+    },
+    {
+      "q": "We've ___ of coffee. Can you buy some on your way home?",
+      "options": [
+        "run out",
+        "cut down",
+        "carried on",
+        "got over"
+      ],
+      "answer": "A",
+      "tag": "Phrasal verb",
+      "explain": "run out of = hết. cut down on = cắt giảm (phải là \"on\", không phải \"of\")."
+    },
+    {
+      "q": "Tom really ___ his father; they both have curly hair and love football.",
+      "options": [
+        "looks after",
+        "gets on",
+        "comes across",
+        "takes after"
+      ],
+      "answer": "D",
+      "tag": "Phrasal verb",
+      "explain": "take after = giống người lớn trong nhà. look after = chăm sóc."
+    },
+    {
+      "q": "Please ___ this form and give it to the receptionist.",
+      "options": [
+        "write in",
+        "put in",
+        "fill in",
+        "take in"
+      ],
+      "answer": "C",
+      "tag": "Phrasal verb",
+      "explain": "fill in a form = điền vào mẫu đơn."
+    },
+    {
+      "q": "My uncle ___ his own business after he left the bank.",
+      "options": [
+        "put up",
+        "set up",
+        "took up",
+        "made up"
+      ],
+      "answer": "B",
+      "tag": "Phrasal verb",
+      "explain": "set up a business = thành lập. take up = bắt đầu một sở thích; make up = bịa ra / trang điểm."
+    },
+    {
+      "q": "It took him a long time to ___ the death of his dog.",
+      "options": [
+        "get on",
+        "get up",
+        "get off",
+        "get over"
+      ],
+      "answer": "D",
+      "tag": "Phrasal verb",
+      "explain": "get over = vượt qua (nỗi buồn, bệnh). get on = hòa hợp / lên xe; get off = xuống xe."
+    }
+  ],
+  "speaking": {
+    "introTitle": "Bài mẫu: Your hometown (khoảng 1 phút, điền chỗ trống)",
+    "intro": [
+      "My hometown is ___, a ___ (small town / big city) in the ___ (north / centre / south) of Vietnam.",
+      "It is famous for ___ and ___.",
+      "In recent years, it has changed a lot. Many new ___ have been built, and the roads have become ___.",
+      "What I like most about my hometown is ___ because ___.",
+      "However, one problem is ___.",
+      "In the future, I would like to ___ there."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…)",
+    "rescue": [
+      "That's an interesting question. Let me think…",
+      "Could you repeat the question, please?",
+      "I'm not sure, but I think…",
+      "What I mean is…"
+    ],
+    "questions": [
+      {
+        "q": "Where is your hometown?",
+        "hint": "Tên, vị trí (in the north of… / about 100 km from…), lớn hay nhỏ, dân số khoảng bao nhiêu."
+      },
+      {
+        "q": "What is your hometown famous for?",
+        "hint": "Món ăn / cảnh đẹp / nghề truyền thống + 1 ví dụ cụ thể. Dùng which: …, which is a kind of noodle soup."
+      },
+      {
+        "q": "How has your hometown changed in recent years?",
+        "hint": "HIỆN TẠI HOÀN THÀNH: it has changed, it has become… Vật được xây → bị động: new roads have been built. Câu chủ động thì không có been."
+      },
+      {
+        "q": "What do you like most about living there?",
+        "hint": "Ý chính → because… → For example… Có thể dùng where: the market where my mother works."
+      },
+      {
+        "q": "Would you prefer to live in a big city or in the countryside? Why?",
+        "hint": "I'd prefer to live in… because… Dùng liên từ hôm nay: Although the city is noisy, … / However, …"
+      }
+    ],
+    "rubric": [
+      "Trôi chảy (ít ngập ngừng, nói đủ ý)",
+      "Ngữ pháp (thì đúng, mệnh đề quan hệ, liên từ)",
+      "Từ vựng (đúng chủ đề, có phrasal verb hoặc collocation)",
+      "Phát âm (âm cuối -s, -ed, trọng âm)",
+      "Nội dung (trả lời đúng câu hỏi, có lý do và ví dụ)"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "I ___ this teacher since I started university.",
+      "options": [
+        "know",
+        "knew",
+        "have known",
+        "am knowing"
+      ],
+      "answer": "C",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "since + mệnh đề quá khứ → mệnh đề chính dùng have + V3. know không dùng -ing."
+    },
+    {
+      "q": "The bridge ___ two years ago.",
+      "options": [
+        "was built",
+        "has been built",
+        "built",
+        "has built"
+      ],
+      "answer": "A",
+      "tag": "Bị động",
+      "explain": "Vật (the bridge) → bị động; \"ago\" → quá khứ đơn: was built. has been built sai vì có ago."
+    },
+    {
+      "q": "The girl ___ I met at the party is a nurse.",
+      "options": [
+        "whose",
+        "who",
+        "where",
+        "which"
+      ],
+      "answer": "B",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Trước là người, sau là I met (thiếu tân ngữ) → who/whom. whose cần danh từ theo sau."
+    },
+    {
+      "q": "___ the traffic jam, we arrived on time.",
+      "options": [
+        "Although",
+        "Because of",
+        "However",
+        "In spite of"
+      ],
+      "answer": "D",
+      "tag": "Liên từ",
+      "explain": "Sau là danh từ (the traffic jam), nghĩa tương phản (kẹt xe mà vẫn đúng giờ) → In spite of."
+    },
+    {
+      "q": "By the time I got home, my family ___ dinner.",
+      "options": [
+        "had finished",
+        "have finished",
+        "finish",
+        "were finishing"
+      ],
+      "answer": "A",
+      "tag": "Quá khứ hoàn thành",
+      "explain": "By the time + quá khứ đơn → đứng ở mốc quá khứ nhìn lại → had + V3."
+    },
+    {
+      "q": "\"The phone's ringing.\" – \"OK, I ___ it.\"",
+      "options": [
+        "am going to answer",
+        "answer",
+        "will answer",
+        "have answered"
+      ],
+      "answer": "C",
+      "tag": "Will",
+      "explain": "Quyết định ngay lúc nói → will."
+    },
+    {
+      "q": "She ___ her mother; they are both very kind.",
+      "options": [
+        "looks after",
+        "takes up",
+        "gets over",
+        "takes after"
+      ],
+      "answer": "D",
+      "tag": "Phrasal verb",
+      "explain": "take after = giống (mẹ)."
+    },
+    {
+      "q": "We've ___ milk. Can you buy some?",
+      "options": [
+        "run up",
+        "run out of",
+        "run out",
+        "run over"
+      ],
+      "answer": "B",
+      "tag": "Phrasal verb",
+      "explain": "run out of + danh từ = hết cái gì. Thiếu \"of\" thì không có tân ngữ được."
+    },
+    {
+      "q": "This is the restaurant ___ we had our first date.",
+      "options": [
+        "where",
+        "which",
+        "who",
+        "when"
+      ],
+      "answer": "A",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Nơi chốn + S + V đầy đủ (we had our first date) → where."
+    },
+    {
+      "q": "My phone ___ yet. It's still in the shop.",
+      "options": [
+        "hasn't repaired",
+        "didn't repair",
+        "hasn't been repaired",
+        "wasn't repairing"
+      ],
+      "answer": "C",
+      "tag": "Bị động",
+      "explain": "Điện thoại không tự sửa → bị động; yet → hiện tại hoàn thành: hasn't been repaired."
+    }
+  ]
+}

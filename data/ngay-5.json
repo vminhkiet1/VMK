@@ -1,0 +1,1434 @@
+{
+  "day": 5,
+  "grammarTopic": "Câu gián tiếp + suggest / had better",
+  "vocabTopic": "Cấu tạo từ",
+  "speakingTopic": "Học tập & kế hoạch tương lai",
+  "plan": [
+    {
+      "time": "0:00 – 0:15",
+      "step": "Bài học",
+      "content": "Câu gián tiếp, suggest / had better / advise, cấu tạo từ, cách soát lỗi sai"
+    },
+    {
+      "time": "0:15 – 0:35",
+      "step": "Bài tập ngữ pháp",
+      "content": "10 câu + 5 câu viết lại (lấy từ 20 mẫu trong tài liệu trường)"
+    },
+    {
+      "time": "0:35 – 1:05",
+      "step": "Đề trường · Test 1 (Paper 2)",
+      "content": "Tab Luyện thêm: 9 câu điền + 10 câu Tìm lỗi sai trong 15 phút, rồi 5 câu viết lại"
+    },
+    {
+      "time": "1:05 – 1:15",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:15 – 1:45",
+      "step": "Đọc 2 bài (Test 1)",
+      "content": "Tab Đọc: Origin of Jeans (10 phút). Tab Luyện thêm: Jeff Stringer (8 phút). Đọc câu hỏi trước, gạch từ khóa"
+    },
+    {
+      "time": "1:45 – 2:00",
+      "step": "Chữa đọc",
+      "content": "Xem câu chứa đáp án, học từ mới"
+    },
+    {
+      "time": "2:00 – 2:10",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "2:10 – 2:40",
+      "step": "Từ vựng",
+      "content": "20 họ từ + 10 câu cấu tạo từ"
+    },
+    {
+      "time": "2:40 – 3:10",
+      "step": "Luyện nói với Claude",
+      "content": "Gõ “thi nói” trong cuộc trò chuyện: giới thiệu 4–5 câu + chủ đề Học tập"
+    },
+    {
+      "time": "3:10 – 3:20",
+      "step": "Tổng kết",
+      "content": "Quiz 10 câu"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Câu gián tiếp: 4 loại câu",
+        "headers": [
+          "Loại câu",
+          "Trực tiếp",
+          "Gián tiếp",
+          "Mẹo"
+        ],
+        "rows": [
+          [
+            "Câu kể",
+            "She said, \"I am tired.\"",
+            "She said (that) she was tired.",
+            "said (that) + lùi thì. said to sb → told sb."
+          ],
+          [
+            "Hỏi Yes/No",
+            "\"Are you hungry, Tom?\"",
+            "She asked Tom if / whether he was hungry.",
+            "asked + if/whether + S + V. KHÔNG đảo."
+          ],
+          [
+            "Hỏi Wh-",
+            "\"Where do you live?\"",
+            "He asked me where I lived.",
+            "asked + wh- + S + V. Bỏ do/does/did, KHÔNG đảo."
+          ],
+          [
+            "Mệnh lệnh",
+            "\"Don't be late.\"",
+            "He told me not to be late.",
+            "told / asked / warned + sb + (not) to V."
+          ]
+        ]
+      },
+      {
+        "title": "Lùi thì và đổi từ chỉ thời gian",
+        "headers": [
+          "Trực tiếp",
+          "Gián tiếp"
+        ],
+        "rows": [
+          [
+            "am / is / are · V(s) · will · can",
+            "was / were · V2 · would · could"
+          ],
+          [
+            "V2 · have/has + V3",
+            "had + V3"
+          ],
+          [
+            "now · today · tonight",
+            "then · that day · that night"
+          ],
+          [
+            "tomorrow · yesterday · next week",
+            "the next day (the following day) · the day before · the following week"
+          ],
+          [
+            "here · this · these",
+            "there · that · those"
+          ]
+        ]
+      },
+      {
+        "title": "Gợi ý và khuyên",
+        "headers": [
+          "Câu gốc",
+          "Viết lại",
+          "Mẹo"
+        ],
+        "rows": [
+          [
+            "\"Why don't you apply for the job, Ann?\" said Sue.",
+            "Sue suggested that Ann (should) apply for the job.",
+            "suggest + that + S + (should) + V nguyên mẫu, hoặc suggest + V-ing. KHÔNG có suggest sb to V."
+          ],
+          [
+            "Let's stay in this evening.",
+            "Why don't we stay in this evening?",
+            "Let's + V = Why don't we + V?"
+          ],
+          [
+            "You should leave now.",
+            "You'd better leave now.",
+            "had better + V nguyên mẫu; phủ định: had better not + V."
+          ],
+          [
+            "If I were you, I would rest.",
+            "I advise you to rest.",
+            "advise sb (not) to V."
+          ]
+        ]
+      },
+      {
+        "title": "Cấu tạo từ: nhìn vị trí chỗ trống",
+        "headers": [
+          "Vị trí",
+          "Cần loại từ",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Sau a / the / my / his, hoặc làm chủ ngữ",
+            "Danh từ (-tion, -ment, -ness, -ity, -ence, -ance)",
+            "make a big difference · his success"
+          ],
+          [
+            "Trước danh từ; sau be / become / feel / seem",
+            "Tính từ (-ful, -less, -ous, -ive, -able, -al)",
+            "an energetic person · It becomes flexible."
+          ],
+          [
+            "Bổ nghĩa cho động từ hoặc tính từ",
+            "Trạng từ (-ly)",
+            "work productively · extremely high"
+          ],
+          [
+            "Nghĩa ngược lại",
+            "Tiền tố un-, im-, in-, dis-, ir-",
+            "impatient · dishonest · uncomfortable"
+          ],
+          [
+            "-ed / -ing",
+            "-ed: người cảm thấy · -ing: vật gây ra cảm giác",
+            "I'm bored. · The film is boring."
+          ]
+        ]
+      },
+      {
+        "title": "Tìm lỗi sai: soát 6 chỗ theo thứ tự",
+        "headers": [
+          "Soát",
+          "Lỗi hay gặp trong đề trường",
+          "Sửa"
+        ],
+        "rows": [
+          [
+            "1. Thì, chia động từ",
+            "warned that a storm approached (đang tới)",
+            "was approaching"
+          ],
+          [
+            "2. Loại từ",
+            "becomes extremely flexibly · as frequent as possible",
+            "flexible · frequently"
+          ],
+          [
+            "3. Liên từ",
+            "despite she wasn't · Although …, but …",
+            "although · bỏ but"
+          ],
+          [
+            "4. Số ít / nhiều, đếm được",
+            "every fruits · the number of homework",
+            "every fruit · the amount of"
+          ],
+          [
+            "5. Mạo từ",
+            "a MP · only part of information",
+            "an MP · the information"
+          ],
+          [
+            "6. Đại từ quan hệ",
+            "Ginger capsules, that are sold…",
+            "which (có dấu phẩy → không dùng that)"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Câu hỏi gián tiếp là câu kể: không có dấu hỏi, không đảo trợ động từ.",
+      "Động từ tường thuật ở hiện tại (says, asks) thì KHÔNG lùi thì.",
+      "said + (to sb) + that…; told + sb + that… Không nói said me, không nói told that.",
+      "Phần Tìm lỗi sai: mỗi câu chỉ có 1 lỗi. Đọc cả câu, rồi soát 4 chỗ gạch chân theo 6 bước trên. Không chắc thì chọn chỗ có vấn đề về loại từ hoặc liên từ trước."
+    ],
+    "traps": [
+      {
+        "title": "Đảo trợ động từ trong câu hỏi gián tiếp",
+        "wrong": "He asked me where did I live.",
+        "right": "He asked me where I lived.",
+        "why": "Gián tiếp là câu kể: S + V, bỏ did, lùi thì live → lived."
+      },
+      {
+        "title": "suggest sb to V",
+        "wrong": "He suggested me to go home.",
+        "right": "He suggested that I (should) go home. / He suggested going home.",
+        "why": "suggest không đi với sb + to V. (advise / tell / ask thì đi được: advised me to go.)"
+      },
+      {
+        "title": "said me",
+        "wrong": "She said me that she was busy.",
+        "right": "She told me that she was busy. / She said to me that…",
+        "why": "tell + người; say + (to người)."
+      }
+    ]
+  },
+  "grammarMcq": [
+    {
+      "q": "He asked me what time ___.",
+      "options": [
+        "did the film start",
+        "the film started",
+        "does the film start",
+        "the film will start"
+      ],
+      "answer": "B",
+      "tag": "Câu gián tiếp",
+      "explain": "Câu hỏi gián tiếp: wh- + S + V, không đảo, lùi thì → the film started."
+    },
+    {
+      "q": "Tom asked me ___ I could help him with his homework.",
+      "options": [
+        "that",
+        "what",
+        "which",
+        "if"
+      ],
+      "answer": "D",
+      "tag": "Câu gián tiếp",
+      "explain": "Câu hỏi Yes/No (Can you help me?) → asked + if/whether."
+    },
+    {
+      "q": "The doctor advised him ___ smoking.",
+      "options": [
+        "stop",
+        "stopping",
+        "stopped",
+        "to stop"
+      ],
+      "answer": "D",
+      "tag": "Câu gián tiếp",
+      "explain": "advise sb to V."
+    },
+    {
+      "q": "She suggested ___ to the beach at the weekend.",
+      "options": [
+        "go",
+        "going",
+        "to go",
+        "went"
+      ],
+      "answer": "B",
+      "tag": "Suggest",
+      "explain": "suggest + V-ing (hoặc suggest that + S + should + V)."
+    },
+    {
+      "q": "You'd better ___ an umbrella. It's going to rain.",
+      "options": [
+        "take",
+        "to take",
+        "taking",
+        "took"
+      ],
+      "answer": "A",
+      "tag": "Had better",
+      "explain": "had better + V nguyên mẫu, không có to."
+    },
+    {
+      "q": "He told me ___ late for the meeting again.",
+      "options": [
+        "to not be",
+        "not be",
+        "don't be",
+        "not to be"
+      ],
+      "answer": "D",
+      "tag": "Câu gián tiếp",
+      "explain": "Mệnh lệnh phủ định gián tiếp: told sb not to V."
+    },
+    {
+      "q": "She said that she ___ me the next day.",
+      "options": [
+        "will call",
+        "calls",
+        "would call",
+        "called"
+      ],
+      "answer": "C",
+      "tag": "Câu gián tiếp",
+      "explain": "\"I will call you tomorrow\" → lùi thì will → would; tomorrow → the next day."
+    },
+    {
+      "q": "My mother asked me whether I ___ my homework.",
+      "options": [
+        "had finished",
+        "finished",
+        "have finished",
+        "finish"
+      ],
+      "answer": "A",
+      "tag": "Câu gián tiếp",
+      "explain": "Trực tiếp: \"Have you finished…?\" → lùi thì have finished → had finished."
+    },
+    {
+      "q": "The children were very ___ when they heard the news about the trip.",
+      "options": [
+        "excited",
+        "excite",
+        "exciting",
+        "excitement"
+      ],
+      "answer": "A",
+      "tag": "Cấu tạo từ",
+      "explain": "Người cảm thấy → -ed: excited. exciting dùng cho vật gây hứng thú."
+    },
+    {
+      "q": "He drives very ___, so he has never had an accident.",
+      "options": [
+        "careful",
+        "care",
+        "carefully",
+        "careless"
+      ],
+      "answer": "C",
+      "tag": "Cấu tạo từ",
+      "explain": "Bổ nghĩa cho động từ drives → trạng từ carefully."
+    }
+  ],
+  "transform": [
+    {
+      "source": "\"Why don't you apply for the job, Ann?\" said Sue.",
+      "start": "Sue suggested",
+      "answers": [
+        "Sue suggested that Ann should apply for the job.",
+        "Sue suggested that Ann apply for the job.",
+        "Sue suggested Ann should apply for the job.",
+        "Sue suggested Ann apply for the job.",
+        "Sue suggested that Ann applied for the job."
+      ],
+      "tag": "Suggest",
+      "explain": "Why don't you + V? → suggested that + S + (should) + V. Không viết suggested Ann to apply."
+    },
+    {
+      "source": "She said, \"Are you hungry, Tom?\"",
+      "start": "She asked",
+      "answers": [
+        "She asked Tom if he was hungry.",
+        "She asked Tom whether he was hungry."
+      ],
+      "tag": "Câu gián tiếp",
+      "explain": "Hỏi Yes/No → asked + người + if/whether + S + V lùi thì (are → was, you → he)."
+    },
+    {
+      "source": "\"Where did you buy your shoes, Sally?\" asked Gail.",
+      "start": "Gail asked",
+      "answers": [
+        "Gail asked Sally where she had bought her shoes.",
+        "Gail asked Sally where she bought her shoes."
+      ],
+      "tag": "Câu gián tiếp",
+      "explain": "Hỏi Wh-: where + S + V, bỏ did, lùi thì bought → had bought, your → her."
+    },
+    {
+      "source": "The teacher said to his student, \"Don't be late tomorrow.\"",
+      "start": "The teacher told",
+      "answers": [
+        "The teacher told his student not to be late the next day.",
+        "The teacher told his student not to be late the following day."
+      ],
+      "tag": "Câu gián tiếp",
+      "explain": "Mệnh lệnh phủ định → told sb not to V; tomorrow → the next day."
+    },
+    {
+      "source": "I advise you to go now or you'll be late.",
+      "start": "You'd",
+      "answers": [
+        "You'd better go now or you'll be late.",
+        "You'd better go now or you will be late.",
+        "You'd better go now, or you'll be late."
+      ],
+      "tag": "Had better",
+      "explain": "advise sb to V ⇔ You'd better + V nguyên mẫu."
+    }
+  ],
+  "extra": {
+    "title": "Đề trường · Practice Test 1",
+    "note": "Câu hỏi lấy nguyên từ tài liệu ôn của trường. Làm 2 phần đầu trong 15 phút (đề thật: Paper 2 có 30 phút cho 35 câu), bài đọc 8 phút. Tìm lỗi sai: phần gạch chân được đánh dấu [ ](A)…(D), chọn chỗ PHẢI SỬA.",
+    "sets": [
+      {
+        "key": "t1sc",
+        "title": "Sentence completion (36–45)",
+        "directions": "Choose the word or phrase which best completes each sentence.",
+        "items": [
+          {
+            "q": "I live in Nha Trang, ___ is one of the most beautiful cities of Vietnam.",
+            "options": [
+              "that",
+              "which",
+              "where",
+              "it"
+            ],
+            "answer": "B",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Có dấu phẩy và ngay sau là động từ (is) → which. where cần S + V phía sau. Đây đúng là lỗi where/which của bạn."
+          },
+          {
+            "q": "Daniel won't be able to understand the speakers ___ there's an interpreter.",
+            "options": [
+              "if not",
+              "if only",
+              "unless",
+              "provided"
+            ],
+            "answer": "C",
+            "tag": "Unless",
+            "explain": "unless = nếu không: sẽ không hiểu NẾU KHÔNG có phiên dịch."
+          },
+          {
+            "q": "Trung drank only ___ water because he didn't play any sports.",
+            "options": [
+              "a few",
+              "few",
+              "a little",
+              "little"
+            ],
+            "answer": "C",
+            "tag": "Lượng từ",
+            "explain": "water không đếm được → little / a little. only a little = chỉ một ít. few / a few dùng cho danh từ đếm được."
+          },
+          {
+            "q": "What are you complaining about? It's so easy that ___ a baby can do it.",
+            "options": [
+              "even",
+              "even if",
+              "even though",
+              "even that"
+            ],
+            "answer": "A",
+            "tag": "Liên từ",
+            "explain": "even + danh từ = ngay cả. even if / even though cần mệnh đề."
+          },
+          {
+            "q": "The manager, ___ his factory's products were poor in quality, decided to give his workers further training.",
+            "options": [
+              "knowing",
+              "known",
+              "to know",
+              "knew"
+            ],
+            "answer": "A",
+            "tag": "Rút gọn mệnh đề",
+            "explain": "who knew → knowing (rút gọn chủ động dùng V-ing)."
+          },
+          {
+            "q": "I know he doesn't want to go to the meeting – but he shall go, ___ he likes it or not.",
+            "options": [
+              "although",
+              "even though",
+              "whether",
+              "if"
+            ],
+            "answer": "C",
+            "tag": "Liên từ",
+            "explain": "whether … or not = dù có … hay không."
+          },
+          {
+            "q": "\"Can you wait while I run into the library?\" – \"OK, ___ you hurry.\"",
+            "options": [
+              "unless",
+              "even if",
+              "as long as",
+              "even though"
+            ],
+            "answer": "C",
+            "tag": "Câu điều kiện",
+            "explain": "as long as = miễn là. Ngày 3 bạn chọn nhầm unless ở dạng này."
+          },
+          {
+            "q": "I'm much fitter now ___ all the exercise I take.",
+            "options": [
+              "since",
+              "because",
+              "ever since",
+              "because of"
+            ],
+            "answer": "D",
+            "tag": "Liên từ",
+            "explain": "Sau là cụm danh từ (all the exercise) → because of."
+          },
+          {
+            "q": "The man ___ by the dustbin stopped us and asked us for some money.",
+            "options": [
+              "stand",
+              "stood",
+              "standing",
+              "was standing"
+            ],
+            "answer": "C",
+            "tag": "Rút gọn mệnh đề",
+            "explain": "who was standing → standing. Câu đã có động từ chính (stopped) nên không thêm was standing."
+          }
+        ]
+      },
+      {
+        "key": "t1err",
+        "title": "Error identification (46–55)",
+        "directions": "Each sentence has four underlined parts marked A, B, C or D. Identify the ONE that should be corrected.",
+        "items": [
+          {
+            "q": "[When](A) she heard the loud [crash](B), Marge ran [outside](C) in the snow [despite](D) she wasn't wearing any shoes.",
+            "options": [
+              "When",
+              "crash",
+              "outside",
+              "despite"
+            ],
+            "answer": "D",
+            "tag": "Liên từ",
+            "explain": "Sau despite phải là danh từ / V-ing. Sau đây là mệnh đề (she wasn't wearing) → although."
+          },
+          {
+            "q": "Almost [every](A) fruits and vegetables contain riboflavin; the [richest](B) sources are [leafy](C) green vegetables [such as](D) spinach, kale, or turnip greens.",
+            "options": [
+              "every",
+              "richest",
+              "leafy",
+              "such as"
+            ],
+            "answer": "A",
+            "tag": "Số ít / số nhiều",
+            "explain": "every + danh từ SỐ ÍT. fruits and vegetables số nhiều → all."
+          },
+          {
+            "q": "Although he tried his [best](A) to be [the winner](B), [but](C) he failed [to win](D) the race.",
+            "options": [
+              "best",
+              "the winner",
+              "but",
+              "to win"
+            ],
+            "answer": "C",
+            "tag": "Liên từ",
+            "explain": "Although … but: chỉ dùng một trong hai → bỏ but."
+          },
+          {
+            "q": "[Some](A) parents have expressed [concern](B) about the [number](C) of [homework](D) their children have to do.",
+            "options": [
+              "Some",
+              "concern",
+              "number",
+              "homework"
+            ],
+            "answer": "C",
+            "tag": "Số ít / số nhiều",
+            "explain": "homework không đếm được → the amount of. the number of + danh từ đếm được số nhiều."
+          },
+          {
+            "q": "The [only](A) good way to get achievement in [learning](B) English is [to practise](C) it as [frequent](D) as possible.",
+            "options": [
+              "only",
+              "learning",
+              "to practise",
+              "frequent"
+            ],
+            "answer": "D",
+            "tag": "Cấu tạo từ",
+            "explain": "Bổ nghĩa cho động từ practise → trạng từ: as frequently as possible."
+          },
+          {
+            "q": "I [was just about](A) to enter the station [then](B) someone grabbed me [by the shoulders](C) and threw me [to the ground](D).",
+            "options": [
+              "was just about",
+              "then",
+              "by the shoulders",
+              "to the ground"
+            ],
+            "answer": "B",
+            "tag": "Liên từ",
+            "explain": "be about to V … when … = sắp làm gì thì… → when."
+          },
+          {
+            "q": "James has [always](A) wanted to go [into](B) politics and he has [just](C) been elected as [a MP](D).",
+            "options": [
+              "always",
+              "into",
+              "just",
+              "a MP"
+            ],
+            "answer": "D",
+            "tag": "Mạo từ",
+            "explain": "MP đọc /em piː/, bắt đầu bằng nguyên âm → an MP."
+          },
+          {
+            "q": "I [haven't used](A) the computer [since](B) last week, [therefore](C) I don't know [what's](D) wrong with it.",
+            "options": [
+              "haven't used",
+              "since",
+              "therefore",
+              "what's"
+            ],
+            "answer": "C",
+            "tag": "Liên từ",
+            "explain": "therefore không nối 2 mệnh đề sau dấu phẩy → so (hoặc tách câu: . Therefore, …)."
+          },
+          {
+            "q": "Children's games, which are amusements [involve](A) more than one individual, [appear to](B) be [culturally](C) [universal](D).",
+            "options": [
+              "involve",
+              "appear to",
+              "culturally",
+              "universal"
+            ],
+            "answer": "A",
+            "tag": "Rút gọn mệnh đề",
+            "explain": "amusements involving / that involve more than one individual. Đã có động từ chính appear nên involve phải đổi."
+          },
+          {
+            "q": "Ginger capsules, [that are](A) sold in [most](B) health-food stores, [have been](C) found [effective as](D) a remedy.",
+            "options": [
+              "that are",
+              "most",
+              "have been",
+              "effective as"
+            ],
+            "answer": "A",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Có dấu phẩy → không dùng that → which are."
+          }
+        ]
+      },
+      {
+        "key": "t1read4",
+        "title": "Bài đọc · Jeff Stringer – Judge (30–35)",
+        "directions": "Read the passage and choose the best answer. Giới hạn 8 phút.",
+        "passageTitle": "JEFF STRINGER – JUDGE",
+        "passage": [
+          "I've always enjoyed being with other people and I suppose I've always had a strong opinion about what is wrong and what is right, even from when I was a young child. That used to irritate my brothers and sisters because I would grass on them if they did something wrong. They had secrets that they wouldn't share with me and I probably missed out on a lot, because of that. Not that I blame them.",
+          "I actually studied history at university and then, in my final year, I had a work placement in a lawyer's office. I was fascinated from day one and as soon as I graduated I applied to do a degree in law.",
+          "I get a real buzz from fighting for justice, no matter what kind of case it is. It can be hard not to get emotionally involved at times. You have to follow your head and not your heart in such situations.",
+          "I make it a personal rule not to take my work home with me. Once I leave the court, I switch off and concentrate on my family. They will always be my number one priority."
+        ],
+        "items": [
+          {
+            "q": "Which of the following best describes the writer?",
+            "options": [
+              "A strict family man.",
+              "A workaholic who puts work before family.",
+              "A man who cares about his family and his clients.",
+              "A judge that everyone fears."
+            ],
+            "answer": "C",
+            "tag": "Đọc: ý chính",
+            "explain": "Đoạn 3: đấu tranh cho công lý, dễ xúc động vì thân chủ. Đoạn 4: gia đình là ưu tiên số 1. B ngược lại (không mang việc về nhà)."
+          },
+          {
+            "q": "Why did the writer's brothers and sisters get annoyed with him?",
+            "options": [
+              "Because he was always misbehaving.",
+              "Because he was their parents' favourite child.",
+              "Because he followed them all the time.",
+              "Because he got them into trouble."
+            ],
+            "answer": "D",
+            "tag": "Đọc: chi tiết",
+            "explain": "grass on sb = mách lẻo, tố cáo → làm anh chị em bị phạt (got them into trouble)."
+          },
+          {
+            "q": "What does he say about his job?",
+            "options": [
+              "He has a lot of job satisfaction.",
+              "He often gets emotionally involved with his clients.",
+              "He wins a lot of cases.",
+              "It is hard."
+            ],
+            "answer": "A",
+            "tag": "Đọc: chi tiết",
+            "explain": "get a real buzz from = rất hứng thú, thỏa mãn với công việc. B sai: 'at times' (thỉnh thoảng), không phải 'often'."
+          },
+          {
+            "q": "'such situations' (paragraph 3) refers to ___.",
+            "options": [
+              "when he gets a real buzz from his job",
+              "when he fights a case",
+              "when he gets emotionally involved",
+              "when he follows his head and not his heart"
+            ],
+            "answer": "C",
+            "tag": "Đọc: từ quy chiếu",
+            "explain": "Đọc câu ngay trước: It can be hard not to get emotionally involved at times → such situations = lúc bị cuốn theo cảm xúc."
+          },
+          {
+            "q": "What does the writer do at the end of the working day?",
+            "options": [
+              "Finish off any work that he has at home.",
+              "Leave all his work problems at the court.",
+              "Tell his family all about his working day.",
+              "Worry overly about his family."
+            ],
+            "answer": "B",
+            "tag": "Đọc: chi tiết",
+            "explain": "not to take my work home … Once I leave the court, I switch off = để hết công việc lại ở tòa."
+          },
+          {
+            "q": "Which of the following is the best description of how the writer feels about life?",
+            "options": [
+              "Positive and satisfied.",
+              "Tense and worried.",
+              "Ambitious but stressed.",
+              "Relaxed but bored."
+            ],
+            "answer": "A",
+            "tag": "Đọc: thái độ người viết",
+            "explain": "Thích công việc (real buzz), gia đình là ưu tiên → tích cực, hài lòng. Không có từ nào nói căng thẳng hay chán."
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "Although the weather was good, we stayed indoors.",
+        "start": "Despite",
+        "answers": [
+          "Despite the good weather, we stayed indoors.",
+          "Despite the weather being good, we stayed indoors.",
+          "Despite the fact that the weather was good, we stayed indoors."
+        ],
+        "tag": "Liên từ",
+        "explain": "Although + mệnh đề → Despite + cụm danh từ (the good weather)."
+      },
+      {
+        "source": "In spite of having an English name, he is in fact German.",
+        "start": "Although",
+        "answers": [
+          "Although he has an English name, he is in fact German.",
+          "Although he has an English name, he is German."
+        ],
+        "tag": "Liên từ",
+        "explain": "In spite of + V-ing → Although + S + V (thêm chủ ngữ he, chia has)."
+      },
+      {
+        "source": "I am not as good at football as he is.",
+        "start": "He is",
+        "answers": [
+          "He is better at football than I am.",
+          "He is better at football than me.",
+          "He is better than me at football.",
+          "He is better than I am at football."
+        ],
+        "tag": "So sánh",
+        "explain": "not as good as → đổi chủ ngữ, dùng so sánh hơn: better than."
+      },
+      {
+        "source": "He isn't old enough to vote.",
+        "start": "He is too",
+        "answers": [
+          "He is too young to vote."
+        ],
+        "tag": "Too / enough",
+        "explain": "not old enough ↔ too young (tính từ trái nghĩa)."
+      },
+      {
+        "source": "It is impossible to learn a foreign language in a week.",
+        "start": "Learning",
+        "answers": [
+          "Learning a foreign language in a week is impossible."
+        ],
+        "tag": "It + be + adj + to V",
+        "explain": "It is + adj + to V ⇔ V-ing + … + is + adj."
+      }
+    ]
+  },
+  "reading": {
+    "title": "The Origin of Jeans (Test 1 · 11–17)",
+    "minutes": 10,
+    "paragraphs": [
+      "In 1853, the California gold rush was in full swing and everyday items were in short supply. Levi Strauss, a 24-year-old German immigrant, left New York for San Francisco with a small supply of dry goods with the intention of opening a branch of his brother's New York dry goods business. Shortly after his arrival, a prospector wanted to know what Mr. Strauss was selling. When Strauss told him he had rough canvas cloth used for tents and wagon covers, the prospector said, 'You should have brought trousers!', because he couldn't find a pair of trousers strong enough to last.",
+      "Levi Strauss had the canvas made into work trousers. Miners liked the trousers, but complained that the fabric was not very comfortable and tended to chafe. Levi Strauss substituted the canvas with a twilled cotton cloth from France called 'serge de Nimes.' The fabric later became known as denim and the trousers were nicknamed blue jeans. Then Levi Strauss and Nevada tailor David Jacobs co-patented the process of putting small metal rivets in places such as the sides of the pockets that needed extra strength. On May 20, 1873, they received U.S. Patent No. 139,121. This date is now considered the official birthday of 'blue jeans.'",
+      "But why were they called blue jeans? Denim is unique in its singular connection with one colour. It is made from thread that is traditionally dyed with blue pigment obtained from indigo dye. Indigo was linked with practical fabrics and work clothing. The durability of indigo as a colour and its darkness of tone made it a good choice when frequent washing was not possible."
+    ],
+    "questions": [
+      {
+        "q": "What is the purpose of this text?",
+        "options": [
+          "To sell a product.",
+          "To solve a problem.",
+          "To argue a point.",
+          "To inform."
+        ],
+        "answer": "D",
+        "tag": "Đọc: mục đích bài",
+        "explain": "Bài kể lịch sử ra đời của quần jeans, không bán hàng, không tranh luận → cung cấp thông tin.",
+        "type": "Mục đích bài",
+        "evidence": "But why were they called blue jeans?"
+      },
+      {
+        "q": "What was Levi Strauss's job?",
+        "options": [
+          "He was a clothes designer.",
+          "He was a prospector.",
+          "He was selling textile and clothing.",
+          "He was selling tools for gold mining."
+        ],
+        "answer": "C",
+        "tag": "Đọc: chi tiết",
+        "explain": "dry goods = vải vóc, quần áo; ông định mở chi nhánh cửa hàng dry goods. Prospector (người đi tìm vàng) là người khác trong bài.",
+        "type": "Chi tiết",
+        "evidence": "with a small supply of dry goods with the intention of opening a branch of his brother's New York dry goods business"
+      },
+      {
+        "q": "The expression 'in full swing' in line 1 most probably means ___.",
+        "options": [
+          "in trouble",
+          "at the height of activity",
+          "causing lots of chaos",
+          "in decline"
+        ],
+        "answer": "B",
+        "tag": "Đọc: từ đồng nghĩa",
+        "explain": "in full swing = đang lúc sôi động nhất. Đoán từ ngữ cảnh: cơn sốt vàng → mọi thứ khan hiếm vì quá nhiều người đổ về.",
+        "type": "Cụm từ đồng nghĩa",
+        "evidence": "the California gold rush was in full swing"
+      },
+      {
+        "q": "'in short supply' (line 1) means nearly the same as ___.",
+        "options": [
+          "going on for a short time",
+          "lacking",
+          "supplied in a very short time",
+          "not of good quality"
+        ],
+        "answer": "B",
+        "tag": "Đọc: từ đồng nghĩa",
+        "explain": "in short supply = khan hiếm, thiếu. Bẫy A, C: thấy chữ short nên đoán là 'ngắn'.",
+        "type": "Cụm từ đồng nghĩa",
+        "evidence": "everyday items were in short supply"
+      },
+      {
+        "q": "What problem did the prospector have?",
+        "options": [
+          "There were no trousers in California.",
+          "They did not like Levi's product.",
+          "Their clothes were not stylish.",
+          "Their clothes wore out quickly."
+        ],
+        "answer": "D",
+        "tag": "Đọc: chi tiết",
+        "explain": "couldn't find a pair of trousers strong enough to last = không tìm được quần đủ bền → quần áo nhanh rách (wore out quickly). A sai vì bài không nói California không có quần.",
+        "type": "Chi tiết",
+        "evidence": "he couldn't find a pair of trousers strong enough to last"
+      },
+      {
+        "q": "Where did the word 'denim' come from?",
+        "options": [
+          "The name of a French fabric.",
+          "The indigo colour.",
+          "David Jacobs, the tailor, thought of it.",
+          "Levi Strauss invented it."
+        ],
+        "answer": "A",
+        "tag": "Đọc: chi tiết",
+        "explain": "Vải 'serge de Nimes' từ Pháp, sau này gọi là denim.",
+        "type": "Chi tiết",
+        "evidence": "a twilled cotton cloth from France called 'serge de Nimes.' The fabric later became known as denim"
+      },
+      {
+        "q": "Which of the following best describes indigo dye?",
+        "options": [
+          "A long-lasting, practical colour that did not show dirt.",
+          "A colour used on all kinds of fabric to make it stronger.",
+          "A very rare and desirable colour that was difficult to create.",
+          "An affordable dark colour that was only used by poor people."
+        ],
+        "answer": "A",
+        "tag": "Đọc: suy luận",
+        "explain": "durability = bền màu; darkness of tone + không giặt thường xuyên được → màu tối, không lộ bẩn. B, C, D không có trong bài.",
+        "type": "Suy luận",
+        "evidence": "The durability of indigo as a colour and its darkness of tone made it a good choice when frequent washing was not possible"
+      }
+    ],
+    "newWords": [
+      {
+        "word": "gold rush",
+        "pos": "n.",
+        "ipa": "/ˈɡəʊld rʌʃ/",
+        "meaning": "cơn sốt vàng"
+      },
+      {
+        "word": "in short supply",
+        "pos": "phr.",
+        "ipa": "/ɪn ʃɔːt səˈplaɪ/",
+        "meaning": "khan hiếm"
+      },
+      {
+        "word": "immigrant",
+        "pos": "n.",
+        "ipa": "/ˈɪmɪɡrənt/",
+        "meaning": "người nhập cư"
+      },
+      {
+        "word": "intention",
+        "pos": "n.",
+        "ipa": "/ɪnˈtenʃn/",
+        "meaning": "ý định (with the intention of + V-ing)"
+      },
+      {
+        "word": "complain",
+        "pos": "v.",
+        "ipa": "/kəmˈpleɪn/",
+        "meaning": "phàn nàn (complain that / about)"
+      },
+      {
+        "word": "substitute",
+        "pos": "v.",
+        "ipa": "/ˈsʌbstɪtjuːt/",
+        "meaning": "thay thế (substitute A with B)"
+      },
+      {
+        "word": "durability",
+        "pos": "n.",
+        "ipa": "/ˌdjʊərəˈbɪləti/",
+        "meaning": "độ bền (durable: bền)"
+      },
+      {
+        "word": "frequent",
+        "pos": "adj.",
+        "ipa": "/ˈfriːkwənt/",
+        "meaning": "thường xuyên"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "phrase": "decide → decision",
+      "pos": "họ từ",
+      "ipa": "/dɪˈsaɪd/ · /dɪˈsɪʒn/",
+      "meaning": "quyết định (v → n)",
+      "colloc": "make a decision",
+      "example": "It was a difficult decision."
+    },
+    {
+      "phrase": "succeed → success → successful → successfully",
+      "pos": "họ từ",
+      "ipa": "/səkˈsiːd/ · /səkˈses/",
+      "meaning": "thành công (v → n → adj → adv)",
+      "colloc": "succeed in V-ing · a great success",
+      "example": "She worked hard and became successful."
+    },
+    {
+      "phrase": "achieve → achievement",
+      "pos": "họ từ",
+      "ipa": "/əˈtʃiːv/ · /əˈtʃiːvmənt/",
+      "meaning": "đạt được → thành tích",
+      "colloc": "achieve a goal · a great achievement",
+      "example": "Passing the exam was a big achievement."
+    },
+    {
+      "phrase": "differ → different → difference",
+      "pos": "họ từ",
+      "ipa": "/ˈdɪfrənt/ · /ˈdɪfrəns/",
+      "meaning": "khác → khác biệt → sự khác biệt",
+      "colloc": "make a difference · different from",
+      "example": "Small changes can make a big difference."
+    },
+    {
+      "phrase": "energy → energetic",
+      "pos": "họ từ",
+      "ipa": "/ˈenədʒi/ · /ˌenəˈdʒetɪk/",
+      "meaning": "năng lượng → tràn đầy năng lượng",
+      "colloc": "feel energetic",
+      "example": "I feel more energetic after exercise."
+    },
+    {
+      "phrase": "produce → product → productive → productively",
+      "pos": "họ từ",
+      "ipa": "/prəˈdjuːs/ · /prəˈdʌktɪv/",
+      "meaning": "sản xuất → sản phẩm → năng suất → một cách năng suất",
+      "colloc": "work productively",
+      "example": "We need to make our workers more productive."
+    },
+    {
+      "phrase": "flexible → flexibly → flexibility",
+      "pos": "họ từ",
+      "ipa": "/ˈfleksəbl/",
+      "meaning": "linh hoạt",
+      "colloc": "flexible working hours",
+      "example": "Ash wood becomes flexible when it is exposed to steam."
+    },
+    {
+      "phrase": "severe → severely",
+      "pos": "họ từ",
+      "ipa": "/sɪˈvɪə(r)/",
+      "meaning": "nghiêm trọng → một cách nghiêm trọng",
+      "colloc": "severe effects · severely damaged",
+      "example": "The disease can have severe effects on the species."
+    },
+    {
+      "phrase": "wealth → wealthy",
+      "pos": "họ từ",
+      "ipa": "/welθ/ · /ˈwelθi/",
+      "meaning": "sự giàu có → giàu có",
+      "colloc": "the pursuit of wealth",
+      "example": "The novel is about the pursuit of wealth and love."
+    },
+    {
+      "phrase": "comfort → comfortable → uncomfortable",
+      "pos": "họ từ",
+      "ipa": "/ˈkʌmftəbl/",
+      "meaning": "sự thoải mái → thoải mái → không thoải mái",
+      "colloc": "feel uncomfortable",
+      "example": "These shoes are very comfortable."
+    },
+    {
+      "phrase": "patient → impatient → patience",
+      "pos": "họ từ",
+      "ipa": "/ˈpeɪʃnt/ · /ɪmˈpeɪʃnt/",
+      "meaning": "kiên nhẫn → thiếu kiên nhẫn → sự kiên nhẫn",
+      "colloc": "Don't be so impatient.",
+      "example": "Learning a language needs patience."
+    },
+    {
+      "phrase": "honest → dishonest → honesty",
+      "pos": "họ từ",
+      "ipa": "/ˈɒnɪst/",
+      "meaning": "trung thực → không trung thực → sự trung thực",
+      "colloc": "an honest person",
+      "example": "I'm an honest person and I hate lying."
+    },
+    {
+      "phrase": "possible → impossible → possibility",
+      "pos": "họ từ",
+      "ipa": "/ˈpɒsəbl/ · /ɪmˈpɒsəbl/",
+      "meaning": "có thể → không thể → khả năng",
+      "colloc": "It is impossible to…",
+      "example": "It is impossible to learn a language in a week."
+    },
+    {
+      "phrase": "responsible → responsibility",
+      "pos": "họ từ",
+      "ipa": "/rɪˈspɒnsəbl/ · /rɪˌspɒnsəˈbɪləti/",
+      "meaning": "có trách nhiệm → trách nhiệm",
+      "colloc": "take responsibility for",
+      "example": "Parents have a responsibility to protect their children."
+    },
+    {
+      "phrase": "excite → excited → exciting → excitement",
+      "pos": "họ từ",
+      "ipa": "/ɪkˈsaɪtɪd/ · /ɪkˈsaɪtɪŋ/",
+      "meaning": "-ed: người cảm thấy; -ing: vật gây ra",
+      "colloc": "be excited about · an exciting film",
+      "example": "The children were excited about the trip."
+    },
+    {
+      "phrase": "surprise → surprised → surprising",
+      "pos": "họ từ",
+      "ipa": "/səˈpraɪzd/ · /səˈpraɪzɪŋ/",
+      "meaning": "ngạc nhiên (-ed người, -ing vật)",
+      "colloc": "be surprised at · a surprising result",
+      "example": "The children were surprised when the teacher closed the books."
+    },
+    {
+      "phrase": "frequent → frequently → frequency",
+      "pos": "họ từ",
+      "ipa": "/ˈfriːkwənt/ · /ˈfriːkwəntli/",
+      "meaning": "thường xuyên → một cách thường xuyên → tần suất",
+      "colloc": "practise frequently",
+      "example": "Practise English as frequently as possible."
+    },
+    {
+      "phrase": "care → careful → careless → carefully",
+      "pos": "họ từ",
+      "ipa": "/ˈkeəfl/ · /ˈkeələs/",
+      "meaning": "cẩn thận → bất cẩn → một cách cẩn thận",
+      "colloc": "drive carefully · a careless driver",
+      "example": "The car crashed because the driver was careless."
+    },
+    {
+      "phrase": "intelligent → intelligence",
+      "pos": "họ từ",
+      "ipa": "/ɪnˈtelɪdʒənt/ · /ɪnˈtelɪdʒəns/",
+      "meaning": "thông minh → trí thông minh",
+      "colloc": "intelligent enough to…",
+      "example": "He was intelligent enough to understand my gestures."
+    },
+    {
+      "phrase": "economy → economic → economical",
+      "pos": "họ từ",
+      "ipa": "/ɪˈkɒnəmi/ · /ˌiːkəˈnɒmɪk/",
+      "meaning": "nền kinh tế → thuộc kinh tế → tiết kiệm",
+      "colloc": "economic problems",
+      "example": "Population growth has caused serious social and economic problems."
+    }
+  ],
+  "vocabMcq": [
+    {
+      "q": "Small changes like these can make a big ___.",
+      "options": [
+        "difference",
+        "differ",
+        "different",
+        "differently"
+      ],
+      "answer": "A",
+      "tag": "Cấu tạo từ",
+      "explain": "Sau a big cần danh từ: make a difference."
+    },
+    {
+      "q": "She speaks English very ___ after living in London for two years.",
+      "options": [
+        "fluent",
+        "fluently",
+        "fluency",
+        "fluence"
+      ],
+      "answer": "B",
+      "tag": "Cấu tạo từ",
+      "explain": "Bổ nghĩa cho động từ speaks → trạng từ fluently."
+    },
+    {
+      "q": "Passing the exam was a great ___ for him.",
+      "options": [
+        "achieve",
+        "achieved",
+        "achievement",
+        "achievable"
+      ],
+      "answer": "C",
+      "tag": "Cấu tạo từ",
+      "explain": "Sau a great cần danh từ: achievement."
+    },
+    {
+      "q": "The film was so ___ that I fell asleep.",
+      "options": [
+        "bored",
+        "boredom",
+        "bore",
+        "boring"
+      ],
+      "answer": "D",
+      "tag": "Cấu tạo từ",
+      "explain": "Vật gây ra cảm giác → -ing: boring."
+    },
+    {
+      "q": "Don't be so ___. We've only been waiting a few minutes.",
+      "options": [
+        "impatient",
+        "unpatient",
+        "dispatient",
+        "inpatient"
+      ],
+      "answer": "A",
+      "tag": "Cấu tạo từ",
+      "explain": "Trái nghĩa của patient là impatient (tiền tố im- trước p). Câu này có trong đề trường Test 1."
+    },
+    {
+      "q": "We need to work more ___ to finish the project on time.",
+      "options": [
+        "productive",
+        "productively",
+        "production",
+        "product"
+      ],
+      "answer": "B",
+      "tag": "Cấu tạo từ",
+      "explain": "Bổ nghĩa cho động từ work → trạng từ productively."
+    },
+    {
+      "q": "He is an ___ man; he never tells lies.",
+      "options": [
+        "dishonest",
+        "honesty",
+        "honest",
+        "honestly"
+      ],
+      "answer": "C",
+      "tag": "Cấu tạo từ",
+      "explain": "Trước danh từ man cần tính từ; never tells lies → honest."
+    },
+    {
+      "q": "It is ___ to learn a foreign language in a week.",
+      "options": [
+        "possibly",
+        "unpossible",
+        "possibility",
+        "impossible"
+      ],
+      "answer": "D",
+      "tag": "Cấu tạo từ",
+      "explain": "It is + tính từ; nghĩa ngược → impossible (không có unpossible)."
+    },
+    {
+      "q": "I felt very ___ when I forgot her name.",
+      "options": [
+        "embarrassed",
+        "embarrassing",
+        "embarrass",
+        "embarrassment"
+      ],
+      "answer": "A",
+      "tag": "Cấu tạo từ",
+      "explain": "Người cảm thấy → -ed: embarrassed."
+    },
+    {
+      "q": "Parents have a ___ to look after their children.",
+      "options": [
+        "responsible",
+        "responsibility",
+        "responsibly",
+        "irresponsible"
+      ],
+      "answer": "B",
+      "tag": "Cấu tạo từ",
+      "explain": "Sau a cần danh từ: responsibility."
+    }
+  ],
+  "speaking": {
+    "introTitle": "Bài giới thiệu 4–5 câu (điền thông tin của bạn, nói tự nhiên, đừng đọc thuộc lòng)",
+    "intro": [
+      "Good morning. My name is ___ and I'm from ___.",
+      "I graduated from ___ University, majoring in ___.",
+      "At the moment, I'm working as a/an ___ at ___. I have worked there for ___ years.",
+      "I'd like to do a master's degree in ___ because ___.",
+      "In my free time, I enjoy ___."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…). Mỗi câu trả lời 2–4 câu là đủ.",
+    "rescue": [
+      "Sorry, could you repeat the question, please?",
+      "Do you mean…?",
+      "That's a good question. Let me think…",
+      "I'm not sure, but I think…",
+      "In my opinion… because…"
+    ],
+    "questions": [
+      {
+        "q": "Why did you choose your major at university?",
+        "hint": "Quá khứ đơn: I chose… because I was interested in… (không dùng have chosen)."
+      },
+      {
+        "q": "What did you find most difficult when you were a student?",
+        "hint": "The most difficult thing was + V-ing… For example, in my second year, I…"
+      },
+      {
+        "q": "Why do you want to study for a master's degree at this university?",
+        "hint": "I want to… because… Nhắc tên trường, ngành, và 1 lý do công việc."
+      },
+      {
+        "q": "How will a master's degree help your career?",
+        "hint": "It will help me… / I'm going to… Nói 1 ví dụ cụ thể trong công việc."
+      },
+      {
+        "q": "What would you do if you didn't pass this exam?",
+        "hint": "Điều kiện loại 2: If I didn't pass, I would… (would + V nguyên mẫu)."
+      }
+    ],
+    "rubric": [
+      "Trôi chảy, tương tác được với giám khảo",
+      "Ngữ pháp (thì, câu gián tiếp, điều kiện)",
+      "Từ vựng đúng chủ đề học tập",
+      "Phát âm (âm cuối -s, -ed, trọng âm)",
+      "Trả lời đúng câu hỏi, có lý do và ví dụ"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "He asked me if I ___ him the day before.",
+      "options": [
+        "had seen",
+        "have seen",
+        "saw",
+        "see"
+      ],
+      "answer": "A",
+      "tag": "Câu gián tiếp",
+      "explain": "\"Did you see me yesterday?\" → lùi thì saw → had seen; yesterday → the day before."
+    },
+    {
+      "q": "Da Nang, ___ my brother works, is a beautiful city.",
+      "options": [
+        "which",
+        "where",
+        "that",
+        "who"
+      ],
+      "answer": "B",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "Sau là my brother works, đủ S + V → where."
+    },
+    {
+      "q": "She suggested ___ a taxi because it was late.",
+      "options": [
+        "take",
+        "to take",
+        "taking",
+        "took"
+      ],
+      "answer": "C",
+      "tag": "Suggest",
+      "explain": "suggest + V-ing."
+    },
+    {
+      "q": "You'd better ___ your parents where you are going.",
+      "options": [
+        "to tell",
+        "telling",
+        "told",
+        "tell"
+      ],
+      "answer": "D",
+      "tag": "Had better",
+      "explain": "had better + V nguyên mẫu."
+    },
+    {
+      "q": "Unless you ___ harder, you will fail.",
+      "options": [
+        "study",
+        "don't study",
+        "will study",
+        "studied"
+      ],
+      "answer": "A",
+      "tag": "Unless",
+      "explain": "Unless + khẳng định, hiện tại đơn."
+    },
+    {
+      "q": "He drove ___ and had an accident.",
+      "options": [
+        "careless",
+        "care",
+        "careful",
+        "carelessly"
+      ],
+      "answer": "D",
+      "tag": "Cấu tạo từ",
+      "explain": "Bổ nghĩa cho drove → trạng từ carelessly."
+    },
+    {
+      "q": "I ___ to Hue last month.",
+      "options": [
+        "have gone",
+        "went",
+        "had gone",
+        "have been went"
+      ],
+      "answer": "B",
+      "tag": "Quá khứ đơn",
+      "explain": "last month → quá khứ đơn."
+    },
+    {
+      "q": "The teacher told us ___ in the library.",
+      "options": [
+        "not talk",
+        "don't talk",
+        "not to talk",
+        "to not talking"
+      ],
+      "answer": "C",
+      "tag": "Câu gián tiếp",
+      "explain": "told sb not to V."
+    },
+    {
+      "q": "If I ___ more time, I would learn to cook.",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "had had"
+      ],
+      "answer": "C",
+      "tag": "Câu điều kiện",
+      "explain": "would + V → loại 2 → If + V2."
+    },
+    {
+      "q": "Despite ___ tired, she finished the report.",
+      "options": [
+        "she was",
+        "was",
+        "be",
+        "being"
+      ],
+      "answer": "D",
+      "tag": "Liên từ",
+      "explain": "Despite + V-ing."
+    }
+  ]
+}

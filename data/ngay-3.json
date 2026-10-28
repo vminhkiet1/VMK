@@ -1,0 +1,1115 @@
+{
+  "day": 3,
+  "grammarTopic": "Câu điều kiện + unless + câu ước",
+  "vocabTopic": "Từ dễ nhầm",
+  "speakingTopic": "Gia đình + Sở thích",
+  "plan": [
+    {
+      "time": "0:00 – 0:15",
+      "step": "Bài học ngữ pháp",
+      "content": "Câu điều kiện loại 0–1–2–3, unless, câu ước; 4 mẫu viết lại câu"
+    },
+    {
+      "time": "0:15 – 0:40",
+      "step": "Bài tập ngữ pháp",
+      "content": "10 câu Sentence completion + 5 câu viết lại (if↔unless, wish, It takes↔spend)"
+    },
+    {
+      "time": "0:40 – 0:55",
+      "step": "Luyện thêm",
+      "content": "Ôn thì (có/không có been) + where/which: 10 câu + 3 câu viết lại"
+    },
+    {
+      "time": "0:55 – 1:05",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "1:05 – 1:35",
+      "step": "Từ vựng",
+      "content": "10 cặp từ dễ nhầm (20 từ), đọc to ví dụ"
+    },
+    {
+      "time": "1:35 – 1:50",
+      "step": "Bài tập từ vựng",
+      "content": "10 câu dạng Paper 1 Part A"
+    },
+    {
+      "time": "1:50 – 2:00",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "2:00 – 2:30",
+      "step": "Luyện đọc",
+      "content": "1 bài ~250 từ + 5 câu, bấm giờ 12 phút, học 8 từ mới"
+    },
+    {
+      "time": "2:30 – 3:20",
+      "step": "Luyện nói",
+      "content": "2 chủ đề: Gia đình + Sở thích, 6 câu, có câu dùng điều kiện loại 2"
+    },
+    {
+      "time": "3:20 – 3:30",
+      "step": "Nghỉ",
+      "content": ""
+    },
+    {
+      "time": "3:30 – 4:00",
+      "step": "Tổng kết",
+      "content": "Xem lỗi sai theo chủ điểm + quiz 10 câu"
+    }
+  ],
+  "grammar": {
+    "sections": [
+      {
+        "title": "Câu điều kiện: nhìn mệnh đề chính để chọn loại",
+        "headers": [
+          "Loại",
+          "Dùng khi",
+          "Mệnh đề If",
+          "Mệnh đề chính",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "0",
+            "sự thật, quy luật",
+            "If + hiện tại đơn",
+            "hiện tại đơn",
+            "If you heat ice, it melts."
+          ],
+          [
+            "1",
+            "có thể xảy ra (hiện tại / tương lai)",
+            "If + hiện tại đơn",
+            "will / can + V",
+            "If it rains, I will stay at home."
+          ],
+          [
+            "2",
+            "không có thật ở HIỆN TẠI",
+            "If + V2 / were",
+            "would / could + V",
+            "If I were you, I would study harder."
+          ],
+          [
+            "3",
+            "không có thật trong QUÁ KHỨ",
+            "If + had + V3",
+            "would / could have + V3",
+            "If I had studied, I would have passed."
+          ]
+        ]
+      },
+      {
+        "title": "Câu ước",
+        "headers": [
+          "Ước về",
+          "Công thức",
+          "Ví dụ (thực tế)"
+        ],
+        "rows": [
+          [
+            "Hiện tại",
+            "S + wish + S + V2 / were",
+            "I wish I had a car. (thực tế: không có xe)"
+          ],
+          [
+            "Quá khứ",
+            "S + wish + S + had + V3",
+            "I wish I had gone to the party. (thực tế: đã không đi)"
+          ],
+          [
+            "Muốn ai / cái gì thay đổi",
+            "S + wish + S + would + V",
+            "I wish it would stop raining."
+          ]
+        ]
+      },
+      {
+        "title": "4 mẫu viết lại câu hay ra",
+        "headers": [
+          "Câu gốc",
+          "Viết lại",
+          "Mẹo"
+        ],
+        "rows": [
+          [
+            "If you don't hurry, you will be late.",
+            "Unless you hurry, you will be late.",
+            "unless = if … not → BỎ not."
+          ],
+          [
+            "I don't have time, so I can't help you.",
+            "If I had time, I could help you.",
+            "Thật ở hiện tại → loại 2: lùi 1 thì và đổi phủ định ↔ khẳng định."
+          ],
+          [
+            "She didn't study, so she failed.",
+            "If she had studied, she wouldn't have failed.",
+            "Thật ở quá khứ → loại 3: had V3 / would have V3, đổi phủ định ↔ khẳng định."
+          ],
+          [
+            "I'm sorry I didn't call her. / It's a pity I can't swim.",
+            "I wish I had called her. / I wish I could swim.",
+            "Tiếc về quá khứ → wish + had V3. Tiếc ở hiện tại → wish + V2 / could."
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Mẹo \"lùi 1 thì\": thực tế ở hiện tại → dùng V2; thực tế ở quá khứ → dùng had + V3. Luôn đổi khẳng định ↔ phủ định.",
+      "Loại 2 và câu ước dùng were cho mọi ngôi: If I were…, I wish she were…",
+      "Nhìn mệnh đề chính để biết loại: will → loại 1; would + V → loại 2; would have + V3 → loại 3.",
+      "It takes + sb + thời gian + to V ⇔ S + spend(s) + thời gian + V-ing. Giữ đúng thì: It took → spent.",
+      "as long as / provided that = miễn là (nghĩa giống if)."
+    ],
+    "traps": [
+      {
+        "title": "Dùng will trong mệnh đề if",
+        "wrong": "If it will rain tomorrow, we will stay at home.",
+        "right": "If it rains tomorrow, we will stay at home.",
+        "why": "Mệnh đề if (cũng như when, before…) không dùng will; dùng hiện tại đơn."
+      },
+      {
+        "title": "Unless + not",
+        "wrong": "Unless you don't study, you will fail.",
+        "right": "Unless you study, you will fail.",
+        "why": "Unless đã có nghĩa phủ định (= if not). Thêm not sẽ thành phủ định 2 lần."
+      },
+      {
+        "title": "Đặt would have ở cả hai vế",
+        "wrong": "If I would have known, I would have helped.",
+        "right": "If I had known, I would have helped.",
+        "why": "Vế if của loại 3 luôn là had + V3. would chỉ ở vế còn lại."
+      }
+    ]
+  },
+  "grammarMcq": [
+    {
+      "q": "If it ___ tomorrow, we will cancel the picnic.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "would rain"
+      ],
+      "answer": "A",
+      "tag": "Câu điều kiện",
+      "explain": "Vế chính có will → loại 1 → vế if dùng hiện tại đơn. Không dùng will sau if."
+    },
+    {
+      "q": "If I ___ you, I would accept the job offer.",
+      "options": [
+        "am",
+        "was being",
+        "were",
+        "had been"
+      ],
+      "answer": "C",
+      "tag": "Câu điều kiện",
+      "explain": "Vế chính có would + V → loại 2 → If I were (dùng were cho mọi ngôi)."
+    },
+    {
+      "q": "If she had left earlier, she ___ the train.",
+      "options": [
+        "would catch",
+        "would have caught",
+        "will catch",
+        "had caught"
+      ],
+      "answer": "B",
+      "tag": "Câu điều kiện",
+      "explain": "Vế if có had + V3 → loại 3 → would have + V3."
+    },
+    {
+      "q": "___ you study harder, you won't pass the exam.",
+      "options": [
+        "If",
+        "When",
+        "Although",
+        "Unless"
+      ],
+      "answer": "D",
+      "tag": "Unless",
+      "explain": "Nghĩa: NẾU KHÔNG học chăm hơn thì sẽ trượt → Unless (= if … not)."
+    },
+    {
+      "q": "I wish I ___ a bigger flat. Mine is too small for my family.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "having"
+      ],
+      "answer": "A",
+      "tag": "Câu ước",
+      "explain": "Thực tế hiện tại: căn hộ nhỏ → ước trái hiện tại: wish + V2 → had."
+    },
+    {
+      "q": "If you heat water to 100°C, it ___.",
+      "options": [
+        "would boil",
+        "boiled",
+        "will be boiling",
+        "boils"
+      ],
+      "answer": "D",
+      "tag": "Câu điều kiện",
+      "explain": "Sự thật khoa học → loại 0: hiện tại đơn ở cả 2 vế."
+    },
+    {
+      "q": "What would you do if you ___ a lot of money?",
+      "options": [
+        "win",
+        "will win",
+        "won",
+        "had won"
+      ],
+      "answer": "C",
+      "tag": "Câu điều kiện",
+      "explain": "Vế chính would + V → loại 2 → vế if dùng V2: won."
+    },
+    {
+      "q": "I wish I ___ to the party last night. Everyone said it was great.",
+      "options": [
+        "went",
+        "had gone",
+        "would go",
+        "have gone"
+      ],
+      "answer": "B",
+      "tag": "Câu ước",
+      "explain": "last night → tiếc về quá khứ → wish + had + V3."
+    },
+    {
+      "q": "If I had known about the meeting, I ___ it.",
+      "options": [
+        "would attend",
+        "will attend",
+        "attended",
+        "would have attended"
+      ],
+      "answer": "D",
+      "tag": "Câu điều kiện",
+      "explain": "Vế if had + V3 → loại 3 → would have + V3."
+    },
+    {
+      "q": "You can borrow my laptop ___ you promise to take care of it.",
+      "options": [
+        "as long as",
+        "unless",
+        "although",
+        "despite"
+      ],
+      "answer": "A",
+      "tag": "Câu điều kiện",
+      "explain": "as long as = miễn là (điều kiện). unless = nếu không, sai nghĩa."
+    }
+  ],
+  "transform": [
+    {
+      "source": "If you don't hurry, you will miss the bus.",
+      "start": "Unless",
+      "answers": [
+        "Unless you hurry, you will miss the bus."
+      ],
+      "tag": "Unless",
+      "explain": "If … don't → Unless + khẳng định. Bỏ don't."
+    },
+    {
+      "source": "I don't have a car, so I can't drive to work.",
+      "start": "If I",
+      "answers": [
+        "If I had a car, I could drive to work.",
+        "If I had a car, I would be able to drive to work.",
+        "If I had a car, I would drive to work."
+      ],
+      "tag": "Câu điều kiện",
+      "explain": "Thực tế hiện tại → loại 2: don't have → had; can't → could (đổi phủ định thành khẳng định)."
+    },
+    {
+      "source": "I'm sorry I didn't study harder.",
+      "start": "I wish",
+      "answers": [
+        "I wish I had studied harder."
+      ],
+      "tag": "Câu ước",
+      "explain": "Tiếc về quá khứ (didn't study) → wish + had + V3, đổi phủ định thành khẳng định."
+    },
+    {
+      "source": "It takes me 30 minutes to get to work.",
+      "start": "I spend",
+      "answers": [
+        "I spend 30 minutes getting to work.",
+        "I spend thirty minutes getting to work."
+      ],
+      "tag": "It takes / spend",
+      "explain": "It takes sb + time + to V ⇔ S + spend + time + V-ing. Hiện tại → spend (không phải spent)."
+    },
+    {
+      "source": "She didn't take the medicine, so she didn't get better.",
+      "start": "If she",
+      "answers": [
+        "If she had taken the medicine, she would have got better.",
+        "If she had taken the medicine, she would have gotten better."
+      ],
+      "tag": "Câu điều kiện",
+      "explain": "Thực tế quá khứ → loại 3: had + V3, would have + V3, đổi cả 2 vế sang khẳng định."
+    }
+  ],
+  "extra": {
+    "title": "Luyện thêm: thì + where / which",
+    "note": "Ôn tiếp 2 lỗi lặp lại (mốc quá khứ → không dùng have; câu chủ động → không có been) và lỗi where/which của ngày 2. Mẹo where/which: sau chỗ trống có S + V ĐỦ nghĩa → where; S + V còn THIẾU tân ngữ, hoặc ngay sau là động từ → which.",
+    "sets": [
+      {
+        "key": "mixFix",
+        "title": "Thì + mệnh đề quan hệ",
+        "items": [
+          {
+            "q": "We ___ three units of the book so far.",
+            "options": [
+              "finished",
+              "had finished",
+              "have finished",
+              "have been finished"
+            ],
+            "answer": "C",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "so far → have + V3. Người tự làm → không có been."
+          },
+          {
+            "q": "They ___ married in 2015.",
+            "options": [
+              "got",
+              "have got",
+              "had got",
+              "have been got"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "in 2015 → mốc quá khứ → quá khứ đơn."
+          },
+          {
+            "q": "The new library ___ by the mayor last month.",
+            "options": [
+              "has opened",
+              "has been opened",
+              "opened",
+              "was opened"
+            ],
+            "answer": "D",
+            "tag": "Bị động",
+            "explain": "Vật + by the mayor → bị động; last month → quá khứ: was opened. has been opened sai vì có last month."
+          },
+          {
+            "q": "I ___ English for six years, but I still find speaking difficult.",
+            "options": [
+              "learned",
+              "have learned",
+              "had learned",
+              "have been learned"
+            ],
+            "answer": "B",
+            "tag": "Hiện tại hoàn thành",
+            "explain": "for six years và vẫn đang học → have + V3. have been learned là bị động, sai."
+          },
+          {
+            "q": "When I got home, I realised I ___ my phone at the office.",
+            "options": [
+              "have left",
+              "had left",
+              "left",
+              "was leaving"
+            ],
+            "answer": "B",
+            "tag": "Quá khứ hoàn thành",
+            "explain": "Mốc: lúc về nhà (quá khứ). Để quên điện thoại xảy ra trước đó → had left."
+          },
+          {
+            "q": "She ___ in Da Nang when she was a student.",
+            "options": [
+              "lived",
+              "has lived",
+              "has been lived",
+              "had been living"
+            ],
+            "answer": "A",
+            "tag": "Quá khứ đơn",
+            "explain": "when she was a student → giai đoạn đã qua → quá khứ đơn."
+          },
+          {
+            "q": "Many trees ___ in our town since last year.",
+            "options": [
+              "have planted",
+              "planted",
+              "have been planted",
+              "were planting"
+            ],
+            "answer": "C",
+            "tag": "Bị động",
+            "explain": "Cây không tự trồng → bị động; since last year → hiện tại hoàn thành: have been planted. Đây là lúc been đúng."
+          },
+          {
+            "q": "He ___ to work by motorbike every day last year.",
+            "options": [
+              "has gone",
+              "had gone",
+              "has been going",
+              "went"
+            ],
+            "answer": "D",
+            "tag": "Quá khứ đơn",
+            "explain": "last year → quá khứ đơn, dù là thói quen (every day)."
+          },
+          {
+            "q": "Da Lat, ___ is famous for its flowers, attracts many tourists.",
+            "options": [
+              "which",
+              "where",
+              "that",
+              "who"
+            ],
+            "answer": "A",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "Ngay sau là động từ (is) → which làm chủ ngữ. where cần S + V phía sau. Có dấu phẩy → không dùng that."
+          },
+          {
+            "q": "This is the café ___ I often meet my friends.",
+            "options": [
+              "which",
+              "that",
+              "where",
+              "whom"
+            ],
+            "answer": "C",
+            "tag": "Mệnh đề quan hệ",
+            "explain": "I often meet my friends đã đủ S + V + tân ngữ → where (= at which)."
+          }
+        ]
+      }
+    ],
+    "transform": [
+      {
+        "source": "I last saw my cousin in 2022.",
+        "start": "I haven't",
+        "answers": [
+          "I haven't seen my cousin since 2022."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "last + V2 + in 2022 → haven't + V3 + since 2022. Không có been, bỏ last."
+      },
+      {
+        "source": "They have repaired the road.",
+        "start": "The road",
+        "answers": [
+          "The road has been repaired.",
+          "The road has been repaired by them."
+        ],
+        "tag": "Bị động",
+        "explain": "Chủ ngữ là vật → bị động hiện tại hoàn thành: has been + V3. Ở đây been là đúng."
+      },
+      {
+        "source": "My brother started working in Hanoi two years ago.",
+        "start": "My brother has",
+        "answers": [
+          "My brother has worked in Hanoi for two years.",
+          "My brother has been working in Hanoi for two years."
+        ],
+        "tag": "Hiện tại hoàn thành",
+        "explain": "started … ago → has + V3 (hoặc has been + V-ing) + for. Không viết has been worked."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "phrase": "rise",
+      "pos": "v. (không tân ngữ)",
+      "ipa": "/raɪz/",
+      "meaning": "tăng, mọc lên (tự nó)",
+      "colloc": "prices rise / the sun rises (rise – rose – risen)",
+      "example": "Prices have risen by 10% this year."
+    },
+    {
+      "phrase": "raise",
+      "pos": "v. (có tân ngữ)",
+      "ipa": "/reɪz/",
+      "meaning": "nâng, tăng (cái gì)",
+      "colloc": "raise prices / your hand / money",
+      "example": "Raise your hand if you know the answer."
+    },
+    {
+      "phrase": "say",
+      "pos": "v.",
+      "ipa": "/seɪ/",
+      "meaning": "nói (cái gì)",
+      "colloc": "say something / say that… / say to sb",
+      "example": "She said that she was tired."
+    },
+    {
+      "phrase": "tell",
+      "pos": "v.",
+      "ipa": "/tel/",
+      "meaning": "kể, bảo (AI đó)",
+      "colloc": "tell sb sth / tell a story / tell the truth",
+      "example": "He told me a funny story."
+    },
+    {
+      "phrase": "borrow",
+      "pos": "v.",
+      "ipa": "/ˈbɒrəʊ/",
+      "meaning": "mượn (từ ai)",
+      "colloc": "borrow sth from sb",
+      "example": "Can I borrow your pen?"
+    },
+    {
+      "phrase": "lend",
+      "pos": "v.",
+      "ipa": "/lend/",
+      "meaning": "cho mượn",
+      "colloc": "lend sb sth / lend sth to sb",
+      "example": "Could you lend me 50,000 dong?"
+    },
+    {
+      "phrase": "affect",
+      "pos": "v.",
+      "ipa": "/əˈfekt/",
+      "meaning": "ảnh hưởng tới",
+      "colloc": "affect health / affect sb",
+      "example": "Stress can affect your sleep."
+    },
+    {
+      "phrase": "effect",
+      "pos": "n.",
+      "ipa": "/ɪˈfekt/",
+      "meaning": "sự ảnh hưởng, tác động",
+      "colloc": "have an effect on / side effects",
+      "example": "Coffee has a strong effect on me."
+    },
+    {
+      "phrase": "economic",
+      "pos": "adj.",
+      "ipa": "/ˌiːkəˈnɒmɪk/",
+      "meaning": "thuộc về kinh tế",
+      "colloc": "economic growth / crisis",
+      "example": "The country's economic growth is fast."
+    },
+    {
+      "phrase": "economical",
+      "pos": "adj.",
+      "ipa": "/ˌiːkəˈnɒmɪkl/",
+      "meaning": "tiết kiệm",
+      "colloc": "an economical car / economical with money",
+      "example": "This car is very economical: it uses little petrol."
+    },
+    {
+      "phrase": "sensible",
+      "pos": "adj.",
+      "ipa": "/ˈsensəbl/",
+      "meaning": "hợp lý, khôn ngoan",
+      "colloc": "a sensible decision / idea",
+      "example": "It was sensible to bring an umbrella."
+    },
+    {
+      "phrase": "sensitive",
+      "pos": "adj.",
+      "ipa": "/ˈsensətɪv/",
+      "meaning": "nhạy cảm",
+      "colloc": "sensitive skin / sensitive to criticism",
+      "example": "She is very sensitive to criticism."
+    },
+    {
+      "phrase": "remember",
+      "pos": "v.",
+      "ipa": "/rɪˈmembə(r)/",
+      "meaning": "nhớ (tự mình)",
+      "colloc": "remember to V (nhớ phải làm) / remember V-ing (nhớ đã làm)",
+      "example": "Remember to lock the door."
+    },
+    {
+      "phrase": "remind",
+      "pos": "v.",
+      "ipa": "/rɪˈmaɪnd/",
+      "meaning": "nhắc (ai) nhớ",
+      "colloc": "remind sb to do sth / remind sb of sth",
+      "example": "Please remind me to call my mother."
+    },
+    {
+      "phrase": "rob",
+      "pos": "v.",
+      "ipa": "/rɒb/",
+      "meaning": "cướp (người, ngân hàng, cửa hàng)",
+      "colloc": "rob a bank / rob sb of sth",
+      "example": "Two men robbed the bank."
+    },
+    {
+      "phrase": "steal",
+      "pos": "v.",
+      "ipa": "/stiːl/",
+      "meaning": "lấy cắp (đồ vật)",
+      "colloc": "steal money / steal sth from sb (steal – stole – stolen)",
+      "example": "Someone stole my wallet."
+    },
+    {
+      "phrase": "lose",
+      "pos": "v.",
+      "ipa": "/luːz/",
+      "meaning": "đánh mất; thua",
+      "colloc": "lose your keys / lose a match / lose weight",
+      "example": "I lost my phone on the bus."
+    },
+    {
+      "phrase": "miss",
+      "pos": "v.",
+      "ipa": "/mɪs/",
+      "meaning": "lỡ; nhớ (ai)",
+      "colloc": "miss the bus / miss a chance / miss sb",
+      "example": "Hurry up or you'll miss the train."
+    },
+    {
+      "phrase": "alone",
+      "pos": "adj./adv.",
+      "ipa": "/əˈləʊn/",
+      "meaning": "một mình (chỉ trạng thái)",
+      "colloc": "live alone / be alone",
+      "example": "My grandmother lives alone."
+    },
+    {
+      "phrase": "lonely",
+      "pos": "adj.",
+      "ipa": "/ˈləʊnli/",
+      "meaning": "cô đơn (cảm xúc buồn)",
+      "colloc": "feel lonely",
+      "example": "She felt lonely in the new city."
+    }
+  ],
+  "vocabMcq": [
+    {
+      "q": "The price of petrol has ___ again this month.",
+      "options": [
+        "raised",
+        "risen",
+        "rose",
+        "arisen"
+      ],
+      "answer": "B",
+      "tag": "Từ dễ nhầm",
+      "explain": "Giá tự tăng, không có tân ngữ → rise; sau has → V3: risen. raise cần tân ngữ (raise prices)."
+    },
+    {
+      "q": "Could you ___ me your dictionary for a few minutes?",
+      "options": [
+        "lend",
+        "borrow",
+        "give back",
+        "take"
+      ],
+      "answer": "A",
+      "tag": "Từ dễ nhầm",
+      "explain": "lend sb sth = cho ai mượn. borrow = mình đi mượn (borrow sth from sb)."
+    },
+    {
+      "q": "My teacher ___ me that I should practise speaking every day.",
+      "options": [
+        "said",
+        "spoke",
+        "told",
+        "talked"
+      ],
+      "answer": "C",
+      "tag": "Từ dễ nhầm",
+      "explain": "tell + NGƯỜI (told me). say không đi trực tiếp với người (said to me)."
+    },
+    {
+      "q": "Smoking can seriously ___ your health.",
+      "options": [
+        "effect",
+        "effort",
+        "infect",
+        "affect"
+      ],
+      "answer": "D",
+      "tag": "Từ dễ nhầm",
+      "explain": "Cần ĐỘNG từ sau can → affect. effect là danh từ (have an effect on)."
+    },
+    {
+      "q": "This car is very ___; it doesn't use much petrol.",
+      "options": [
+        "economic",
+        "economy",
+        "economical",
+        "economist"
+      ],
+      "answer": "C",
+      "tag": "Từ dễ nhầm",
+      "explain": "economical = tiết kiệm. economic = thuộc về kinh tế."
+    },
+    {
+      "q": "Please ___ me to buy some milk on the way home.",
+      "options": [
+        "remind",
+        "remember",
+        "memorise",
+        "recall"
+      ],
+      "answer": "A",
+      "tag": "Từ dễ nhầm",
+      "explain": "remind sb to do sth = nhắc ai làm gì. remember không có tân ngữ chỉ người theo sau kiểu này."
+    },
+    {
+      "q": "Two men ___ the bank and escaped with a lot of money.",
+      "options": [
+        "stole",
+        "took",
+        "lost",
+        "robbed"
+      ],
+      "answer": "D",
+      "tag": "Từ dễ nhầm",
+      "explain": "rob + nơi chốn/người (rob a bank). steal + đồ vật (steal money)."
+    },
+    {
+      "q": "Hurry up, or we will ___ the last bus.",
+      "options": [
+        "lose",
+        "miss",
+        "fail",
+        "leave"
+      ],
+      "answer": "B",
+      "tag": "Từ dễ nhầm",
+      "explain": "miss the bus = lỡ xe. lose = đánh mất đồ / thua."
+    },
+    {
+      "q": "She lives ___, but she never feels lonely because she has many friends.",
+      "options": [
+        "alone",
+        "lonely",
+        "lone",
+        "only"
+      ],
+      "answer": "A",
+      "tag": "Từ dễ nhầm",
+      "explain": "live alone = sống một mình (trạng thái). lonely = cảm thấy cô đơn."
+    },
+    {
+      "q": "It was very ___ of you to bring a raincoat; it's going to rain.",
+      "options": [
+        "sensitive",
+        "sense",
+        "sensible",
+        "sensational"
+      ],
+      "answer": "C",
+      "tag": "Từ dễ nhầm",
+      "explain": "sensible = khôn ngoan, hợp lý. sensitive = nhạy cảm."
+    }
+  ],
+  "reading": {
+    "title": "Volunteering: Good for Others, Good for You",
+    "minutes": 12,
+    "paragraphs": [
+      "Every year, millions of people around the world give their time to help others without being paid. They clean beaches, teach children, cook meals for the homeless or visit elderly people who live alone. This kind of unpaid work is called volunteering.",
+      "Most volunteers say they started because they wanted to help their community. However, research shows that volunteering also brings many benefits to the volunteers themselves. People who volunteer regularly often feel happier and less stressed. Some studies have even found that older volunteers tend to live longer than people of the same age who do not volunteer.",
+      "Volunteering can also be useful for young people who are looking for a job. It gives them a chance to develop skills such as teamwork, communication and problem-solving. Many employers say that they are more interested in candidates who have done voluntary work, because it shows that they are responsible and willing to learn.",
+      "Of course, volunteering is not always easy. Some volunteers find it hard to balance their volunteer work with their studies or their job. Others feel disappointed when they cannot see the results of their work immediately. Experts suggest that new volunteers should start with just a few hours a month and choose an activity they really enjoy.",
+      "If more people gave just a little of their free time, many communities would become stronger and kinder places to live."
+    ],
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "type": "Main idea",
+        "options": [
+          "How to find a job",
+          "Problems of elderly people",
+          "The benefits and challenges of volunteering",
+          "Cleaning beaches"
+        ],
+        "answer": "C",
+        "tag": "Đọc: ý chính",
+        "explain": "Đoạn 2–3 nêu lợi ích, đoạn 4 nêu khó khăn. A, B, D chỉ là chi tiết nhỏ.",
+        "evidence": "volunteering also brings many benefits to the volunteers themselves … volunteering is not always easy"
+      },
+      {
+        "q": "According to paragraph 2, people who volunteer regularly ___.",
+        "type": "Chi tiết",
+        "options": [
+          "often feel happier and less stressed",
+          "earn more money",
+          "have more free time",
+          "always live in big cities"
+        ],
+        "answer": "A",
+        "tag": "Đọc: chi tiết",
+        "explain": "Đoạn 2 nói rõ họ vui hơn và ít căng thẳng hơn.",
+        "evidence": "People who volunteer regularly often feel happier and less stressed"
+      },
+      {
+        "q": "The word 'it' in \"because it shows that they are responsible\" (paragraph 3) refers to ___.",
+        "type": "Từ quy chiếu",
+        "options": [
+          "a job",
+          "teamwork",
+          "communication",
+          "voluntary work"
+        ],
+        "answer": "D",
+        "tag": "Đọc: từ quy chiếu",
+        "explain": "Đọc ngay phía trước: candidates who have done voluntary work, because it shows… → it = voluntary work. Thay vào: \"voluntary work shows that they are responsible\" hợp nghĩa.",
+        "evidence": "candidates who have done voluntary work, because it shows that they are responsible"
+      },
+      {
+        "q": "Which skill is NOT mentioned in paragraph 3?",
+        "type": "NOT mentioned",
+        "options": [
+          "teamwork",
+          "leadership",
+          "communication",
+          "problem-solving"
+        ],
+        "answer": "B",
+        "tag": "Đọc: NOT mentioned",
+        "explain": "Đoạn 3 kể teamwork, communication, problem-solving. Không có leadership.",
+        "evidence": "skills such as teamwork, communication and problem-solving"
+      },
+      {
+        "q": "The word 'disappointed' in paragraph 4 is closest in meaning to ___.",
+        "type": "Từ đồng nghĩa",
+        "options": [
+          "unhappy",
+          "excited",
+          "surprised",
+          "tired"
+        ],
+        "answer": "A",
+        "tag": "Đọc: từ đồng nghĩa",
+        "explain": "disappointed = thất vọng, gần nghĩa unhappy nhất. Ngữ cảnh: không thấy kết quả ngay → buồn.",
+        "evidence": "Others feel disappointed when they cannot see the results of their work immediately"
+      }
+    ],
+    "newWords": [
+      {
+        "word": "volunteer",
+        "pos": "n./v.",
+        "ipa": "/ˌvɒlənˈtɪə(r)/",
+        "meaning": "tình nguyện viên; làm tình nguyện"
+      },
+      {
+        "word": "community",
+        "pos": "n.",
+        "ipa": "/kəˈmjuːnəti/",
+        "meaning": "cộng đồng"
+      },
+      {
+        "word": "benefit",
+        "pos": "n.",
+        "ipa": "/ˈbenɪfɪt/",
+        "meaning": "lợi ích"
+      },
+      {
+        "word": "regularly",
+        "pos": "adv.",
+        "ipa": "/ˈreɡjələli/",
+        "meaning": "thường xuyên, đều đặn"
+      },
+      {
+        "word": "candidate",
+        "pos": "n.",
+        "ipa": "/ˈkændɪdət/",
+        "meaning": "ứng viên"
+      },
+      {
+        "word": "willing",
+        "pos": "adj.",
+        "ipa": "/ˈwɪlɪŋ/",
+        "meaning": "sẵn lòng (willing to V)"
+      },
+      {
+        "word": "balance",
+        "pos": "v./n.",
+        "ipa": "/ˈbæləns/",
+        "meaning": "cân bằng (balance A with B)"
+      },
+      {
+        "word": "disappointed",
+        "pos": "adj.",
+        "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+        "meaning": "thất vọng"
+      }
+    ]
+  },
+  "speaking": {
+    "introTitle": "Bài mẫu: Your family (khoảng 1 phút, điền chỗ trống)",
+    "intro": [
+      "There are ___ people in my family: my ___, my ___ and me.",
+      "My father is a ___ and my mother works as a ___.",
+      "I'm closest to my ___ because ___.",
+      "We usually ___ together at the weekend.",
+      "If I had more free time, I would ___ with my family more often.",
+      "I wish I could ___."
+    ],
+    "frame": "Ý chính → Lý do (because…) → Ví dụ (For example…)",
+    "rescue": [
+      "That's an interesting question. Let me think…",
+      "Could you repeat the question, please?",
+      "I'm not sure, but I think…",
+      "What I mean is…"
+    ],
+    "questions": [
+      {
+        "q": "Can you tell me about your family?",
+        "hint": "Số người, mỗi người làm gì. There are four people in my family…"
+      },
+      {
+        "q": "Who are you closest to in your family? Why?",
+        "hint": "Ý chính → because… → For example, when I was…, she…"
+      },
+      {
+        "q": "If you could change one thing about your family life, what would it be?",
+        "hint": "Điều kiện loại 2: If I could…, I would… Ví dụ: spend more time with my parents."
+      },
+      {
+        "q": "What do you usually do in your free time?",
+        "hint": "Hiện tại đơn + usually / often. 1 sở thích → vì sao thích → ví dụ."
+      },
+      {
+        "q": "What hobby did you have as a child? Do you still do it?",
+        "hint": "Quá khứ đơn cho hồi nhỏ (I played…). Tới bây giờ: I have played it for… / I gave it up when… Câu chủ động: không có been."
+      },
+      {
+        "q": "If you had more free time, what would you do?",
+        "hint": "If I had more free time, I would… because… Có thể dùng I wish I had more time to…"
+      }
+    ],
+    "rubric": [
+      "Trôi chảy (ít ngập ngừng, nói đủ ý)",
+      "Ngữ pháp (thì đúng, câu điều kiện, câu ước)",
+      "Từ vựng (đúng chủ đề, dùng đúng các cặp từ dễ nhầm)",
+      "Phát âm (âm cuối -s, -ed, trọng âm)",
+      "Nội dung (trả lời đúng câu hỏi, có lý do và ví dụ)"
+    ]
+  },
+  "reviewQuiz": [
+    {
+      "q": "If I ___ rich, I would travel around the world.",
+      "options": [
+        "am",
+        "will be",
+        "have been",
+        "were"
+      ],
+      "answer": "D",
+      "tag": "Câu điều kiện",
+      "explain": "would + V → loại 2 → If I were."
+    },
+    {
+      "q": "Unless it ___, we will go to the beach.",
+      "options": [
+        "will rain",
+        "rains",
+        "doesn't rain",
+        "rained"
+      ],
+      "answer": "B",
+      "tag": "Unless",
+      "explain": "Unless + khẳng định, hiện tại đơn. Không dùng will, không thêm not."
+    },
+    {
+      "q": "I wish I ___ harder when I was at school.",
+      "options": [
+        "had studied",
+        "studied",
+        "study",
+        "would study"
+      ],
+      "answer": "A",
+      "tag": "Câu ước",
+      "explain": "Tiếc về quá khứ (when I was at school) → wish + had + V3."
+    },
+    {
+      "q": "He ___ me a funny story about his trip.",
+      "options": [
+        "said",
+        "spoke",
+        "told",
+        "talked"
+      ],
+      "answer": "C",
+      "tag": "Từ dễ nhầm",
+      "explain": "tell sb a story."
+    },
+    {
+      "q": "Can I ___ your umbrella? I'll give it back tomorrow.",
+      "options": [
+        "borrow",
+        "lend",
+        "rent",
+        "keep"
+      ],
+      "answer": "A",
+      "tag": "Từ dễ nhầm",
+      "explain": "Mình đi mượn → borrow."
+    },
+    {
+      "q": "The town ___ I grew up has changed a lot.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": "D",
+      "tag": "Mệnh đề quan hệ",
+      "explain": "I grew up đã đủ nghĩa (không thiếu tân ngữ) → where."
+    },
+    {
+      "q": "She ___ in this company since 2019.",
+      "options": [
+        "works",
+        "has worked",
+        "worked",
+        "has been worked"
+      ],
+      "answer": "B",
+      "tag": "Hiện tại hoàn thành",
+      "explain": "since 2019 → has + V3. Chủ động → không có been."
+    },
+    {
+      "q": "If he had taken a taxi, he ___ late.",
+      "options": [
+        "wouldn't be",
+        "won't be",
+        "wouldn't have been",
+        "hadn't been"
+      ],
+      "answer": "C",
+      "tag": "Câu điều kiện",
+      "explain": "had + V3 → loại 3 → wouldn't have + V3."
+    },
+    {
+      "q": "Don't forget to ___ your hand if you have a question.",
+      "options": [
+        "raise",
+        "rise",
+        "arise",
+        "rose"
+      ],
+      "answer": "A",
+      "tag": "Từ dễ nhầm",
+      "explain": "Có tân ngữ (your hand) → raise."
+    },
+    {
+      "q": "I ___ my phone yesterday, so I couldn't call you.",
+      "options": [
+        "have lost",
+        "had lost",
+        "have been lost",
+        "lost"
+      ],
+      "answer": "D",
+      "tag": "Quá khứ đơn",
+      "explain": "yesterday → quá khứ đơn."
+    }
+  ]
+}
